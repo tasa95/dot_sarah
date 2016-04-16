@@ -1,0 +1,12 @@
+<match="0,8164143" text"oui">
+<trigger="0,8164143" text"oui">
+<SML text="oui" utteranceConfidence="0.816" confidence="0.816">
+  <action confidence="0.922" uri="http://127.0.0.1:8080/askme">
+    <tag confidence="0.922">oui</tag>
+  </action>
+  <alternate Rank="1" text="oui" utteranceConfidence="0.816" confidence="0.816">
+    <action confidence="0.922" uri="http://127.0.0.1:8080/askme">
+      <tag confidence="0.922">oui</tag>
+    </action>
+  </alternate>
+</SML>

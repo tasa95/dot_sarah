@@ -1,0 +1,1 @@
+start %cd%\bin\WSRMacro_Kinect.exe  -kinect -audio

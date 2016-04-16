@@ -1,0 +1,30 @@
+﻿<grammar version="1.0" xml:lang="fr-FR" mode="voice"  root="ruleDot_itineraire" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleDot_itineraire" scope="public">
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item> 
+    <one-of>
+      <item>Test</item>
+	  <item>Recherche moi</item>
+	  <item>Recherche-moi</item>
+      <item>Donne moi</item>
+	  <item>Donne-moi</item>
+      <item>Affiche moi</item>
+	  <item>Affiche-moi</item>
+      <item>Dis moi</item>
+	  <item>Dis-moi</item>
+    </one-of>
+	<item repeat="0-1">
+		<item>un</item>
+	</item>
+	<item>itineraire </item>
+	<item>de</item>
+
+
+    <ruleref special="GARBAGE" />
+
+	
+	
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/dot_itineraire";</tag>
+	<tag>out.action._attributes.dictation="true";</tag>
+  </rule>
+</grammar>

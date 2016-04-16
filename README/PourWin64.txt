@@ -1,0 +1,2 @@
+1. Lancer la version 32bit: %windir%\SysWOW64\speech\SpeechUX\sapi.cpl
+2. Sélectionner la voix

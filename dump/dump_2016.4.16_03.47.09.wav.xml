@@ -1,0 +1,8 @@
+<match="0,8304221" text"SARAH recherche ... wikipedia">
+<trigger="0,8235675" text"SARAH">
+<SML text="SARAH recherche ... wikipedia" utteranceConfidence="0.830" confidence="0.830">
+  <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/dictionary" dictation="true" />
+  <alternate Rank="1" text="SARAH recherche ... wikipedia" utteranceConfidence="0.830" confidence="0.830">
+    <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/dictionary" dictation="true" />
+  </alternate>
+</SML>

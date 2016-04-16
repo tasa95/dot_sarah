@@ -1,0 +1,20 @@
+http://www.chromium.org/developers/how-tos/api-keys
+
+1. Make sure you are a member of chromium-dev@chromium.org (you can just subscribe to chromium-dev and choose not to receive mail).
+For convenience, the APIs below are only visible to people subscribed to that group.
+
+7. Go to the Credentials tab under the APIs & auth tab.
+
+8. Click the red Create New Client ID button in the OAuth section to create an OAuth 2.0 client ID.
+8.1 You want "Installed Application" for the Application type section
+8.2 You want "Other" for the Installed application type section
+
+9. A new box should now appear titled “Client ID for installed applications”. In the next sections, we will refer to the values of the “Client ID” and “Client secret” fields in this box later (below).
+
+10. Click the red Create New Key button in the Public API Access section and create a new Browser key.
+
+10.1 You want to leave the box on the "Create a browser key and configure allowed referers" empty.
+
+11. A new box should appear titled "Key for browser applications". The next sections will refer to the value of the “API key” field too.
+
+Note that the keys you have now acquired are not for distribution purposes and must not be shared with other users. 

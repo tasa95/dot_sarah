@@ -1,0 +1,8 @@
+<match="0,8768027" text"SARAH Donne moi un itineraire de ...">
+<trigger="0,8755285" text"SARAH">
+<SML text="SARAH Donne moi un itineraire de ..." utteranceConfidence="0.877" confidence="0.877">
+  <action confidence="0.870" uri="http://127.0.0.1:8080/sarah/dot_itineraire" dictation="true" />
+  <alternate Rank="1" text="SARAH Donne moi un itineraire de ..." utteranceConfidence="0.877" confidence="0.877">
+    <action confidence="0.870" uri="http://127.0.0.1:8080/sarah/dot_itineraire" dictation="true" />
+  </alternate>
+</SML>

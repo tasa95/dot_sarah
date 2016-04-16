@@ -1,0 +1,11 @@
+﻿<grammar version="1.0" xml:lang="fr-FR" mode="voice"  root="ruleDot_meteo" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleDot_meteo" scope="public">
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item> 
+    <one-of>
+      <item>Affiche moi la météo</item>
+      <item>je veux la météo</item>
+    </one-of>
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/dot_meteo";</tag>
+  </rule>
+</grammar>

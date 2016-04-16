@@ -1,0 +1,2089 @@
+[19:38:08] [LOGGING]	 STARTING LOGGING
+[19:38:08] [INIT]	 ==========================================
+[19:38:08] [INIT]	 S.A.R.A.H. => KINECT
+[19:38:08] [INIT]	 ==========================================
+[19:38:08] [INIT]	 Server: http://127.0.0.1:8080
+[19:38:08] [INIT]	 Confidence: 0,65
+[19:38:08] [INIT]	 ==========================================
+[19:38:09] [KINECT]	 Setup sensor stream
+[19:38:09] [KINECT]	 Start sensor
+[19:38:09] [KINECT]	 Setup sensor stream
+[19:38:09] [KINECT]	 Start sensor
+[19:38:10] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[19:38:10] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[19:38:10] [WATCHER]	 Stop watching
+[19:38:10] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[19:38:10] [GRAMMAR]	 Add to context list: time.xml
+[19:38:10] [WATCHER]	 Watching directory: macros
+[19:38:10] [WATCHER]	 Watching directory: plugins
+[19:38:10] [WATCHER]	 Start watching
+[19:38:10] [GRAMMAR]	 Context: default
+[19:38:10] [GRAMMAR]	 Context: time.xml
+[19:38:10] [GRAMMAR]	 File: Load Grammar to Engine
+[19:38:10] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[19:38:10] [ENGINE - File]	 Init recognizer
+[19:38:10] [ENGINE - File]	 AudioLevel: 0
+[19:38:10] [ENGINE - File]	 MaxAlternates: 1
+[19:38:10] [ENGINE - File]	 BabbleTimeout: 00:00:00
+[19:38:10] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[19:38:10] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[19:38:10] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[19:38:10] [KINECT_0]	 AutomaticGainControlEnabled : False
+[19:38:10] [KINECT_0]	 BeamAngle : 0
+[19:38:10] [KINECT_0]	 EchoCancellationMode : CancellationAndSuppression
+[19:38:10] [KINECT_0]	 EchoCancellationSpeakerIndex : 2
+[19:38:10] [KINECT_0]	 NoiseSuppression : True
+[19:38:10] [KINECT_0]	 SoundSourceAngle : 0
+[19:38:10] [KINECT_0]	 SoundSourceAngleConfidence : 0
+[19:38:10] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[19:38:10] [GRAMMAR]	 KINECT_0: Load: time.xml Enabled: True
+[19:38:10] [ENGINE - KINECT_0]	 Init recognizer
+[19:38:10] [ENGINE - KINECT_0]	 AudioLevel: 0
+[19:38:10] [ENGINE - KINECT_0]	 MaxAlternates: 1
+[19:38:10] [ENGINE - KINECT_0]	 BabbleTimeout: 00:00:00
+[19:38:10] [ENGINE - KINECT_0]	 InitialSilenceTimeout: 00:00:00
+[19:38:10] [ENGINE - KINECT_0]	 EndSilenceTimeout: 00:00:00.1500000
+[19:38:10] [ENGINE - KINECT_0]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[19:38:10] [ENGINE - KINECT_0]	 Start listening
+[19:38:10] [KINECT_1]	 AutomaticGainControlEnabled : False
+[19:38:10] [KINECT_1]	 BeamAngle : 0
+[19:38:10] [KINECT_1]	 EchoCancellationMode : CancellationAndSuppression
+[19:38:10] [KINECT_1]	 EchoCancellationSpeakerIndex : 2
+[19:38:10] [KINECT_1]	 NoiseSuppression : True
+[19:38:10] [KINECT_1]	 SoundSourceAngle : 0
+[19:38:10] [KINECT_1]	 SoundSourceAngleConfidence : 0
+[19:38:10] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[19:38:10] [GRAMMAR]	 KINECT_1: Load: time.xml Enabled: True
+[19:38:10] [ENGINE - KINECT_1]	 Init recognizer
+[19:38:10] [ENGINE - KINECT_1]	 AudioLevel: 0
+[19:38:11] [ENGINE - KINECT_1]	 MaxAlternates: 1
+[19:38:11] [ENGINE - KINECT_1]	 BabbleTimeout: 00:00:00
+[19:38:11] [ENGINE - KINECT_1]	 InitialSilenceTimeout: 00:00:00
+[19:38:11] [ENGINE - KINECT_1]	 EndSilenceTimeout: 00:00:00.1500000
+[19:38:11] [ENGINE - KINECT_1]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[19:38:11] [ENGINE - KINECT_1]	 Start listening
+[19:38:11] [TTS]	 Add Speaker Device: 0 Product: Casque (Cirrus Logic CS4206B (A Channels: 2 Playback: True
+[19:38:11] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[19:38:11] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[19:38:11] [ENGINE]	 Restart timeout: 3600000
+[19:38:12] [CAMERA]	 Storing camera: Kinect_0
+[19:38:12] [CAMERA]	 Storing camera: Kinect_1
+[19:38:16] [LOGGING]	 STARTING LOGGING
+[19:38:16] [INIT]	 ==========================================
+[19:38:16] [INIT]	 S.A.R.A.H. => KINECT
+[19:38:16] [INIT]	 ==========================================
+[19:38:16] [INIT]	 Server: http://127.0.0.1:8080
+[19:38:16] [INIT]	 Confidence: 0,65
+[19:38:16] [INIT]	 ==========================================
+[19:38:16] [KINECT]	 Setup sensor stream
+[19:38:16] [KINECT]	 Start sensor
+[19:38:16] [KINECT]	 No Kinect Sensor: already used
+[19:38:16] [KINECT]	 No Kinect Sensor: already used
+[19:38:16] [KINECT]	 Setup sensor stream
+[19:38:16] [KINECT]	 Start sensor
+[19:38:16] [KINECT]	 No Kinect Sensor: already used
+[19:38:16] [KINECT]	 No Kinect Sensor: already used
+[19:38:17] [CATCH_ALL]	 System.Net.Sockets.SocketException (0x80004005): Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Fleck.SocketWrapper.Bind(EndPoint endPoint)
+   à Fleck.WebSocketServer.Start(Action`1 config)
+   à net.encausse.sarah.WebSocketManager.StartWebSocketServer()
+   à net.encausse.sarah.WSRKinect.Init()
+   à net.encausse.sarah.WSRConfig.Start()
+   à net.encausse.sarah.WSRMain.Main(String[] args)
+[19:38:17] [CATCH_ALL]	 System.Net.Sockets.SocketException (0x80004005): Une seule utilisation de chaque adresse de socket (protocole/adresse réseau/port) est habituellement autorisée
+   à System.Net.Sockets.Socket.DoBind(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.Sockets.Socket.Bind(EndPoint localEP)
+   à Fleck.SocketWrapper.Bind(EndPoint endPoint)
+   à Fleck.WebSocketServer.Start(Action`1 config)
+   à net.encausse.sarah.WebSocketManager.StartWebSocketServer()
+   à net.encausse.sarah.WSRKinect.Init()
+   à net.encausse.sarah.WSRConfig.Start()
+   à net.encausse.sarah.WSRMain.Main(String[] args)
+[19:38:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,02676392
+[19:38:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,2302497
+[19:38:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,4293949
+[19:38:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,4797454
+[19:38:50] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,02202815
+[19:38:50] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9108498 (0,65) / 0,8230715 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:38:50] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9108498 (0,65) / 0,8230715 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:38:50] [CONTEXT]	 Reset timeout
+[19:38:50] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9108498&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:38:50] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9108498&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:38:50] [TTS]	 Try speaking ... il est 19 heure 38 
+[19:38:50] [TTS]	 [0] Say: il est 19 heure 38 
+[19:38:50] [PLAYER]	 [0]Start Player
+[19:38:53] [PLAYER]	 [0]End Player
+[19:38:53] [PLAYER]	 [0]speaking false
+[19:38:53] [TTS]	 End speaking
+[19:38:53] [ENGINE - KINECT_0]	 SpeechRecognized: 2943,2578ms Text: SARAH quelle heure est il
+[19:39:27] [WATCHER]	 Stop watching
+[19:39:27] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[19:39:27] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[19:39:27] [WATCHER]	 Start watching
+[19:39:27] [GRAMMAR]	 Context: default
+[19:39:27] [GRAMMAR]	 Context: time.xml, dot_itineraire.xml
+[19:39:27] [CONTEXT]	 Reset timeout
+[19:39:27] [WATCHER]	 Stop watching
+[19:39:27] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[19:39:27] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[19:39:27] [WATCHER]	 Start watching
+[19:39:27] [GRAMMAR]	 Context: default
+[19:39:27] [GRAMMAR]	 Context: time.xml, dot_itineraire.xml, dot_meteo.xml
+[19:39:27] [CONTEXT]	 Reset timeout
+[19:39:27] [WATCHER]	 Stop watching
+[19:39:27] [WATCHER]	 Start watching
+[19:39:27] [GRAMMAR]	 Context: default
+[19:39:27] [GRAMMAR]	 Context: time.xml, dot_itineraire.xml, dot_meteo.xml
+[19:39:27] [CONTEXT]	 Reset timeout
+[19:41:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9759802
+[19:41:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,8550722
+[19:41:12] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,08407487
+[19:41:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,800098
+[19:41:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,8067148
+[19:41:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu => 0,03123237
+[19:41:13] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9691582 (0,65) / 0,9959687 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:41:13] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9691582 (0,65) / 0,9959687 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:41:13] [CONTEXT]	 Reset timeout
+[19:41:13] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9691582&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:41:13] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9691582&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:41:13] [TTS]	 Try speaking ... il est 19 heure 41 
+[19:41:13] [TTS]	 [0] Say: il est 19 heure 41 
+[19:41:13] [PLAYER]	 [0]Start Player
+[19:41:16] [PLAYER]	 [0]End Player
+[19:41:16] [PLAYER]	 [0]speaking false
+[19:41:16] [TTS]	 End speaking
+[19:41:16] [ENGINE - KINECT_0]	 SpeechRecognized: 2909,6087ms Text: SARAH quelle heure est il
+[19:42:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,05626119
+[19:42:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,02232799
+[19:44:57] [WATCHER]	 Stop watching
+[19:44:57] [GRAMMAR]	 Load file: meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo\meteo.xml
+[19:44:57] [GRAMMAR]	 Add to context list: meteo.xml
+[19:44:57] [WATCHER]	 Start watching
+[19:44:57] [GRAMMAR]	 Context: default
+[19:44:57] [GRAMMAR]	 Context: time.xml, dot_itineraire.xml, dot_meteo.xml, meteo.xml
+[19:44:57] [GRAMMAR]	 File: Load Grammar to Engine
+[19:44:57] [GRAMMAR]	 File: Load: meteo.xml Enabled: True
+[19:44:57] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[19:44:57] [GRAMMAR]	 KINECT_0: Load: meteo.xml Enabled: True
+[19:44:57] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[19:44:57] [GRAMMAR]	 KINECT_1: Load: meteo.xml Enabled: True
+[19:44:57] [CONTEXT]	 Reset timeout
+[19:47:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,0315299
+[19:48:44] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,01111057
+[19:48:44] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,03513095
+[19:48:45] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,2687245
+[19:48:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,805164
+[19:48:45] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,2828505
+[19:48:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,6855335
+[19:48:45] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,3479816
+[19:48:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,7618356
+[19:48:45] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9641604 (0,65) / 0,9879253 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:48:45] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9641604 (0,65) / 0,9879253 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:48:45] [CONTEXT]	 Reset timeout
+[19:48:45] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9641604&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:48:46] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9641604&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:48:46] [TTS]	 Try speaking ... 
+[19:48:46] [TTS]	 [0] Say: 
+[19:48:46] [PLAYER]	 [0]speaking false
+[19:48:46] [TTS]	 End speaking
+[19:48:46] [ENGINE - KINECT_0]	 SpeechRecognized: 109,3762ms Text: SARAH quelle heure est il
+[19:48:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,5224276
+[19:48:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,04849589
+[19:48:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,8936132
+[19:48:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,5986546
+[19:48:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,8767965
+[19:48:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,6382294
+[19:48:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,7909525
+[19:48:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,6765767
+[19:48:53] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9449021 (0,65) / 0,9963661 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:48:53] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9449021 (0,65) / 0,9963661 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:48:53] [CONTEXT]	 Reset timeout
+[19:48:53] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9449021&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:48:53] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9449021&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:48:53] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9045087 (0,65) / 0,9708185 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:48:53] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9045087 (0,65) / 0,9708185 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:48:53] [CONTEXT]	 Reset timeout
+[19:48:53] [ENGINE - KINECT_1]	 SpeechRecognized: 31,2511ms Text: SARAH quelle heure est il
+[19:48:53] [TTS]	 Try speaking ... 
+[19:48:53] [TTS]	 [0] Say: 
+[19:48:53] [PLAYER]	 [0]speaking false
+[19:48:53] [TTS]	 End speaking
+[19:48:53] [ENGINE - KINECT_0]	 SpeechRecognized: 109,3737ms Text: SARAH quelle heure est il
+[19:49:07] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,1293991
+[19:49:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,973958
+[19:49:08] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu => 0,5955566
+[19:49:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,7336403
+[19:49:08] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,5023213
+[19:49:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,627346
+[19:49:08] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,4382381
+[19:49:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,6200481
+[19:49:09] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9370955 (0,65) / 0,9740143 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:49:09] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9370955 (0,65) / 0,9740143 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:49:09] [CONTEXT]	 Reset timeout
+[19:49:09] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8138728 (0,65) / 0,9638072 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:49:09] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8138728 (0,65) / 0,9638072 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:49:09] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9370955&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:49:09] [CONTEXT]	 Reset timeout
+[19:49:09] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9370955&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:49:09] [ENGINE - KINECT_1]	 SpeechRecognized: 21,2691ms Text: SARAH quelle heure est il
+[19:49:14] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,07917556
+[19:49:15] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,4405819
+[19:49:15] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,5221692
+[19:49:15] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,5027677
+[19:49:15] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9122053 (0,65) / 0,8948148 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:49:15] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9122053 (0,65) / 0,8948148 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:49:16] [CONTEXT]	 Reset timeout
+[19:49:16] [ENGINE - KINECT_1]	 SpeechRecognized: 31,2138ms Text: SARAH quelle heure est il
+[19:49:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,03243956
+[19:49:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment => 0,238713
+[19:49:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,04297018
+[19:49:22] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu => 0,04180213
+[19:49:22] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,04964792
+[19:49:22] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu peux => 0,03577102
+[19:49:22] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,237483
+[19:49:27] [HTTP]	 System.Net.WebException: Impossible de se connecter au serveur distant ---> System.Net.Sockets.SocketException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:8080
+   à System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.HttpWebRequest.GetResponse()
+   à net.encausse.sarah.WSRHttpManager.SendRequest(String url) dans e:\Dropbox\Projects\WSRMacro\WSRMacro\WSRHttpManager.cs:ligne 65
+[19:49:27] [HTTP]	 System.Net.WebException: Impossible de se connecter au serveur distant ---> System.Net.Sockets.SocketException: Aucune connexion n’a pu être établie car l’ordinateur cible l’a expressément refusée 127.0.0.1:8080
+   à System.Net.Sockets.Socket.DoConnect(EndPoint endPointSnapshot, SocketAddress socketAddress)
+   à System.Net.ServicePoint.ConnectSocketInternal(Boolean connectFailure, Socket s4, Socket s6, Socket& socket, IPAddress& address, ConnectSocketState state, IAsyncResult asyncResult, Exception& exception)
+   --- Fin de la trace de la pile d'exception interne ---
+   à System.Net.HttpWebRequest.GetResponse()
+   à net.encausse.sarah.WSRHttpManager.SendRequest(String url) dans e:\Dropbox\Projects\WSRMacro\WSRMacro\WSRHttpManager.cs:ligne 65
+[19:49:27] [ENGINE - KINECT_0]	 SpeechRecognized: 18358,7344ms Text: SARAH quelle heure est il
+[19:49:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,007979542
+[19:49:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,7487108
+[19:49:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,7602107
+[19:49:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,7071256
+[19:49:27] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9382743 (0,65) / 0,9735971 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:49:27] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9382743 (0,65) / 0,9735971 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:49:27] [CONTEXT]	 Reset timeout
+[19:49:27] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9382743&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:49:27] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9382743&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:49:28] [TTS]	 Try speaking ... 
+[19:49:28] [TTS]	 [0] Say: 
+[19:49:28] [PLAYER]	 [0]speaking false
+[19:49:28] [TTS]	 End speaking
+[19:49:28] [ENGINE - KINECT_0]	 SpeechRecognized: 1140,627ms Text: SARAH quelle heure est il
+[19:49:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,05782086
+[19:49:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me donner => 0,4103272
+[19:49:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,3335961
+[19:49:28] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,5545407 Text: SARAH
+[19:49:28] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,5545407 Text: SARAH
+[19:49:28] [ENGINE - KINECT_0]	 SpeechRecognized: 15,6248ms Text: SARAH quelle est la météo
+[19:50:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,009815067
+[19:50:20] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,02303308
+[19:50:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,7705396
+[19:50:20] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,5772254
+[19:50:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,798409
+[19:50:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,6121938
+[19:50:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,7475254
+[19:50:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,576794
+[19:50:21] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9150891 (0,65) / 0,9099227 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:50:21] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9150891 (0,65) / 0,9099227 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:50:21] [CONTEXT]	 Reset timeout
+[19:50:21] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9150891&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:50:21] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9150891&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:50:21] [TTS]	 Try speaking ... 
+[19:50:21] [TTS]	 [0] Say: 
+[19:50:21] [PLAYER]	 [0]speaking false
+[19:50:21] [TTS]	 End speaking
+[19:50:21] [ENGINE - KINECT_1]	 SpeechRecognized: 94,8451ms Text: SARAH quelle heure est il
+[19:50:21] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9625525 (0,65) / 0,9899092 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:50:21] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9625525 (0,65) / 0,9899092 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:50:21] [CONTEXT]	 Reset timeout
+[19:50:21] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9625525&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:50:21] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9625525&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:50:21] [TTS]	 Try speaking ... 
+[19:50:21] [TTS]	 [0] Say: 
+[19:50:21] [PLAYER]	 [0]speaking false
+[19:50:21] [TTS]	 End speaking
+[19:50:21] [ENGINE - KINECT_0]	 SpeechRecognized: 78,1086ms Text: SARAH quelle heure est il
+[19:50:27] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,01088655
+[19:50:28] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment => 0,02949478
+[19:50:29] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment dois-je => 0,02637821
+[19:50:34] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,002109796
+[19:50:34] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,02520779
+[19:50:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,5219453
+[19:50:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,4020747
+[19:50:35] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,0763455
+[19:50:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,4446404
+[19:50:35] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,3411963
+[19:50:36] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,6028844
+[19:50:36] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,7379757 Text: SARAH
+[19:50:36] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,7379757 Text: SARAH
+[19:50:36] [ENGINE - KINECT_1]	 SpeechRecognized: 15,6178ms Text: SARAH quelle est la météo
+[19:50:36] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7050814 (0,65) / 0,9073001 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:50:36] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7050814 (0,65) / 0,9073001 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:50:36] [CONTEXT]	 Reset timeout
+[19:50:36] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7050814&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:50:36] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7050814&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:52:16] [HTTP]	 System.Net.WebException: La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+   à System.Net.HttpWebRequest.GetResponse()
+   à net.encausse.sarah.WSRHttpManager.SendRequest(String url) dans e:\Dropbox\Projects\WSRMacro\WSRMacro\WSRHttpManager.cs:ligne 65
+[19:52:16] [HTTP]	 System.Net.WebException: La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+   à System.Net.HttpWebRequest.GetResponse()
+   à net.encausse.sarah.WSRHttpManager.SendRequest(String url) dans e:\Dropbox\Projects\WSRMacro\WSRMacro\WSRHttpManager.cs:ligne 65
+[19:52:16] [ENGINE - KINECT_0]	 SpeechRecognized: 100099,5679ms Text: SARAH quelle est la météo
+[19:55:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,8225797
+[19:55:23] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,02247608
+[19:55:23] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,6079062
+[19:55:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,5441932
+[19:55:23] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,6734516
+[19:55:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,6820074
+[19:55:24] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,630627
+[19:55:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,6963111
+[19:55:24] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9103829 (0,65) / 0,8567852 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:55:24] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9103829 (0,65) / 0,8567852 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:55:24] [CONTEXT]	 Reset timeout
+[19:55:24] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8915589 (0,65) / 0,8471226 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:55:24] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8915589 (0,65) / 0,8471226 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:55:24] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9103829&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:55:24] [CONTEXT]	 Reset timeout
+[19:55:24] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9103829&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:55:24] [ENGINE - KINECT_1]	 SpeechRecognized: 15,6243ms Text: SARAH quelle heure est il
+[19:55:24] [TTS]	 Try speaking ... il est 19 heure 55 
+[19:55:24] [TTS]	 [0] Say: il est 19 heure 55 
+[19:55:24] [PLAYER]	 [0]Start Player
+[19:55:27] [PLAYER]	 [0]End Player
+[19:55:27] [PLAYER]	 [0]speaking false
+[19:55:27] [TTS]	 End speaking
+[19:55:27] [ENGINE - KINECT_0]	 SpeechRecognized: 2904,2411ms Text: SARAH quelle heure est il
+[19:55:29] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,02689674
+[19:55:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,02614623
+[19:55:30] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,1115152
+[19:55:30] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,1166613
+[19:55:30] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,2246972
+[19:55:30] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,4095172
+[19:55:35] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,02857313
+[19:55:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,57507
+[19:55:35] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu => 0,586604
+[19:55:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,6094804
+[19:55:35] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu peux => 0,5040795
+[19:55:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,484048
+[19:55:36] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,4262797
+[19:55:36] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux me donner => 0,4388445
+[19:55:36] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,3984523
+[19:55:36] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux me donner l'heure => 0,3827915
+[19:55:36] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7107406 (0,65) / 0,9620836 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:55:36] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7107406 (0,65) / 0,9620836 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:55:36] [CONTEXT]	 Reset timeout
+[19:55:36] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7107406&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:55:36] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7107406&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:55:36] [TTS]	 Try speaking ... Météo: Versailles: demain midi, Rares averses, température entre 14 et 12 degrés
+[19:55:36] [TTS]	 [0] Say: Météo: Versailles: demain midi, Rares averses, température entre 14 et 12 degrés
+[19:55:37] [PLAYER]	 [0]Start Player
+[19:55:44] [PLAYER]	 [0]End Player
+[19:55:44] [PLAYER]	 [0]speaking false
+[19:55:44] [TTS]	 End speaking
+[19:55:44] [ENGINE - KINECT_1]	 SpeechRecognized: 7589,2288ms Text: SARAH quelle est la météo
+[19:55:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,2693335
+[19:55:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,01795608
+[19:55:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,01778406
+[19:55:47] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,01927655
+[19:55:47] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,2965803
+[19:55:47] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,1928063
+[19:56:30] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,01452997
+[19:56:30] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9054099
+[19:56:30] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment => 0,5652001
+[19:56:31] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,312123
+[19:56:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,5171065
+[19:56:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,4242249
+[19:56:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,5698397
+[19:56:31] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,5792822
+[19:56:32] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,6215129 Text: SARAH
+[19:56:32] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,6215129 Text: SARAH
+[19:56:32] [ENGINE - KINECT_0]	 SpeechRecognized: 15,6207ms Text: SARAH quelle est la météo
+[19:56:32] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,790752 (0,65) / 0,9679123 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:56:32] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,790752 (0,65) / 0,9679123 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:56:32] [CONTEXT]	 Reset timeout
+[19:56:32] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.790752&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:56:32] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.790752&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:56:32] [TTS]	 Try speaking ... Météo: Versailles: demain midi, Rares averses, température entre 14 et 12 degrés
+[19:56:32] [TTS]	 [0] Say: Météo: Versailles: demain midi, Rares averses, température entre 14 et 12 degrés
+[19:56:32] [PLAYER]	 [0]Start Player
+[19:56:39] [PLAYER]	 [0]End Player
+[19:56:39] [PLAYER]	 [0]speaking false
+[19:56:39] [TTS]	 End speaking
+[19:56:39] [ENGINE - KINECT_1]	 SpeechRecognized: 7049,6843ms Text: SARAH quelle est la météo
+[19:56:51] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,003766984
+[19:56:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,003131568
+[19:56:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment => 0,816695
+[19:56:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment => 0,4927583
+[19:56:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment dois-je => 0,6728869
+[19:56:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment dois-je => 0,3825078
+[19:56:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment dois-je m'habiller => 0,7241216
+[19:56:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment dois-je m'habiller => 0,4553615
+[19:56:53] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8905474 (0,65) / 0,908576 (SARAH) Device:  Text: SARAH comment dois-je m'habiller
+[19:56:53] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8905474 (0,65) / 0,908576 (SARAH) Device:  Text: SARAH comment dois-je m'habiller
+[19:56:53] [CONTEXT]	 Reset timeout
+[19:56:53] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.8905474&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:56:53] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.8905474&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:56:53] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,7287088 Text: SARAH
+[19:56:53] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,7287088 Text: SARAH
+[19:56:53] [ENGINE - KINECT_1]	 SpeechRecognized: 15,6256ms Text: SARAH comment dois-je m'habiller
+[19:56:53] [TTS]	 Try speaking ... Météo: Versailles: demain midi, Rares averses, température entre 14 et 12 degrés
+[19:56:53] [TTS]	 [0] Say: Météo: Versailles: demain midi, Rares averses, température entre 14 et 12 degrés
+[19:56:53] [PLAYER]	 [0]Start Player
+[19:57:00] [PLAYER]	 [0]End Player
+[19:57:00] [PLAYER]	 [0]speaking false
+[19:57:00] [TTS]	 End speaking
+[19:57:00] [ENGINE - KINECT_0]	 SpeechRecognized: 7019,6414ms Text: SARAH comment dois-je m'habiller
+[19:57:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,2971932
+[19:57:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,5799841
+[19:57:55] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,02844265
+[19:57:56] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,05239394
+[19:57:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,3569464
+[19:57:56] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,3350666
+[19:57:57] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,6893635 (0,65) / 0,9779304 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:57:57] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,6893635 (0,65) / 0,9779304 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:57:57] [CONTEXT]	 Reset timeout
+[19:57:57] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.6893635&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:57:57] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.6893635&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:57:57] [TTS]	 Try speaking ... 
+[19:57:57] [TTS]	 [0] Say: 
+[19:57:57] [PLAYER]	 [0]speaking false
+[19:57:57] [TTS]	 End speaking
+[19:57:57] [ENGINE - KINECT_0]	 SpeechRecognized: 62,4888ms Text: SARAH quelle est la météo
+[19:58:24] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,008080274
+[19:58:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,949541
+[19:58:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,6703205
+[19:58:25] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu => 0,4738008
+[19:58:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux => 0,5584736
+[19:58:26] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,5111501
+[19:58:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,5687287
+[19:58:26] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7966542 (0,65) / 0,9265592 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:58:26] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7966542 (0,65) / 0,9265592 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:58:26] [CONTEXT]	 Reset timeout
+[19:58:26] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7966542&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:58:26] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7966542&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:58:26] [TTS]	 Try speaking ... 
+[19:58:26] [TTS]	 [0] Say: 
+[19:58:26] [PLAYER]	 [0]speaking false
+[19:58:26] [TTS]	 End speaking
+[19:58:26] [ENGINE - KINECT_1]	 SpeechRecognized: 62,4957ms Text: SARAH quelle est la météo
+[19:58:27] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,5878155 Text: SARAH
+[19:58:27] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,5878155 Text: SARAH
+[19:58:27] [ENGINE - KINECT_0]	 SpeechRecognized: 15,6227ms Text: SARAH quelle est la météo
+[19:58:35] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,03090439
+[19:58:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,02281515
+[19:58:35] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,05621729
+[19:58:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,0705412
+[19:58:38] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,007594258
+[19:58:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,01024169
+[19:58:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,5576016
+[19:58:39] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est => 0,1196736
+[19:58:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,4775921
+[19:58:40] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,1411662
+[19:58:40] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7017006 (0,65) / 0,980545 (SARAH) Device:  Text: SARAH il est quelle heure
+[19:58:40] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7017006 (0,65) / 0,980545 (SARAH) Device:  Text: SARAH il est quelle heure
+[19:58:40] [CONTEXT]	 Reset timeout
+[19:58:40] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.7017006&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:58:40] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.7017006&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:58:40] [TTS]	 Try speaking ... il est 19 heure 58 
+[19:58:40] [TTS]	 [0] Say: il est 19 heure 58 
+[19:58:40] [PLAYER]	 [0]Start Player
+[19:58:43] [PLAYER]	 [0]End Player
+[19:58:43] [PLAYER]	 [0]speaking false
+[19:58:43] [TTS]	 End speaking
+[19:58:43] [ENGINE - KINECT_0]	 SpeechRecognized: 2795,7277ms Text: SARAH il est quelle heure
+[19:58:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,007147521
+[19:58:45] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,03894499
+[19:58:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,7058062
+[19:58:45] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,6626343
+[19:58:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,8794046
+[19:58:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,5781077
+[19:58:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,7050372
+[19:58:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,7647954
+[19:58:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,6782553
+[19:58:46] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,937481 (0,65) / 0,9787279 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:58:46] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8745517 (0,65) / 0,7541295 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:58:46] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,937481 (0,65) / 0,9787279 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:58:46] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8745517 (0,65) / 0,7541295 (SARAH) Device:  Text: SARAH quelle heure est il
+[19:58:46] [CONTEXT]	 Reset timeout
+[19:58:46] [CONTEXT]	 Reset timeout
+[19:58:46] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.937481&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:58:46] [ENGINE - KINECT_1]	 SpeechRecognized: 31,2249ms Text: SARAH quelle heure est il
+[19:58:46] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.937481&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:58:46] [TTS]	 Try speaking ... il est 19 heure 58 
+[19:58:46] [TTS]	 [0] Say: il est 19 heure 58 
+[19:58:46] [PLAYER]	 [0]Start Player
+[19:58:49] [PLAYER]	 [0]End Player
+[19:58:49] [PLAYER]	 [0]speaking false
+[19:58:49] [TTS]	 End speaking
+[19:58:49] [ENGINE - KINECT_0]	 SpeechRecognized: 2784,6878ms Text: SARAH quelle heure est il
+[19:58:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,007833898
+[19:58:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,02472505
+[19:58:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,4514414
+[19:58:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,3682703
+[19:58:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,3505405
+[19:58:55] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,4353558
+[19:58:55] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7116106 (0,65) / 0,9248577 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:58:55] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7116106 (0,65) / 0,9248577 (SARAH) Device:  Text: SARAH quelle est la météo
+[19:58:55] [CONTEXT]	 Reset timeout
+[19:58:55] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7116106&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:58:55] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7116106&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:58:55] [TTS]	 Try speaking ... 
+[19:58:55] [TTS]	 [0] Say: 
+[19:58:55] [PLAYER]	 [0]speaking false
+[19:58:55] [ENGINE - KINECT_1]	 REJECTED Speech while speaking : 0,6823489 Text: SARAH quelle est la météo
+[19:58:55] [TTS]	 End speaking
+[19:58:55] [ENGINE - KINECT_1]	 REJECTED Speech while speaking : 0,6823489 Text: SARAH quelle est la météo
+[19:58:55] [ENGINE - KINECT_0]	 SpeechRecognized: 62,495ms Text: SARAH quelle est la météo
+[19:58:55] [ENGINE - KINECT_1]	 SpeechRecognized: 31,2491ms Text: SARAH quelle est la météo
+[19:59:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,002146989
+[19:59:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,6112439
+[19:59:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,5988571
+[19:59:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,2856923
+[19:59:14] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu => 0,2270808
+[19:59:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce => 0,3595788
+[19:59:14] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,2460534
+[19:59:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,4418993
+[19:59:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,3119288
+[19:59:14] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,1911865
+[19:59:18] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,02520123
+[19:59:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,3577845
+[19:59:20] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9285289
+[19:59:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,5787933
+[19:59:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce => 0,6410811
+[19:59:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est => 0,5236737
+[19:59:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,4598082
+[19:59:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,492774
+[19:59:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,3866902
+[19:59:22] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,4367692
+[19:59:22] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,4085703
+[19:59:31] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,05120691
+[19:59:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,0451619
+[19:59:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,0102959
+[19:59:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,02279547
+[19:59:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,1127406
+[19:59:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,3912251
+[19:59:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,1121266
+[19:59:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,3746635
+[19:59:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,2241124
+[19:59:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,4535119
+[19:59:53] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7801346 (0,65) / 0,7520614 (SARAH) Device:  Text: SARAH il est quelle heure
+[19:59:53] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7801346 (0,65) / 0,7520614 (SARAH) Device:  Text: SARAH il est quelle heure
+[19:59:53] [CONTEXT]	 Reset timeout
+[19:59:53] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.7801346&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:59:53] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.7801346&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[19:59:53] [TTS]	 Try speaking ... il est 19 heure 59 
+[19:59:53] [TTS]	 [0] Say: il est 19 heure 59 
+[19:59:53] [PLAYER]	 [0]Start Player
+[19:59:56] [PLAYER]	 [0]End Player
+[19:59:56] [PLAYER]	 [0]speaking false
+[19:59:56] [TTS]	 End speaking
+[19:59:56] [ENGINE - KINECT_0]	 SpeechRecognized: 2812,0861ms Text: SARAH il est quelle heure
+[20:00:00] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu peux => 0,129199
+[20:00:57] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,00784272
+[20:00:57] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,6351838
+[20:00:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,7476543
+[20:00:58] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,5760211
+[20:00:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,9086851
+[20:00:58] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,6354415
+[20:00:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,7272432
+[20:00:58] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,6607634
+[20:00:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,7142463
+[20:00:59] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,889559 (0,65) / 0,789696 (SARAH) Device:  Text: SARAH quelle heure est il
+[20:00:59] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,889559 (0,65) / 0,789696 (SARAH) Device:  Text: SARAH quelle heure est il
+[20:00:59] [CONTEXT]	 Reset timeout
+[20:00:59] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9360668 (0,65) / 0,9951452 (SARAH) Device:  Text: SARAH quelle heure est il
+[20:00:59] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9360668 (0,65) / 0,9951452 (SARAH) Device:  Text: SARAH quelle heure est il
+[20:00:59] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.889559&client=SARAH1&profile=Unknow_9218&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:00:59] [CONTEXT]	 Reset timeout
+[20:00:59] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.889559&client=SARAH1&profile=Unknow_9218&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:00:59] [ENGINE - KINECT_0]	 SpeechRecognized: 31,2491ms Text: SARAH quelle heure est il
+[20:00:59] [TTS]	 Try speaking ... il est 20 heure  
+[20:00:59] [TTS]	 [0] Say: il est 20 heure  
+[20:00:59] [PLAYER]	 [0]Start Player
+[20:01:01] [PLAYER]	 [0]End Player
+[20:01:01] [PLAYER]	 [0]speaking false
+[20:01:01] [TTS]	 End speaking
+[20:01:01] [ENGINE - KINECT_1]	 SpeechRecognized: 1951,5797ms Text: SARAH quelle heure est il
+[20:01:05] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,1693059
+[20:01:05] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,0565584
+[20:01:06] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment => 0,2073365
+[20:01:06] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,6629394
+[20:01:06] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,567306
+[20:01:07] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu peux => 0,07536095
+[20:01:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,6678288
+[20:01:07] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,2772105
+[20:01:07] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7720693 (0,65) / 0,9943494 (SARAH) Device:  Text: SARAH quelle est la météo
+[20:01:07] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7720693 (0,65) / 0,9943494 (SARAH) Device:  Text: SARAH quelle est la météo
+[20:01:07] [CONTEXT]	 Reset timeout
+[20:01:07] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7720693&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:01:07] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7720693&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:01:07] [TTS]	 Try speaking ... 
+[20:01:07] [TTS]	 [0] Say: 
+[20:01:07] [PLAYER]	 [0]speaking false
+[20:01:07] [TTS]	 End speaking
+[20:01:07] [ENGINE - KINECT_0]	 SpeechRecognized: 62,499ms Text: SARAH quelle est la météo
+[20:01:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,005329758
+[20:01:49] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,008406967
+[20:01:50] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,5220306
+[20:01:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,5167529
+[20:01:51] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,5905085
+[20:01:51] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7059025 (0,65) / 0,8491355 (SARAH) Device:  Text: SARAH quelle est la météo
+[20:01:51] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7059025 (0,65) / 0,8491355 (SARAH) Device:  Text: SARAH quelle est la météo
+[20:01:51] [CONTEXT]	 Reset timeout
+[20:01:51] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7059025&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:01:51] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo?confidence=0.7059025&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:01:51] [TTS]	 Try speaking ... 
+[20:01:51] [TTS]	 [0] Say: 
+[20:01:51] [PLAYER]	 [0]speaking false
+[20:01:51] [ENGINE - KINECT_0]	 REJECTED Speech while speaking : 0,7188296 Text: SARAH quelle est la météo
+[20:01:51] [TTS]	 End speaking
+[20:01:51] [ENGINE - KINECT_0]	 REJECTED Speech while speaking : 0,7188296 Text: SARAH quelle est la météo
+[20:01:51] [ENGINE - KINECT_1]	 SpeechRecognized: 62,4851ms Text: SARAH quelle est la météo
+[20:01:51] [ENGINE - KINECT_0]	 SpeechRecognized: 15,6244ms Text: SARAH quelle est la météo
+[20:02:20] [WATCHER]	 Stop watching
+[20:02:20] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\macros\dot_meteo.xml
+[20:02:20] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[20:02:20] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[20:02:20] [GRAMMAR]	 Add to context list: meteo2.xml
+[20:02:20] [WATCHER]	 Start watching
+[20:02:20] [GRAMMAR]	 Context: default
+[20:02:20] [GRAMMAR]	 Context: time.xml, dot_itineraire.xml, dot_meteo.xml, meteo.xml, meteo2.xml
+[20:02:20] [GRAMMAR]	 File: Load Grammar to Engine
+[20:02:20] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[20:02:20] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[20:02:20] [GRAMMAR]	 KINECT_0: Load: meteo2.xml Enabled: True
+[20:02:20] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[20:02:20] [GRAMMAR]	 KINECT_1: Load: meteo2.xml Enabled: True
+[20:02:20] [CONTEXT]	 Reset timeout
+[20:03:04] [WATCHER]	 Stop watching
+[20:03:04] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\macros\dot_itineraire.xml
+[20:03:04] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\macros\dot_meteo.xml
+[20:03:04] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[20:03:04] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[20:03:04] [WATCHER]	 Start watching
+[20:03:04] [GRAMMAR]	 Context: default
+[20:03:04] [GRAMMAR]	 Context: time.xml, dot_itineraire.xml, dot_meteo.xml, meteo.xml, meteo2.xml
+[20:03:04] [CONTEXT]	 Reset timeout
+[20:03:23] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,007212371
+[20:03:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,01866046
+[20:03:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,7020356
+[20:03:24] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,5857502
+[20:03:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,6593614
+[20:03:24] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,5684693
+[20:03:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,6028646
+[20:03:24] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,6175635
+[20:03:24] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8735074 (0,65) / 0,9982766 (SARAH) Device:  Text: SARAH quelle heure est il
+[20:03:24] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8735074 (0,65) / 0,9982766 (SARAH) Device:  Text: SARAH quelle heure est il
+[20:03:24] [CONTEXT]	 Reset timeout
+[20:03:24] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.8735074&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:03:24] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.8735074&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:03:24] [TTS]	 Try speaking ... il est 20 heure 3 
+[20:03:24] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8179721 (0,65) / 0,7682898 (SARAH) Device:  Text: SARAH quelle heure est il
+[20:03:24] [TTS]	 [0] Say: il est 20 heure 3 
+[20:03:24] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8179721 (0,65) / 0,7682898 (SARAH) Device:  Text: SARAH quelle heure est il
+[20:03:24] [CONTEXT]	 Reset timeout
+[20:03:24] [ENGINE - KINECT_1]	 SpeechRecognized: 15,6236ms Text: SARAH quelle heure est il
+[20:03:25] [PLAYER]	 [0]Start Player
+[20:03:27] [PLAYER]	 [0]End Player
+[20:03:27] [PLAYER]	 [0]speaking false
+[20:03:27] [TTS]	 End speaking
+[20:03:27] [ENGINE - KINECT_0]	 SpeechRecognized: 2343,1442ms Text: SARAH quelle heure est il
+[20:03:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,009823382
+[20:03:32] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,03410372
+[20:03:32] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu => 0,2385387
+[20:03:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,5476531
+[20:03:33] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,2047314
+[20:03:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel => 0,4410383
+[20:03:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment je => 0,6071931
+[20:03:33] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,4745829
+[20:03:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo => 0,6617433
+[20:03:34] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,6722587 (0,65) / 0,9017631 (SARAH) Device:  Text: SARAH quelle est la météo
+[20:03:34] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,6722587 (0,65) / 0,9017631 (SARAH) Device:  Text: SARAH quelle est la météo
+[20:03:34] [CONTEXT]	 Reset timeout
+[20:03:34] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/meteo2?confidence=0.6722587&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:03:34] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/meteo2?confidence=0.6722587&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:03:34] [TTS]	 Try speaking ... Je n'ai pas trouvé d'information
+[20:03:34] [TTS]	 [0] Say: Je n'ai pas trouvé d'information
+[20:03:34] [PLAYER]	 [0]Start Player
+[20:03:37] [PLAYER]	 [0]End Player
+[20:03:37] [PLAYER]	 [0]speaking false
+[20:03:37] [TTS]	 End speaking
+[20:03:37] [ENGINE - KINECT_0]	 SpeechRecognized: 3071,0315ms Text: SARAH quelle est la météo
+[20:03:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9763536
+[20:03:42] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,1723537
+[20:03:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,6930269
+[20:03:43] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,1742649
+[20:03:43] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est => 0,1365235
+[20:03:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu => 0,5516026
+[20:03:43] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,1490889
+[20:03:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,4936209
+[20:03:43] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me donner => 0,1215534
+[20:03:44] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me donner l'heure => 0,4388535
+[20:03:44] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me donner l'heure => 0,139488
+[20:03:44] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,6950287 (0,65) / 0,9826102 (SARAH) Device:  Text: SARAH peux tu me donner l'heure
+[20:03:44] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,6950287 (0,65) / 0,9826102 (SARAH) Device:  Text: SARAH peux tu me donner l'heure
+[20:03:44] [CONTEXT]	 Reset timeout
+[20:03:44] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.6950287&client=SARAH1&profile=Unknow_358&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:03:44] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.6950287&client=SARAH1&profile=Unknow_358&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[20:03:44] [TTS]	 Try speaking ... il est 20 heure 3 
+[20:03:44] [TTS]	 [0] Say: il est 20 heure 3 
+[20:03:44] [PLAYER]	 [0]Start Player
+[20:03:46] [PLAYER]	 [0]End Player
+[20:03:46] [PLAYER]	 [0]speaking false
+[20:03:46] [TTS]	 End speaking
+[20:03:46] [ENGINE - KINECT_0]	 SpeechRecognized: 2209,1374ms Text: SARAH peux tu me donner l'heure
+[20:03:49] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,01957277
+[20:03:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,06030655
+[20:03:50] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux => 0,4171196
+[20:03:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,579152
+[20:03:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu => 0,4997815
+[20:03:50] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,2916167
+[20:03:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,4282023
+[20:03:50] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,259656
+[20:03:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me donner l'heure => 0,401503
+[20:03:51] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me donner l'heure => 0,2729256
+[20:03:54] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,02712464
+[20:03:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,02457574
+[20:03:55] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment => 0,7210796
+[20:03:55] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle => 0,454218
+[20:03:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,5140824
+[20:03:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4574116
+[20:03:55] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle est => 0,3391169
+[20:03:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,4740735
+[20:03:56] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,328493
+[20:03:56] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me donner l'heure => 0,3347721
+[20:03:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me donner l'heure => 0,4602134
+[20:03:56] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,6866938 Text: SARAH
+[20:03:56] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,6866938 Text: SARAH
+[20:03:56] [ENGINE - KINECT_0]	 SpeechRecognized: 15,6129ms Text: SARAH peux tu me donner l'heure
+[20:03:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001102924
+[20:03:59] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,01372331
+[20:04:00] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux => 0,2064279
+[20:04:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,2166242
+[20:04:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est => 0,2147886
+[20:04:01] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu => 0,1523152
+[20:04:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,1934142
+[20:04:01] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,1135181
+[20:04:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,1641081
+[20:04:01] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me donner l'heure => 0,1444634
+[20:04:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me donner l'heure => 0,2224368
+[20:04:19] [RTPCLIENT]	 Stop RTPClient
+[20:04:19] [RTPCLIENT]	 Stop RTPClient
+[20:04:19] [RTPCLIENT]	 Stop RTPClient ... Done
+[20:04:19] [RTPCLIENT]	 Stop RTPClient ... Done
+[20:04:19] [ENGINE - File]	 Stop listening...done
+[20:04:20] [ENGINE - KINECT_0]	 Stop listening...done
+[20:04:21] [ENGINE - KINECT_1]	 Stop listening...done
+[20:04:21] [KINECT]	 Stop Sensors
+[20:04:21] [TASKS]	 Stop Tasks
+[20:04:21] [KINECT]	 Stop Sensor
+[20:04:21] [TASKS]	 Stop Tasks
+[20:04:21] [KINECT]	 Stop Sensor
+[22:15:59] [LOGGING]	 STARTING LOGGING
+[22:15:59] [INIT]	 ==========================================
+[22:15:59] [INIT]	 S.A.R.A.H. => KINECT
+[22:15:59] [INIT]	 ==========================================
+[22:15:59] [INIT]	 Server: http://127.0.0.1:8080
+[22:15:59] [INIT]	 Confidence: 0,65
+[22:15:59] [INIT]	 ==========================================
+[22:16:00] [KINECT]	 Setup sensor stream
+[22:16:00] [KINECT]	 Start sensor
+[22:16:00] [KINECT]	 Setup sensor stream
+[22:16:00] [KINECT]	 Start sensor
+[22:16:01] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[22:16:01] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[22:16:01] [WATCHER]	 Stop watching
+[22:16:01] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\macros\dot_itineraire.xml
+[22:16:01] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[22:16:01] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\macros\dot_meteo.xml
+[22:16:01] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[22:16:01] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[22:16:01] [GRAMMAR]	 Add to context list: time.xml
+[22:16:01] [WATCHER]	 Watching directory: macros
+[22:16:01] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[22:16:01] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[22:16:01] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[22:16:01] [GRAMMAR]	 Add to context list: meteo2.xml
+[22:16:01] [WATCHER]	 Watching directory: plugins
+[22:16:01] [WATCHER]	 Start watching
+[22:16:01] [GRAMMAR]	 Context: default
+[22:16:01] [GRAMMAR]	 Context: dot_itineraire.xml, dot_meteo.xml, time.xml, meteo2.xml
+[22:16:01] [GRAMMAR]	 File: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 File: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[22:16:02] [GRAMMAR]	 File: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[22:16:02] [GRAMMAR]	 File: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[22:16:02] [GRAMMAR]	 File: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[22:16:02] [GRAMMAR]	 File: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[22:16:02] [ENGINE - File]	 Init recognizer
+[22:16:02] [ENGINE - File]	 AudioLevel: 0
+[22:16:02] [ENGINE - File]	 MaxAlternates: 1
+[22:16:02] [ENGINE - File]	 BabbleTimeout: 00:00:00
+[22:16:02] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[22:16:02] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[22:16:02] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[22:16:02] [KINECT_0]	 AutomaticGainControlEnabled : False
+[22:16:02] [KINECT_0]	 BeamAngle : 0
+[22:16:02] [KINECT_0]	 EchoCancellationMode : CancellationAndSuppression
+[22:16:02] [KINECT_0]	 EchoCancellationSpeakerIndex : 2
+[22:16:02] [KINECT_0]	 NoiseSuppression : True
+[22:16:02] [KINECT_0]	 SoundSourceAngle : 0
+[22:16:02] [KINECT_0]	 SoundSourceAngleConfidence : 0
+[22:16:02] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 KINECT_0: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[22:16:02] [GRAMMAR]	 KINECT_0: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[22:16:02] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 KINECT_0: Load: dot_meteo.xml Enabled: True
+[22:16:02] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 KINECT_0: Load: time.xml Enabled: True
+[22:16:02] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 KINECT_0: Load: meteo2.xml Enabled: True
+[22:16:02] [ENGINE - KINECT_0]	 Init recognizer
+[22:16:02] [ENGINE - KINECT_0]	 AudioLevel: 0
+[22:16:02] [ENGINE - KINECT_0]	 MaxAlternates: 1
+[22:16:02] [ENGINE - KINECT_0]	 BabbleTimeout: 00:00:00
+[22:16:02] [ENGINE - KINECT_0]	 InitialSilenceTimeout: 00:00:00
+[22:16:02] [ENGINE - KINECT_0]	 EndSilenceTimeout: 00:00:00.1500000
+[22:16:02] [ENGINE - KINECT_0]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[22:16:02] [ENGINE - KINECT_0]	 Start listening
+[22:16:02] [KINECT_1]	 AutomaticGainControlEnabled : False
+[22:16:02] [KINECT_1]	 BeamAngle : 0
+[22:16:02] [KINECT_1]	 EchoCancellationMode : CancellationAndSuppression
+[22:16:02] [KINECT_1]	 EchoCancellationSpeakerIndex : 2
+[22:16:02] [KINECT_1]	 NoiseSuppression : True
+[22:16:02] [KINECT_1]	 SoundSourceAngle : 0
+[22:16:02] [KINECT_1]	 SoundSourceAngleConfidence : 0
+[22:16:02] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 KINECT_1: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[22:16:02] [GRAMMAR]	 KINECT_1: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[22:16:02] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 KINECT_1: Load: dot_meteo.xml Enabled: True
+[22:16:02] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 KINECT_1: Load: time.xml Enabled: True
+[22:16:02] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[22:16:02] [GRAMMAR]	 KINECT_1: Load: meteo2.xml Enabled: True
+[22:16:02] [ENGINE - KINECT_1]	 Init recognizer
+[22:16:02] [ENGINE - KINECT_1]	 AudioLevel: 0
+[22:16:02] [ENGINE - KINECT_1]	 MaxAlternates: 1
+[22:16:02] [ENGINE - KINECT_1]	 BabbleTimeout: 00:00:00
+[22:16:02] [ENGINE - KINECT_1]	 InitialSilenceTimeout: 00:00:00
+[22:16:02] [ENGINE - KINECT_1]	 EndSilenceTimeout: 00:00:00.1500000
+[22:16:02] [ENGINE - KINECT_1]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[22:16:02] [ENGINE - KINECT_1]	 Start listening
+[22:16:02] [TTS]	 Add Speaker Device: 0 Product: Casque (Cirrus Logic CS4206B (A Channels: 2 Playback: True
+[22:16:02] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[22:16:02] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[22:16:02] [ENGINE]	 Restart timeout: 3600000
+[22:16:04] [CAMERA]	 Storing camera: Kinect_1
+[22:16:04] [CAMERA]	 Storing camera: Kinect_0
+[22:16:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce => 0,1355955
+[22:16:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,2001196
+[22:16:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,1759317
+[22:16:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux => 0,1223704
+[22:16:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,2022939
+[22:16:34] [WATCHER]	 Stop watching
+[22:16:34] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\macros\dot_itineraire.xml
+[22:16:34] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\macros\dot_meteo.xml
+[22:16:34] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[22:16:34] [GRAMMAR]	 Add to context list: dictionary.xml
+[22:16:34] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[22:16:34] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[22:16:34] [WATCHER]	 Start watching
+[22:16:34] [GRAMMAR]	 Context: default
+[22:16:34] [GRAMMAR]	 Context: dot_itineraire.xml, dot_meteo.xml, time.xml, meteo2.xml, dictionary.xml
+[22:16:34] [GRAMMAR]	 File: Load Grammar to Engine
+[22:16:34] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[22:16:34] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[22:16:34] [GRAMMAR]	 KINECT_0: Load: dictionary.xml Enabled: True
+[22:16:34] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[22:16:34] [GRAMMAR]	 KINECT_1: Load: dictionary.xml Enabled: True
+[22:16:34] [CONTEXT]	 Reset timeout
+[22:17:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,891948
+[22:17:00] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9251216
+[22:17:01] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,9131815
+[22:17:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,892885
+[22:17:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,893344
+[22:17:01] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9071051
+[22:17:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9189428
+[22:17:02] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9248103
+[22:17:02] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9248103 (0,65) / 0,956211 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:02] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9248103 (0,65) / 0,956211 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:02] [CONTEXT]	 Reset timeout
+[22:17:02] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.3700000
+[22:17:02] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9189428 (0,65) / 0,9387224 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:02] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9189428 (0,65) / 0,9387224 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:02] [CONTEXT]	 Reset timeout
+[22:17:02] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.3800000
+[22:17:04] [ENGINE - KINECT_0]	 SpeechRecognized: 1324,0049ms Text: SARAH recherche ... wikipedia
+[22:17:04] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9248103&dictation=Sarah+recherche+maison+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:17:04] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9248103&dictation=Sarah+recherche+maison+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:17:04] [TTS]	 Try speaking ... 
+[22:17:04] [TTS]	 [0] Say: 
+[22:17:04] [PLAYER]	 [0]speaking false
+[22:17:04] [TTS]	 End speaking
+[22:17:04] [ENGINE - KINECT_1]	 SpeechRecognized: 1480,301ms Text: SARAH recherche ... wikipedia
+[22:17:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,8937445
+[22:17:12] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9292125
+[22:17:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,929534
+[22:17:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,9116502
+[22:17:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9341961
+[22:17:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9147962
+[22:17:14] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9189892
+[22:17:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9410407
+[22:17:14] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9230494 (0,65) / 0,9320373 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:14] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9230494 (0,65) / 0,9320373 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:14] [CONTEXT]	 Reset timeout
+[22:17:14] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9403958 (0,65) / 0,9555377 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:14] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9403958 (0,65) / 0,9555377 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:14] [CONTEXT]	 Reset timeout
+[22:17:14] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.6500000
+[22:17:14] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.6500000
+[22:17:15] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9403958&dictation=Sarah+recherche+maison+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:17:15] [ENGINE - KINECT_1]	 SpeechRecognized: 916,1181ms Text: SARAH recherche ... wikipedia
+[22:17:15] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9403958&dictation=Sarah+recherche+maison+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:17:15] [TTS]	 Try speaking ... 
+[22:17:15] [TTS]	 [0] Say: 
+[22:17:15] [PLAYER]	 [0]speaking false
+[22:17:15] [TTS]	 End speaking
+[22:17:15] [ENGINE - KINECT_0]	 SpeechRecognized: 936,1166ms Text: SARAH recherche ... wikipedia
+[22:17:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:17:18] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[22:17:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1929618
+[22:17:19] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,3619828
+[22:17:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,2645386
+[22:17:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,4526919
+[22:17:19] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,393173
+[22:17:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3791307
+[22:17:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9364601
+[22:17:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9163666
+[22:17:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,8021048
+[22:17:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,8977849
+[22:17:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8467047
+[22:17:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9043924
+[22:17:54] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,8287359
+[22:17:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9109218
+[22:17:54] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9191599 (0,65) / 0,9523388 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:54] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9191599 (0,65) / 0,9523388 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:54] [CONTEXT]	 Reset timeout
+[22:17:54] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.6700000
+[22:17:55] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8784732 (0,65) / 0,9493576 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:55] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8784732 (0,65) / 0,9493576 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:17:55] [CONTEXT]	 Reset timeout
+[22:17:55] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.6700000
+[22:17:55] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9191599&dictation=Sarah+recherche+maison+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:17:55] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9191599&dictation=Sarah+recherche+maison+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:17:55] [TTS]	 Try speaking ... Je ne comprends pas
+[22:17:55] [TTS]	 [0] Say: Je ne comprends pas
+[22:17:55] [ENGINE - KINECT_1]	 SpeechRecognized: 831,2985ms Text: SARAH recherche ... wikipedia
+[22:17:55] [PLAYER]	 [0]Start Player
+[22:17:57] [PLAYER]	 [0]End Player
+[22:17:57] [PLAYER]	 [0]speaking false
+[22:17:57] [TTS]	 End speaking
+[22:17:57] [ENGINE - KINECT_0]	 SpeechRecognized: 2820,1063ms Text: SARAH recherche ... wikipedia
+[22:18:00] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9274702
+[22:18:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9214821
+[22:18:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,8243986
+[22:18:00] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,8213618
+[22:18:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,7067702
+[22:18:01] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,8738475
+[22:18:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,8355364
+[22:18:01] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,8756483
+[22:18:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8325857
+[22:18:01] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9007382
+[22:18:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8325857
+[22:18:02] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9007382
+[22:18:02] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9069684
+[22:18:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,8720499
+[22:18:02] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8720499 (0,65) / 0,9454867 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:18:02] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8720499 (0,65) / 0,9454867 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:18:02] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9092463 (0,65) / 0,9449779 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:18:02] [CONTEXT]	 Reset timeout
+[22:18:02] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9092463 (0,65) / 0,9449779 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:18:02] [CONTEXT]	 Reset timeout
+[22:18:02] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.9700000
+[22:18:02] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.9600000
+[22:18:03] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9092463&dictation=Sarah+recherche+maison+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:18:03] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9092463&dictation=Sarah+recherche+maison+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:18:03] [TTS]	 Try speaking ... Je ne comprends pas
+[22:18:03] [TTS]	 [0] Say: Je ne comprends pas
+[22:18:03] [PLAYER]	 [0]Start Player
+[22:18:04] [ENGINE - KINECT_0]	 SpeechRecognized: 1689,2491ms Text: SARAH recherche ... wikipedia
+[22:18:05] [PLAYER]	 [0]End Player
+[22:18:05] [PLAYER]	 [0]speaking false
+[22:18:05] [TTS]	 End speaking
+[22:18:05] [ENGINE - KINECT_1]	 SpeechRecognized: 2970,0781ms Text: SARAH recherche ... wikipedia
+[22:18:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,2111615
+[22:18:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelles sont => 0,001
+[22:18:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps => 0,06176627
+[22:18:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est => 0,001
+[22:18:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps => 0,06617296
+[22:18:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps soir => 0,1826701
+[22:19:08] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9015624
+[22:19:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9077946
+[22:19:09] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,8810998
+[22:19:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,842411
+[22:19:09] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,7977332
+[22:19:10] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,7850285
+[22:19:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8683718
+[22:19:11] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,8306337
+[22:19:11] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9007781
+[22:19:11] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8541495 (0,65) / 0,8978624 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:11] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8541495 (0,65) / 0,8978624 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:11] [CONTEXT]	 Reset timeout
+[22:19:11] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.9400000
+[22:19:11] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9007781 (0,65) / 0,9319153 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:11] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9007781 (0,65) / 0,9319153 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:11] [CONTEXT]	 Reset timeout
+[22:19:11] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.9500000
+[22:19:12] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.8541495&dictation=Sarah+recherche+Timoth%c3%a9e+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:19:12] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.8541495&dictation=Sarah+recherche+Timothée+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:19:12] [TTS]	 Try speaking ... Je ne comprends pas
+[22:19:12] [TTS]	 [0] Say: Je ne comprends pas
+[22:19:12] [PLAYER]	 [0]Start Player
+[22:19:12] [ENGINE - KINECT_0]	 SpeechRecognized: 911,8137ms Text: SARAH recherche ... wikipedia
+[22:19:14] [PLAYER]	 [0]End Player
+[22:19:14] [PLAYER]	 [0]speaking false
+[22:19:14] [TTS]	 End speaking
+[22:19:14] [ENGINE - KINECT_1]	 SpeechRecognized: 2812,3119ms Text: SARAH recherche ... wikipedia
+[22:19:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,08517203
+[22:19:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,001
+[22:19:22] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,8884879
+[22:19:22] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9356571
+[22:19:23] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,8825191
+[22:19:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,905615
+[22:19:24] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8856753
+[22:19:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9099044
+[22:19:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9180777
+[22:19:25] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9086335
+[22:19:25] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9086335 (0,65) / 0,9611786 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:25] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9086335 (0,65) / 0,9611786 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:25] [CONTEXT]	 Reset timeout
+[22:19:25] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:03.3900000
+[22:19:25] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9267207 (0,65) / 0,9570505 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:25] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9267207 (0,65) / 0,9570505 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:25] [CONTEXT]	 Reset timeout
+[22:19:25] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:03.4000000
+[22:19:26] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9086335&dictation=Sarah+recherche+encyclop%c3%a9die+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_5908&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:19:26] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9086335&dictation=Sarah+recherche+encyclopédie+Wikipédia&client=SARAH1&profile=Unknow_5908&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:19:26] [TTS]	 Try speaking ... Je ne comprends pas
+[22:19:26] [TTS]	 [0] Say: Je ne comprends pas
+[22:19:26] [PLAYER]	 [0]Start Player
+[22:19:26] [ENGINE - KINECT_0]	 SpeechRecognized: 1027,9591ms Text: SARAH recherche ... wikipedia
+[22:19:28] [PLAYER]	 [0]End Player
+[22:19:28] [PLAYER]	 [0]speaking false
+[22:19:28] [TTS]	 End speaking
+[22:19:28] [ENGINE - KINECT_1]	 SpeechRecognized: 2790,8716ms Text: SARAH recherche ... wikipedia
+[22:19:39] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9271067
+[22:19:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9107807
+[22:19:40] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,919771
+[22:19:40] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,8567926
+[22:19:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,900394
+[22:19:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9107127
+[22:19:41] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,913287
+[22:19:42] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9289052
+[22:19:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,923003
+[22:19:42] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9289052 (0,65) / 0,9488407 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:42] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9289052 (0,65) / 0,9488407 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:42] [CONTEXT]	 Reset timeout
+[22:19:42] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,923003 (0,65) / 0,9490371 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:42] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,923003 (0,65) / 0,9490371 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:42] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:03
+[22:19:42] [CONTEXT]	 Reset timeout
+[22:19:42] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:03
+[22:19:43] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9289052&dictation=Sarah+recherche+maison+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:19:43] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9289052&dictation=Sarah+recherche+maison+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:19:43] [TTS]	 Try speaking ... Je ne comprends pas
+[22:19:43] [TTS]	 [0] Say: Je ne comprends pas
+[22:19:43] [PLAYER]	 [0]Start Player
+[22:19:43] [ENGINE - KINECT_0]	 SpeechRecognized: 993,37ms Text: SARAH recherche ... wikipedia
+[22:19:45] [PLAYER]	 [0]End Player
+[22:19:45] [PLAYER]	 [0]speaking false
+[22:19:45] [TTS]	 End speaking
+[22:19:45] [ENGINE - KINECT_1]	 SpeechRecognized: 2867,1168ms Text: SARAH recherche ... wikipedia
+[22:19:45] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,8610843
+[22:19:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,8129245
+[22:19:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9192056
+[22:19:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,8361108
+[22:19:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,7920081
+[22:19:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,6585902
+[22:19:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,7871416
+[22:19:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,5027999
+[22:19:47] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,4780749
+[22:19:47] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,4780749
+[22:19:48] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,7871416
+[22:19:48] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,8422867
+[22:19:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,7186962
+[22:19:48] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7202338 (0,65) / 0,9435139 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:48] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8479082 (0,65) / 0,9253448 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:48] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7202338 (0,65) / 0,9435139 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:48] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8479082 (0,65) / 0,9253448 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:19:48] [CONTEXT]	 Reset timeout
+[22:19:48] [CONTEXT]	 Reset timeout
+[22:19:48] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.4700000
+[22:19:48] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:03.2100000
+[22:19:49] [ENGINE - KINECT_1]	 System.Collections.Generic.KeyNotFoundException: La clé donnée était absente du dictionnaire.
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à net.encausse.sarah.SpeechToText.toJSON(String[] response)
+   à net.encausse.sarah.SpeechToText.Recognize(Stream contentToRecognize)
+   à net.encausse.sarah.WSRSpeechManager.ProcessAudioStream(Stream stream, String language)
+   à net.encausse.sarah.WSRSpeechEngine.ProcessAudioStream(RecognitionResult rr, String language)
+   à net.encausse.sarah.WSRSpeechEngine.HandleWildcard(RecognitionResult rr, String url)
+   à net.encausse.sarah.WSRSpeechEngine.SpeechRecognized(RecognitionResult rr)
+   à net.encausse.sarah.WSRSpeechEngine.recognizer_SpeechRecognized(Object sender, SpeechRecognizedEventArgs e)
+[22:19:49] [ENGINE - KINECT_1]	 System.Collections.Generic.KeyNotFoundException: La clé donnée était absente du dictionnaire.
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à net.encausse.sarah.SpeechToText.toJSON(String[] response)
+   à net.encausse.sarah.SpeechToText.Recognize(Stream contentToRecognize)
+   à net.encausse.sarah.WSRSpeechManager.ProcessAudioStream(Stream stream, String language)
+   à net.encausse.sarah.WSRSpeechEngine.ProcessAudioStream(RecognitionResult rr, String language)
+   à net.encausse.sarah.WSRSpeechEngine.HandleWildcard(RecognitionResult rr, String url)
+   à net.encausse.sarah.WSRSpeechEngine.SpeechRecognized(RecognitionResult rr)
+   à net.encausse.sarah.WSRSpeechEngine.recognizer_SpeechRecognized(Object sender, SpeechRecognizedEventArgs e)
+[22:19:49] [ENGINE - KINECT_1]	 SpeechRecognized: 1112,002ms Text: SARAH recherche ... wikipedia
+[22:19:50] [ENGINE - KINECT_0]	 System.Collections.Generic.KeyNotFoundException: La clé donnée était absente du dictionnaire.
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à net.encausse.sarah.SpeechToText.toJSON(String[] response)
+   à net.encausse.sarah.SpeechToText.Recognize(Stream contentToRecognize)
+   à net.encausse.sarah.WSRSpeechManager.ProcessAudioStream(Stream stream, String language)
+   à net.encausse.sarah.WSRSpeechEngine.ProcessAudioStream(RecognitionResult rr, String language)
+   à net.encausse.sarah.WSRSpeechEngine.HandleWildcard(RecognitionResult rr, String url)
+   à net.encausse.sarah.WSRSpeechEngine.SpeechRecognized(RecognitionResult rr)
+   à net.encausse.sarah.WSRSpeechEngine.recognizer_SpeechRecognized(Object sender, SpeechRecognizedEventArgs e)
+[22:19:50] [ENGINE - KINECT_0]	 System.Collections.Generic.KeyNotFoundException: La clé donnée était absente du dictionnaire.
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à net.encausse.sarah.SpeechToText.toJSON(String[] response)
+   à net.encausse.sarah.SpeechToText.Recognize(Stream contentToRecognize)
+   à net.encausse.sarah.WSRSpeechManager.ProcessAudioStream(Stream stream, String language)
+   à net.encausse.sarah.WSRSpeechEngine.ProcessAudioStream(RecognitionResult rr, String language)
+   à net.encausse.sarah.WSRSpeechEngine.HandleWildcard(RecognitionResult rr, String url)
+   à net.encausse.sarah.WSRSpeechEngine.SpeechRecognized(RecognitionResult rr)
+   à net.encausse.sarah.WSRSpeechEngine.recognizer_SpeechRecognized(Object sender, SpeechRecognizedEventArgs e)
+[22:19:50] [ENGINE - KINECT_0]	 SpeechRecognized: 1702,868ms Text: SARAH recherche ... wikipedia
+[22:19:57] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9468056
+[22:19:57] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9499507
+[22:19:58] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,7894247
+[22:19:58] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,8546957
+[22:19:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,8428656
+[22:19:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8523809
+[22:19:58] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8585719
+[22:20:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,8897424
+[22:20:00] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,884973
+[22:20:00] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8897424 (0,65) / 0,9456825 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:00] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8897424 (0,65) / 0,9456825 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:00] [CONTEXT]	 Reset timeout
+[22:20:00] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:03.2800000
+[22:20:00] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8853166 (0,65) / 0,9292551 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:00] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8853166 (0,65) / 0,9292551 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:00] [CONTEXT]	 Reset timeout
+[22:20:00] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:03.2800000
+[22:20:01] [ENGINE - KINECT_0]	 System.Collections.Generic.KeyNotFoundException: La clé donnée était absente du dictionnaire.
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à net.encausse.sarah.SpeechToText.toJSON(String[] response)
+   à net.encausse.sarah.SpeechToText.Recognize(Stream contentToRecognize)
+   à net.encausse.sarah.WSRSpeechManager.ProcessAudioStream(Stream stream, String language)
+   à net.encausse.sarah.WSRSpeechEngine.ProcessAudioStream(RecognitionResult rr, String language)
+   à net.encausse.sarah.WSRSpeechEngine.HandleWildcard(RecognitionResult rr, String url)
+   à net.encausse.sarah.WSRSpeechEngine.SpeechRecognized(RecognitionResult rr)
+   à net.encausse.sarah.WSRSpeechEngine.recognizer_SpeechRecognized(Object sender, SpeechRecognizedEventArgs e)
+[22:20:01] [ENGINE - KINECT_0]	 System.Collections.Generic.KeyNotFoundException: La clé donnée était absente du dictionnaire.
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à net.encausse.sarah.SpeechToText.toJSON(String[] response)
+   à net.encausse.sarah.SpeechToText.Recognize(Stream contentToRecognize)
+   à net.encausse.sarah.WSRSpeechManager.ProcessAudioStream(Stream stream, String language)
+   à net.encausse.sarah.WSRSpeechEngine.ProcessAudioStream(RecognitionResult rr, String language)
+   à net.encausse.sarah.WSRSpeechEngine.HandleWildcard(RecognitionResult rr, String url)
+   à net.encausse.sarah.WSRSpeechEngine.SpeechRecognized(RecognitionResult rr)
+   à net.encausse.sarah.WSRSpeechEngine.recognizer_SpeechRecognized(Object sender, SpeechRecognizedEventArgs e)
+[22:20:01] [ENGINE - KINECT_0]	 SpeechRecognized: 961,6651ms Text: SARAH recherche ... wikipedia
+[22:20:01] [ENGINE - KINECT_1]	 System.Collections.Generic.KeyNotFoundException: La clé donnée était absente du dictionnaire.
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à net.encausse.sarah.SpeechToText.toJSON(String[] response)
+   à net.encausse.sarah.SpeechToText.Recognize(Stream contentToRecognize)
+   à net.encausse.sarah.WSRSpeechManager.ProcessAudioStream(Stream stream, String language)
+   à net.encausse.sarah.WSRSpeechEngine.ProcessAudioStream(RecognitionResult rr, String language)
+   à net.encausse.sarah.WSRSpeechEngine.HandleWildcard(RecognitionResult rr, String url)
+   à net.encausse.sarah.WSRSpeechEngine.SpeechRecognized(RecognitionResult rr)
+   à net.encausse.sarah.WSRSpeechEngine.recognizer_SpeechRecognized(Object sender, SpeechRecognizedEventArgs e)
+[22:20:01] [ENGINE - KINECT_1]	 System.Collections.Generic.KeyNotFoundException: La clé donnée était absente du dictionnaire.
+   à System.Collections.Generic.Dictionary`2.get_Item(TKey key)
+   à net.encausse.sarah.SpeechToText.toJSON(String[] response)
+   à net.encausse.sarah.SpeechToText.Recognize(Stream contentToRecognize)
+   à net.encausse.sarah.WSRSpeechManager.ProcessAudioStream(Stream stream, String language)
+   à net.encausse.sarah.WSRSpeechEngine.ProcessAudioStream(RecognitionResult rr, String language)
+   à net.encausse.sarah.WSRSpeechEngine.HandleWildcard(RecognitionResult rr, String url)
+   à net.encausse.sarah.WSRSpeechEngine.SpeechRecognized(RecognitionResult rr)
+   à net.encausse.sarah.WSRSpeechEngine.recognizer_SpeechRecognized(Object sender, SpeechRecognizedEventArgs e)
+[22:20:01] [ENGINE - KINECT_1]	 SpeechRecognized: 1077,7736ms Text: SARAH recherche ... wikipedia
+[22:20:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9030826
+[22:20:09] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9203722
+[22:20:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,8207778
+[22:20:10] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,9142311
+[22:20:11] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9047223
+[22:20:11] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9104508
+[22:20:11] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,9047223
+[22:20:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9263577
+[22:20:12] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,9310589
+[22:20:12] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9272562 (0,65) / 0,9251944 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:12] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9272562 (0,65) / 0,9251944 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:12] [CONTEXT]	 Reset timeout
+[22:20:12] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.9800000
+[22:20:12] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9316828 (0,65) / 0,9235337 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:12] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9316828 (0,65) / 0,9235337 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:12] [CONTEXT]	 Reset timeout
+[22:20:12] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.9900000
+[22:20:13] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9316828&dictation=Sarah+recherche+disque+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:20:13] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.9316828&dictation=Sarah+recherche+disque+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:20:13] [TTS]	 Try speaking ... Je ne comprends pas
+[22:20:13] [TTS]	 [0] Say: Je ne comprends pas
+[22:20:13] [PLAYER]	 [0]Start Player
+[22:20:13] [ENGINE - KINECT_0]	 SpeechRecognized: 1594,4126ms Text: SARAH recherche ... wikipedia
+[22:20:15] [PLAYER]	 [0]End Player
+[22:20:15] [PLAYER]	 [0]speaking false
+[22:20:15] [TTS]	 End speaking
+[22:20:15] [ENGINE - KINECT_1]	 SpeechRecognized: 2888,7616ms Text: SARAH recherche ... wikipedia
+[22:20:29] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,3200815
+[22:20:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,5353819
+[22:20:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce => 0,4586137
+[22:20:29] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce => 0,3176096
+[22:20:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,5327049
+[22:20:29] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,3680936
+[22:20:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,3470213
+[22:20:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,1413167
+[22:20:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,2481922
+[22:20:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,08013833
+[22:20:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,08621795
+[22:20:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la => 0,04025859
+[22:20:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps => 0,1085801
+[22:20:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il pleut demain dans la => 0,2822787
+[22:20:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,1197838
+[22:20:47] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce => 0,3561719
+[22:20:47] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,3517827
+[22:20:47] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:20:47] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,2052406
+[22:20:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce => 0,001
+[22:20:48] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va => 0,2551771
+[22:20:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,1123441
+[22:20:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,1381632
+[22:20:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,17582
+[22:20:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,17582
+[22:20:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,17582
+[22:20:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9327962
+[22:20:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9272105
+[22:20:54] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,8013991
+[22:20:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,738034
+[22:20:54] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,7071787
+[22:20:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,7787833
+[22:20:54] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,7437736
+[22:20:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8129389
+[22:20:56] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,8171192
+[22:20:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,8623302
+[22:20:56] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8623302 (0,65) / 0,9048429 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:56] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8623302 (0,65) / 0,9048429 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:56] [CONTEXT]	 Reset timeout
+[22:20:56] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:03.1200000
+[22:20:56] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,819914 (0,65) / 0,8274084 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:56] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,819914 (0,65) / 0,8274084 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:20:56] [CONTEXT]	 Reset timeout
+[22:20:56] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:03.0900000
+[22:20:57] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.8623302&dictation=recherche+maison+sur+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:20:57] [ENGINE - KINECT_1]	 SpeechRecognized: 929,0112ms Text: SARAH recherche ... wikipedia
+[22:20:57] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.8623302&dictation=recherche+maison+sur+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:20:57] [TTS]	 Try speaking ... Je ne comprends pas
+[22:20:57] [TTS]	 [0] Say: Je ne comprends pas
+[22:20:57] [PLAYER]	 [0]Start Player
+[22:20:59] [PLAYER]	 [0]End Player
+[22:20:59] [PLAYER]	 [0]speaking false
+[22:20:59] [TTS]	 End speaking
+[22:20:59] [ENGINE - KINECT_0]	 SpeechRecognized: 2946,3696ms Text: SARAH recherche ... wikipedia
+[22:21:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,8971897
+[22:21:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,8521889
+[22:21:14] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,7107393
+[22:21:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,829255
+[22:21:14] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,6239457
+[22:21:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,8573614
+[22:21:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8540658
+[22:21:15] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,6537457
+[22:21:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,858918
+[22:21:16] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,7245482
+[22:21:16] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,859989 (0,65) / 0,9358266 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:21:16] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,859989 (0,65) / 0,9358266 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:21:16] [CONTEXT]	 Reset timeout
+[22:21:16] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7260885 (0,65) / 0,9434407 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:21:16] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7260885 (0,65) / 0,9434407 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:21:16] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.7800000
+[22:21:16] [CONTEXT]	 Reset timeout
+[22:21:16] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.7700000
+[22:21:17] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.7260885&dictation=Sarah+recherche+bidouille+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:21:17] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.7260885&dictation=Sarah+recherche+bidouille+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:21:17] [ENGINE - KINECT_0]	 SpeechRecognized: 895,7825ms Text: SARAH recherche ... wikipedia
+[22:21:17] [TTS]	 Try speaking ... Je ne comprends pas
+[22:21:17] [TTS]	 [0] Say: Je ne comprends pas
+[22:21:17] [PLAYER]	 [0]Start Player
+[22:21:18] [PLAYER]	 [0]End Player
+[22:21:18] [PLAYER]	 [0]speaking false
+[22:21:19] [TTS]	 End speaking
+[22:21:19] [ENGINE - KINECT_1]	 SpeechRecognized: 2842,359ms Text: SARAH recherche ... wikipedia
+[22:21:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,2753544
+[22:21:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu => 0,06522382
+[22:21:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,2096838
+[22:21:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:21:32] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:21:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,09763766
+[22:21:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:21:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel => 0,001
+[22:21:33] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,142764
+[22:21:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,08322895
+[22:21:34] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est => 0,2820554
+[22:21:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,6986267
+[22:21:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9382081
+[22:21:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,6353839
+[22:21:52] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment => 0,6930552
+[22:21:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,5190262
+[22:21:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,6228473
+[22:21:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,7521378
+[22:21:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,7112377
+[22:21:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,811448
+[22:21:53] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8121091 (0,65) / 0,9573101 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:21:53] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8121091 (0,65) / 0,9573101 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:21:53] [CONTEXT]	 Reset timeout
+[22:21:53] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8121091&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:21:53] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8121091&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:21:53] [TTS]	 Try speaking ... 
+[22:21:53] [TTS]	 [0] Say: 
+[22:21:53] [PLAYER]	 [0]speaking false
+[22:21:53] [TTS]	 End speaking
+[22:21:54] [ENGINE - KINECT_0]	 SpeechRecognized: 74,9993ms Text: SARAH Affiche moi la météo
+[22:21:54] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7148621 (0,65) / 0,9520032 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:21:54] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7148621 (0,65) / 0,9520032 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:21:54] [CONTEXT]	 Reset timeout
+[22:21:54] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7148621&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:21:54] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7148621&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:21:54] [TTS]	 Try speaking ... 
+[22:21:54] [TTS]	 [0] Say: 
+[22:21:54] [PLAYER]	 [0]speaking false
+[22:21:54] [TTS]	 End speaking
+[22:21:54] [ENGINE - KINECT_1]	 SpeechRecognized: 59,9973ms Text: SARAH Affiche moi la météo
+[22:22:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:22:15] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:22:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3525417
+[22:22:15] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[22:22:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4448583
+[22:22:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps => 0,4523856
+[22:22:34] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,1599831
+[22:22:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[22:22:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera => 0,05287047
+[22:22:40] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:22:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce => 0,001
+[22:22:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,07921021
+[22:23:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:23:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:23:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1255437
+[22:24:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:24:49] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:24:49] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est => 0,2465765
+[22:24:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,2697414
+[22:24:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu => 0,2063445
+[22:24:49] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux tu => 0,05227867
+[22:26:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:26:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3414745
+[22:27:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quel => 0,1671586
+[22:27:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,001
+[22:27:47] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est => 0,4897029
+[22:27:47] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quel est => 0,4983875
+[22:28:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:28:14] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est => 0,1273486
+[22:28:14] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[22:28:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[22:28:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,001
+[22:28:15] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est => 0,001
+[22:28:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,1741279
+[22:28:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:28:53] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,4839526
+[22:28:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3815228
+[22:28:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,2546818
+[22:28:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,1789067
+[22:28:54] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,2583457
+[22:28:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,1327194
+[22:29:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:29:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1585954
+[22:29:45] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,4977083
+[22:29:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3227518
+[22:29:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est => 0,5759322
+[22:29:46] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,5807709
+[22:30:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[22:30:42] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,1596988
+[22:30:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,1905214
+[22:30:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me => 0,0712611
+[22:30:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel => 0,1192405
+[22:30:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelles => 0,1440777
+[22:31:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelles sont => 0,1676631
+[22:31:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment => 0,001
+[22:31:18] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[22:31:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3347445
+[22:32:47] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9566808
+[22:32:47] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9144821
+[22:32:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,617943
+[22:32:48] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,6652676
+[22:32:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,8058838
+[22:32:48] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,6998234
+[22:32:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,8176525
+[22:32:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,8385314
+[22:32:49] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,8006982
+[22:32:49] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8040439 (0,65) / 0,9432505 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:32:49] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8040439 (0,65) / 0,9432505 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:32:49] [CONTEXT]	 Reset timeout
+[22:32:49] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8040439&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:32:49] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8040439&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:32:49] [TTS]	 Try speaking ... 
+[22:32:49] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,852243 (0,65) / 0,9606892 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:32:49] [TTS]	 [0] Say: 
+[22:32:49] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,852243 (0,65) / 0,9606892 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:32:49] [PLAYER]	 [0]speaking false
+[22:32:49] [CONTEXT]	 Reset timeout
+[22:32:49] [TTS]	 End speaking
+[22:32:49] [ENGINE - KINECT_1]	 SpeechRecognized: 90,0009ms Text: SARAH Affiche moi la météo
+[22:32:49] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.852243&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:32:49] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.852243&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:32:49] [TTS]	 Try speaking ... 
+[22:32:49] [TTS]	 [0] Say: 
+[22:32:49] [PLAYER]	 [0]speaking false
+[22:32:49] [TTS]	 End speaking
+[22:32:49] [ENGINE - KINECT_0]	 SpeechRecognized: 84,999ms Text: SARAH Affiche moi la météo
+[22:33:37] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,6889896
+[22:33:37] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,7673036
+[22:33:37] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux => 0,7476601
+[22:33:37] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,731981
+[22:33:37] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,6768959
+[22:33:37] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,6411522
+[22:33:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,6765275
+[22:33:38] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,6887121
+[22:33:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,5889418
+[22:33:38] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,7125987
+[22:33:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,7479773
+[22:33:38] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,7525203
+[22:33:38] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7715535 (0,65) / 0,9147263 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:33:38] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7715535 (0,65) / 0,9147263 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:33:38] [CONTEXT]	 Reset timeout
+[22:33:38] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7715535&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:33:38] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7715535&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:33:38] [TTS]	 Try speaking ... 
+[22:33:38] [TTS]	 [0] Say: 
+[22:33:38] [PLAYER]	 [0]speaking false
+[22:33:38] [TTS]	 End speaking
+[22:33:38] [ENGINE - KINECT_0]	 SpeechRecognized: 69,9941ms Text: SARAH Affiche moi la météo
+[22:33:39] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7767033 (0,65) / 0,892175 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:33:39] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,7767033 (0,65) / 0,892175 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:33:39] [CONTEXT]	 Reset timeout
+[22:33:39] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7767033&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:33:39] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7767033&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:33:39] [TTS]	 Try speaking ... 
+[22:33:39] [TTS]	 [0] Say: 
+[22:33:39] [PLAYER]	 [0]speaking false
+[22:33:39] [TTS]	 End speaking
+[22:33:39] [ENGINE - KINECT_1]	 SpeechRecognized: 59,994ms Text: SARAH Affiche moi la météo
+[22:33:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,08753649
+[22:33:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel => 0,1942337
+[22:33:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,001
+[22:33:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,2357529
+[22:33:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la => 0,3943443
+[22:34:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9106663
+[22:34:08] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9183773
+[22:34:09] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux => 0,7731969
+[22:34:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment => 0,6067622
+[22:34:09] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,8397859
+[22:34:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,6808711
+[22:34:09] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,7907322
+[22:34:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,7415475
+[22:34:09] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,8109365
+[22:34:10] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,8180961
+[22:34:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,7928303
+[22:34:10] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7972525 (0,65) / 0,9421417 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:34:10] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7972525 (0,65) / 0,9421417 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:34:10] [CONTEXT]	 Reset timeout
+[22:34:10] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7972525&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:34:10] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7972525&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:34:10] [TTS]	 Try speaking ... 
+[22:34:10] [TTS]	 [0] Say: 
+[22:34:10] [PLAYER]	 [0]speaking false
+[22:34:10] [TTS]	 End speaking
+[22:34:10] [ENGINE - KINECT_0]	 SpeechRecognized: 75,0005ms Text: SARAH Affiche moi la météo
+[22:34:10] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8429502 (0,65) / 0,9533762 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:34:10] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8429502 (0,65) / 0,9533762 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:34:10] [CONTEXT]	 Reset timeout
+[22:34:10] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8429502&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:34:10] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8429502&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:34:10] [TTS]	 Try speaking ... 
+[22:34:10] [TTS]	 [0] Say: 
+[22:34:10] [PLAYER]	 [0]speaking false
+[22:34:10] [TTS]	 End speaking
+[22:34:10] [ENGINE - KINECT_1]	 SpeechRecognized: 59,9948ms Text: SARAH Affiche moi la météo
+[22:35:07] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:35:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,8803569
+[22:35:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment => 0,6156282
+[22:35:08] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,5432225
+[22:35:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,4842974
+[22:35:08] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,5743347
+[22:35:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,6116139
+[22:35:09] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,6057598
+[22:35:09] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,6754451
+[22:35:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,716692
+[22:35:09] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7155271 (0,65) / 0,8985524 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:35:09] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7155271 (0,65) / 0,8985524 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:35:09] [CONTEXT]	 Reset timeout
+[22:35:09] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,6993813 (0,65) / 0,8842979 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:35:09] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7155271&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:35:09] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,6993813 (0,65) / 0,8842979 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:35:09] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7155271&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:35:09] [CONTEXT]	 Reset timeout
+[22:35:09] [ENGINE - KINECT_1]	 SpeechRecognized: 39,9988ms Text: SARAH Affiche moi la météo
+[22:35:09] [TTS]	 Try speaking ... 
+[22:35:09] [TTS]	 [0] Say: 
+[22:35:09] [PLAYER]	 [0]speaking false
+[22:35:09] [TTS]	 End speaking
+[22:35:09] [ENGINE - KINECT_0]	 SpeechRecognized: 84,99ms Text: SARAH Affiche moi la météo
+[22:35:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:35:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:35:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,1215703
+[22:35:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce => 0,2227094
+[22:35:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,1912594
+[22:35:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,5332525
+[22:35:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce => 0,4814014
+[22:35:13] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,4958163
+[22:35:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:35:16] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,001
+[22:35:16] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,1651594
+[22:35:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,001
+[22:35:16] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,2593117
+[22:35:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,411775
+[22:35:16] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,5026584
+[22:35:17] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,6521512
+[22:35:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,6272025
+[22:35:17] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,001 Text: SARAH
+[22:35:17] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,001 Text: SARAH
+[22:35:17] [ENGINE - KINECT_1]	 SpeechRecognized: 9,9936ms Text: SARAH Affiche moi la météo
+[22:35:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:35:21] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:35:24] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,6546417
+[22:35:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,8274053
+[22:35:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,7109796
+[22:35:25] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,8944092
+[22:35:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,7642747
+[22:35:25] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,8938054
+[22:35:25] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,9042408
+[22:35:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,7867969
+[22:35:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,8190905
+[22:35:25] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,8996717
+[22:35:26] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8368375 (0,65) / 0,8911985 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:35:26] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8368375 (0,65) / 0,8911985 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:35:26] [CONTEXT]	 Reset timeout
+[22:35:26] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8368375&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:35:26] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8368375&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:35:26] [TTS]	 Try speaking ... 
+[22:35:26] [TTS]	 [0] Say: 
+[22:35:26] [PLAYER]	 [0]speaking false
+[22:35:26] [TTS]	 End speaking
+[22:35:26] [ENGINE - KINECT_0]	 SpeechRecognized: 64,9976ms Text: SARAH Affiche moi la météo
+[22:35:26] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9160694 (0,65) / 0,924125 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:35:26] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9160694 (0,65) / 0,924125 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:35:26] [CONTEXT]	 Reset timeout
+[22:35:26] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.9160694&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:35:26] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.9160694&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:35:26] [TTS]	 Try speaking ... 
+[22:35:26] [TTS]	 [0] Say: 
+[22:35:26] [PLAYER]	 [0]speaking false
+[22:35:26] [TTS]	 End speaking
+[22:35:26] [ENGINE - KINECT_1]	 SpeechRecognized: 64,995ms Text: SARAH Affiche moi la météo
+[22:35:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,1916974
+[22:35:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4027219
+[22:35:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4098809
+[22:35:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,001
+[22:35:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,1943429
+[22:36:22] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:36:22] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,2229147
+[22:36:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment => 0,5425838
+[22:36:23] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment je => 0,5902879
+[22:36:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,4410368
+[22:36:23] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,4023091
+[22:36:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,5501361
+[22:36:23] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,5935315
+[22:36:23] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,5150917
+[22:36:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,6586914
+[22:36:24] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,6657941 (0,65) / 0,8656337 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:36:24] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,6657941 (0,65) / 0,8656337 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:36:24] [CONTEXT]	 Reset timeout
+[22:36:24] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.6657941&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:36:24] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.6657941&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:36:24] [TTS]	 Try speaking ... 
+[22:36:24] [TTS]	 [0] Say: 
+[22:36:24] [PLAYER]	 [0]speaking false
+[22:36:24] [TTS]	 End speaking
+[22:36:24] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,6947359 (0,65) / 0,7789222 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:36:24] [ENGINE - KINECT_0]	 SpeechRecognized: 69,9863ms Text: SARAH Affiche moi la météo
+[22:36:24] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,6947359 (0,65) / 0,7789222 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:36:24] [CONTEXT]	 Reset timeout
+[22:36:24] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.6947359&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:36:24] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.6947359&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:36:24] [TTS]	 Try speaking ... 
+[22:36:24] [TTS]	 [0] Say: 
+[22:36:24] [PLAYER]	 [0]speaking false
+[22:36:24] [TTS]	 End speaking
+[22:36:24] [ENGINE - KINECT_1]	 SpeechRecognized: 65,0028ms Text: SARAH Affiche moi la météo
+[22:36:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9334576
+[22:36:42] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,9461451
+[22:36:42] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est => 0,686882
+[22:36:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,7099661
+[22:36:43] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,8705755
+[22:36:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,7887448
+[22:36:43] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,8998191
+[22:36:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,8139303
+[22:36:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,7984911
+[22:36:43] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,9082593
+[22:36:43] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8522704 (0,65) / 0,9289467 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:36:43] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8522704 (0,65) / 0,9289467 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:36:43] [CONTEXT]	 Reset timeout
+[22:36:43] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8522704&client=SARAH1&profile=Unknow_5908&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:36:43] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8522704&client=SARAH1&profile=Unknow_5908&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:36:43] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9142917 (0,65) / 0,9288582 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:36:43] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,9142917 (0,65) / 0,9288582 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:36:43] [TTS]	 Try speaking ... 
+[22:36:43] [CONTEXT]	 Reset timeout
+[22:36:43] [TTS]	 [0] Say: 
+[22:36:44] [PLAYER]	 [0]speaking false
+[22:36:44] [ENGINE - KINECT_1]	 SpeechRecognized: 35,0063ms Text: SARAH Affiche moi la météo
+[22:36:44] [TTS]	 End speaking
+[22:36:44] [ENGINE - KINECT_0]	 SpeechRecognized: 74,9911ms Text: SARAH Affiche moi la météo
+[22:36:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,8921743
+[22:36:58] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,7747933
+[22:36:59] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,8783523
+[22:36:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,9238219
+[22:36:59] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche => 0,8300582
+[22:36:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche => 0,8670349
+[22:36:59] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8734021
+[22:36:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,8695776
+[22:37:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,890642
+[22:37:01] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH recherche ... wikipedia => 0,8945675
+[22:37:01] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8937982 (0,65) / 0,959169 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:37:01] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8937982 (0,65) / 0,959169 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:37:01] [CONTEXT]	 Reset timeout
+[22:37:01] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.5800000
+[22:37:01] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8945675 (0,65) / 0,9439905 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:37:01] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8945675 (0,65) / 0,9439905 (SARAH) Device:  Text: SARAH recherche ... wikipedia
+[22:37:01] [CONTEXT]	 Reset timeout
+[22:37:01] [GOOGLE]	 ProcessAudioStream: fr-FR 00:00:02.5600000
+[22:37:02] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.8945675&dictation=Sarah+recherche+maison+Wikip%c3%a9dia&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:37:02] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dictionary?confidence=0.8945675&dictation=Sarah+recherche+maison+Wikipédia&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:37:02] [TTS]	 Try speaking ... Je ne comprends pas
+[22:37:02] [TTS]	 [0] Say: Je ne comprends pas
+[22:37:02] [PLAYER]	 [0]Start Player
+[22:37:03] [ENGINE - KINECT_0]	 SpeechRecognized: 2012,6677ms Text: SARAH recherche ... wikipedia
+[22:37:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:37:04] [PLAYER]	 [0]End Player
+[22:37:04] [PLAYER]	 [0]speaking false
+[22:37:04] [TTS]	 End speaking
+[22:37:04] [ENGINE - KINECT_1]	 SpeechRecognized: 3252,351ms Text: SARAH recherche ... wikipedia
+[22:38:16] [WEBSCK]	 Connected to: 127.0.0.1
+[22:38:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,7006246
+[22:38:26] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,7287396
+[22:38:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment => 0,6606365
+[22:38:27] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,6028004
+[22:38:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,7754551
+[22:38:27] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,6707563
+[22:38:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,8296955
+[22:38:27] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,7556538
+[22:38:28] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,7677726
+[22:38:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,860122
+[22:38:28] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8078392 (0,65) / 0,9531021 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:38:28] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8078392 (0,65) / 0,9531021 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:38:28] [CONTEXT]	 Reset timeout
+[22:38:28] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8622826 (0,65) / 0,9516526 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:38:28] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8078392&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:38:28] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8622826 (0,65) / 0,9516526 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:38:28] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8078392&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:38:28] [CONTEXT]	 Reset timeout
+[22:38:28] [ENGINE - KINECT_0]	 SpeechRecognized: 39,9987ms Text: SARAH Affiche moi la météo
+[22:38:28] [TTS]	 Try speaking ... 
+[22:38:28] [TTS]	 [0] Say: 
+[22:38:28] [PLAYER]	 [0]speaking false
+[22:38:28] [TTS]	 End speaking
+[22:38:28] [ENGINE - KINECT_1]	 SpeechRecognized: 79,9864ms Text: SARAH Affiche moi la météo
+[22:38:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:38:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,5966898
+[22:38:38] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,1315943
+[22:38:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,2459674
+[22:38:38] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,3380972
+[22:38:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,2817346
+[22:38:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3336298
+[22:38:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux me => 0,06516999
+[22:38:43] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,07167735
+[22:39:36] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,8463169
+[22:39:36] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9614954
+[22:39:36] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,6868575
+[22:39:36] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,7372285
+[22:39:37] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,7769384
+[22:39:37] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,8200275
+[22:39:37] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,7938982
+[22:39:37] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,8095675
+[22:39:37] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,8533583
+[22:39:37] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8533583 (0,65) / 0,9345263 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:39:37] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,8533583 (0,65) / 0,9345263 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:39:37] [CONTEXT]	 Reset timeout
+[22:39:37] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8381298 (0,65) / 0,9505028 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:39:37] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,8381298 (0,65) / 0,9505028 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:39:37] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8533583&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:39:37] [CONTEXT]	 Reset timeout
+[22:39:37] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.8533583&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:39:37] [ENGINE - KINECT_0]	 SpeechRecognized: 29,9979ms Text: SARAH Affiche moi la météo
+[22:39:38] [TTS]	 Try speaking ... c'est fait
+[22:39:38] [TTS]	 [0] Say: c'est fait
+[22:39:38] [PLAYER]	 [0]Start Player
+[22:39:38] [HTTP]	 Request received: http://127.0.0.1:8888/?tts=c%27est%20fait
+[22:39:38] [TTS]	 Try speaking ... c'est fait
+[22:39:38] [TTS]	 Already speaking ... enqueue
+[22:39:39] [PLAYER]	 [0]End Player
+[22:39:39] [PLAYER]	 [0]speaking false
+[22:39:39] [TTS]	 End speaking
+[22:39:39] [TTS]	 Try speaking ... c'est fait
+[22:39:39] [ENGINE - KINECT_1]	 SpeechRecognized: 1651,5107ms Text: SARAH Affiche moi la météo
+[22:39:39] [TTS]	 [0] Say: c'est fait
+[22:39:39] [PLAYER]	 [0]Start Player
+[22:39:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:39:40] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,152611
+[22:39:40] [PLAYER]	 [0]End Player
+[22:39:40] [PLAYER]	 [0]speaking false
+[22:39:40] [TTS]	 End speaking
+[22:39:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel => 0,1556865
+[22:39:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,03838247
+[22:39:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,2565912
+[22:39:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,1760501
+[22:39:51] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:40:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,247969
+[22:40:08] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[22:40:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1514412
+[22:40:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,3246256
+[22:40:16] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:40:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,6681074
+[22:40:17] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH comment => 0,5860699
+[22:40:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche => 0,5694349
+[22:40:17] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche => 0,4671533
+[22:40:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi => 0,6970591
+[22:40:17] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,5784016
+[22:40:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la => 0,7186382
+[22:40:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,7295771
+[22:40:18] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH Affiche moi la météo => 0,6874551
+[22:40:18] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7878676 (0,65) / 0,8842605 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:40:18] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7878676 (0,65) / 0,8842605 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:40:18] [CONTEXT]	 Reset timeout
+[22:40:18] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,6926532 (0,65) / 0,8831054 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:40:18] [ENGINE - KINECT_1]	 RECOGNIZED Speech: 0,6926532 (0,65) / 0,8831054 (SARAH) Device:  Text: SARAH Affiche moi la météo
+[22:40:18] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7878676&client=SARAH1&profile=Unknow_2807&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:40:18] [CONTEXT]	 Reset timeout
+[22:40:18] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/dot_meteo?confidence=0.7878676&client=SARAH1&profile=Unknow_2807&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[22:40:18] [ENGINE - KINECT_1]	 SpeechRecognized: 29,9987ms Text: SARAH Affiche moi la météo
+[22:40:18] [HTTP]	 Request received: http://127.0.0.1:8888/?tts=c%27est%20fait
+[22:40:18] [TTS]	 Try speaking ... c'est fait
+[22:40:18] [TTS]	 [0] Say: c'est fait
+[22:40:18] [PLAYER]	 [0]Start Player
+[22:40:19] [PLAYER]	 [0]End Player
+[22:40:19] [PLAYER]	 [0]speaking false
+[22:40:19] [TTS]	 End speaking
+[22:40:31] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH tu => 0,2370106
+[22:41:58] [HTTP]	 System.Net.WebException: La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+   à System.Net.HttpWebRequest.GetResponse()
+   à net.encausse.sarah.WSRHttpManager.SendRequest(String url)
+[22:41:58] [HTTP]	 System.Net.WebException: La demande a été abandonnée : Le délai d'attente de l'opération a expiré..
+   à System.Net.HttpWebRequest.GetResponse()
+   à net.encausse.sarah.WSRHttpManager.SendRequest(String url)
+[22:41:58] [ENGINE - KINECT_0]	 SpeechRecognized: 100064,2003ms Text: SARAH Affiche moi la météo
+[22:41:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[22:41:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment je => 0,1613542
+[22:41:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment je dois => 0,15837
+[22:41:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,001
+[22:48:02] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:08:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:08:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[23:08:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,201041
+[23:08:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera => 0,001
+[23:09:37] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,3939986
+[23:09:39] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,2621362
+[23:09:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,6236892
+[23:09:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,5469121
+[23:09:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,572672
+[23:09:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4085585
+[23:09:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,4338315
+[23:09:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,5980286
+[23:09:44] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3660727
+[23:09:44] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3306942
+[23:09:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,3425441
+[23:09:47] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,5045997
+[23:09:47] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le => 0,5457019
+[23:09:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,6244032
+[23:09:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,407756
+[23:09:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:09:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,2301345
+[23:09:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,5633575
+[23:09:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,4067991
+[23:10:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3367833
+[23:10:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4636881
+[23:10:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,5285379
+[23:10:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,5883083
+[23:10:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,6160478
+[23:10:17] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:10:18] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il => 0,3670092
+[23:10:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,6871155
+[23:10:19] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:10:19] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:10:19] [ENGINE - KINECT_0]	 SpeechRecognized: 14,9926ms Text: SARAH quelle heure est il
+[23:10:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps => 0,4585536
+[23:10:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,5082224
+[23:10:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,1877534
+[23:10:58] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:11:05] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:11:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,3598878
+[23:11:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,4594915
+[23:11:22] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:11:31] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH peux => 0,2086143
+[23:11:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,3735538
+[23:11:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,4124599
+[23:11:34] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:11:35] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce => 0,1371129
+[23:11:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,2266202
+[23:11:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,2266702
+[23:11:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,2844292
+[23:11:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4005276
+[23:12:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:12:38] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est => 0,2365606
+[23:12:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,296233
+[23:12:38] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,249387
+[23:12:39] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,370684
+[23:12:39] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,4702956
+[23:12:39] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,4689381
+[23:12:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,1045093
+[23:12:42] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,06518981
+[23:12:42] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH je => 0,001
+[23:12:42] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il fait => 0,2429847
+[23:13:10] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il fait => 0,7387567
+[23:13:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,7636136
+[23:13:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera => 0,8797252
+[23:13:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,879024
+[23:13:28] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,2130592 Text: SARAH
+[23:13:28] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,2130592 Text: SARAH
+[23:13:28] [ENGINE - KINECT_0]	 SpeechRecognized: 10,0071ms Text: SARAH il fait quel temps
+[23:13:28] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:13:28] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:13:28] [ENGINE - KINECT_1]	 SpeechRecognized: 9,9981ms Text: SARAH il fait quel temps
+[23:14:28] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il fait => 0,5914553
+[23:14:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,797792
+[23:14:34] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,8050656
+[23:14:37] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH => 0,5115463
+[23:14:38] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il fait => 0,620331
+[23:14:39] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il fera => 0,6666572
+[23:14:39] [ENGINE - KINECT_1]	 recognizer_SpeechHypothesized SARAH il fait => 0,6850461
+[23:14:41] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:14:41] [ENGINE - KINECT_1]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:14:41] [ENGINE - KINECT_1]	 SpeechRecognized: 14,9991ms Text: SARAH est-ce qu'il fait beau
+[23:14:43] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:14:43] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:14:43] [ENGINE - KINECT_0]	 SpeechRecognized: 10,0025ms Text: SARAH il fait quel temps
+[23:16:02] [ENGINE]	 Restarting WSR: dispose
+[23:16:02] [RTPCLIENT]	 Stop RTPClient
+[23:16:02] [RTPCLIENT]	 Stop RTPClient
+[23:16:02] [RTPCLIENT]	 Stop RTPClient ... Done
+[23:16:02] [RTPCLIENT]	 Stop RTPClient ... Done
+[23:16:02] [ENGINE - File]	 Stop listening...done
+[23:16:09] [ENGINE - KINECT_0]	 Stop listening...done
+[23:16:11] [ENGINE - KINECT_1]	 Stop listening...done
+[23:16:11] [ENGINE - KINECT_1]	 RecognizeCompleted (16:11.2): SARAH est-ce qu'il fait beau
+[23:16:11] [ENGINE]	 Restarting WSR: initialize
+[23:16:11] [GRAMMAR]	 File: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 File: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[23:16:11] [GRAMMAR]	 File: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[23:16:11] [GRAMMAR]	 File: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[23:16:11] [GRAMMAR]	 File: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[23:16:11] [GRAMMAR]	 File: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[23:16:11] [GRAMMAR]	 File: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[23:16:11] [ENGINE - File]	 Init recognizer
+[23:16:11] [ENGINE - File]	 AudioLevel: 0
+[23:16:11] [ENGINE - File]	 MaxAlternates: 1
+[23:16:11] [ENGINE - File]	 BabbleTimeout: 00:00:00
+[23:16:11] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[23:16:11] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[23:16:11] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[23:16:11] [KINECT_0]	 AutomaticGainControlEnabled : False
+[23:16:11] [KINECT_0]	 BeamAngle : -19,9962270500657
+[23:16:11] [KINECT_0]	 EchoCancellationMode : CancellationAndSuppression
+[23:16:11] [KINECT_0]	 EchoCancellationSpeakerIndex : 2
+[23:16:11] [KINECT_0]	 NoiseSuppression : True
+[23:16:11] [KINECT_0]	 SoundSourceAngle : -14,13672209524
+[23:16:11] [KINECT_0]	 SoundSourceAngleConfidence : 0,11306667003631
+[23:16:11] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_0: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[23:16:11] [GRAMMAR]	 KINECT_0: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[23:16:11] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_0: Load: dot_meteo.xml Enabled: True
+[23:16:11] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_0: Load: time.xml Enabled: True
+[23:16:11] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_0: Load: meteo2.xml Enabled: True
+[23:16:11] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_0: Load: dictionary.xml Enabled: True
+[23:16:11] [ENGINE - KINECT_0]	 Init recognizer
+[23:16:11] [ENGINE - KINECT_0]	 AudioLevel: 0
+[23:16:11] [ENGINE - KINECT_0]	 MaxAlternates: 1
+[23:16:11] [ENGINE - KINECT_0]	 BabbleTimeout: 00:00:00
+[23:16:11] [ENGINE - KINECT_0]	 InitialSilenceTimeout: 00:00:00
+[23:16:11] [ENGINE - KINECT_0]	 EndSilenceTimeout: 00:00:00.1500000
+[23:16:11] [ENGINE - KINECT_0]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[23:16:11] [ENGINE - KINECT_0]	 Start listening
+[23:16:11] [KINECT_1]	 AutomaticGainControlEnabled : False
+[23:16:11] [KINECT_1]	 BeamAngle : 39,9924541001315
+[23:16:11] [KINECT_1]	 EchoCancellationMode : CancellationAndSuppression
+[23:16:11] [KINECT_1]	 EchoCancellationSpeakerIndex : 2
+[23:16:11] [KINECT_1]	 NoiseSuppression : True
+[23:16:11] [KINECT_1]	 SoundSourceAngle : 36,4213194666482
+[23:16:11] [KINECT_1]	 SoundSourceAngleConfidence : 0,11306667003631
+[23:16:11] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_1: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[23:16:11] [GRAMMAR]	 KINECT_1: Error file: dot_itineraire.xml: Élément 'rule' non valide. [Ligne=14, Position=4]
+[23:16:11] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_1: Load: dot_meteo.xml Enabled: True
+[23:16:11] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_1: Load: time.xml Enabled: True
+[23:16:11] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_1: Load: meteo2.xml Enabled: True
+[23:16:11] [GRAMMAR]	 KINECT_1: Load Grammar to Engine
+[23:16:11] [GRAMMAR]	 KINECT_1: Load: dictionary.xml Enabled: True
+[23:16:11] [ENGINE - KINECT_1]	 Init recognizer
+[23:16:11] [ENGINE - KINECT_1]	 AudioLevel: 0
+[23:16:11] [ENGINE - KINECT_1]	 MaxAlternates: 1
+[23:16:11] [ENGINE - KINECT_1]	 BabbleTimeout: 00:00:00
+[23:16:11] [ENGINE - KINECT_1]	 InitialSilenceTimeout: 00:00:00
+[23:16:11] [ENGINE - KINECT_1]	 EndSilenceTimeout: 00:00:00.1500000
+[23:16:11] [ENGINE - KINECT_1]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[23:16:11] [ENGINE - KINECT_1]	 Start listening
+[23:16:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,7465342
+[23:16:25] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:16:25] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[23:16:25] [ENGINE - KINECT_0]	 SpeechRecognized: 9,9993ms Text: SARAH il fait quel temps
+[23:16:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3119574
+[23:16:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,2539266
+[23:16:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,4569602
+[23:16:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,3373603
+[23:16:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps => 0,2182165
+[23:16:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le => 0,2352949
+[23:16:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,4421194
+[23:16:34] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la météo => 0,1897513
+[23:16:34] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux tu me donner l'heure => 0,3378416
+[23:16:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo dans la => 0,3282952
+[23:16:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo dans la nuit à => 0,3109947
+[23:16:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo dans la nuit à Rennes => 0,3575955
+[23:16:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo dans la nuit selon toi à => 0,3082078
+[23:16:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la météo dans la nuit selon toi à ... => 0,3082078
+[23:16:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,001
+[23:16:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,2462572
+[23:16:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va => 0,1786131
+[23:16:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va faire beau => 0,2261997
+[23:16:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va faire beau dans la => 0,2971798
+[23:16:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va faire beau dans la nuit => 0,2486825
+[23:16:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,2358481
+[23:16:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,3717108
+[23:16:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,2104298
+[23:16:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est => 0,2804403
+[23:16:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle est la => 0,3405227
+[23:16:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps => 0,293276
+[23:16:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,2240723
+[23:16:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,313713
+[23:16:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,2283136
+[23:16:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3178064
+[23:16:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,3908148
+[23:16:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,2676592
+[23:16:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps dans la => 0,368446
+[23:16:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps dans la nuit => 0,3376354
+[23:16:57] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps dans la nuit à Rennes => 0,3827782
+[23:16:57] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps dans la nuit à => 0,3198712
+[23:16:57] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps samedi dans la nuit => 0,3030107
+[23:16:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps samedi dans la nuit à => 0,315639
+[23:17:04] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,4257369
+[23:17:06] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,2620575
+[23:17:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4110956
+[23:17:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,5126958
+[23:17:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,5404702
+[23:17:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,4390457
+[23:17:11] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3765387
+[23:17:11] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,4602798
+[23:17:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:17:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,2921157
+[23:17:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,4977971
+[23:17:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,4267631
+[23:17:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,4594904
+[23:17:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,4593768
+[23:17:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,3829305
+[23:17:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,3966605
+[23:17:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,4310103
+[23:17:36] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,1898779
+[23:17:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[23:17:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,2786158
+[23:17:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,2059146
+[23:17:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,250215
+[23:17:54] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,1907567
+[23:17:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le => 0,2944981
+[23:17:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,2731243
+[23:17:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le => 0,2897606
+[23:17:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3254977
+[23:17:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3065957
+[23:17:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,4847601
+[23:17:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,2978159
+[23:17:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel temps => 0,3056139
+[23:17:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,23719
+[23:17:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va faire beau => 0,260261
+[23:18:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,2419605
+[23:18:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel temps à Rennes => 0,2900054
+[23:18:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va faire beau dans la nuit à => 0,2358329
+[23:18:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va faire beau lundi dans la => 0,3103939
+[23:18:56] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment => 0,2499033
+[23:20:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,3047906
+[23:35:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4763833
+[23:35:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,3179222
+[23:35:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,3112991
+[23:35:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:35:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,3957352
+[23:35:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[23:35:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,001
+[23:35:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,182284
+[23:35:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,3755126
+[23:35:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,1402016
+[23:35:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps mercredi dans la nuit => 0,1979144
+[23:35:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps mercredi dans la nuit selon => 0,2705252
+[23:35:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps mercredi dans la nuit à Rennes => 0,2672595
+[23:36:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:36:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:36:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,2362218
+[23:45:05] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,7938365
+[23:46:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,5804704
+[23:48:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,6842629
+[23:49:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,1520752
+[23:50:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:50:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,3479857
+[23:51:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,6259016
+[23:51:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,5400302
+[23:51:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,637184
+[23:53:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,5079746
+[23:54:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,1961752
+[23:55:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,5651494
+[23:56:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,1812804
+[23:57:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,6338763
+[23:57:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,3458438
+[23:58:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,3123491
+[23:58:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,4076785
+[23:58:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,603272
+[23:58:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,5907869
+[23:58:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera => 0,6548313
+[23:58:36] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,2183424
+[23:58:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[23:59:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,5321602

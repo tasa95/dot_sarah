@@ -1,0 +1,357 @@
+<grammar version="1.0" xml:lang="fr-FR" mode="voice" root="ruleMeteo2" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleMeteo2" scope="public">
+    <example>Sarah quelle est la météo pour demain ?</example>
+    <tag>out.action=new Object(); </tag>
+    <tag>out._attributes.dictation="false";</tag>
+    <item>Sarah</item>
+    
+    <one-of>
+      <item>il fait quel temps</item>
+      <item>il fera quel temps</item>
+      <item>quelle est la météo</item>
+      <item>quel est le temps</item>
+      <item>est-ce qu'il pleut</item>
+      <item>est-ce qu'il va pleuvoir</item>
+      <item>est-ce qu'il fait beau</item>
+      <item>est-ce qu'il va faire beau</item>
+      <item>comment je dois m'habiller</item>
+      <item>quelles sont les températures</item>
+    </one-of>
+
+    <item repeat="0-1">
+      <one-of>
+        <item>aujourd'hui<tag>out.action.day="0";</tag></item>
+        <item>demain<tag>out.action.day="1";</tag></item>
+        <item>après demain<tag>out.action.day="2";</tag></item>
+        <item>lundi<tag>out.action.day="lundi";</tag></item>
+        <item>mardi<tag>out.action.day="mardi";</tag></item>
+        <item>mercredi<tag>out.action.day="mercredi";</tag></item>
+        <item>jeudi<tag>out.action.day="jeudi";</tag></item>
+        <item>vendredi<tag>out.action.day="vendredi";</tag></item>
+        <item>samedi<tag>out.action.day="samedi";</tag></item>
+        <item>dimanche<tag>out.action.day="dimanche";</tag></item>
+      </one-of>
+    </item>
+
+    <item repeat="0-1">
+      <one-of>
+        <item>ce matin<tag>out.action.period="morn";</tag></item>
+        <item>matin<tag>out.action.period="morn";</tag></item>
+        <item>en ce moment<tag>out.action.period="day";</tag></item>
+        <item>dans la journée<tag>out.action.period="day";</tag></item>
+        <item>après-midi<tag>out.action.period="day";</tag></item>
+        <item>ce soir<tag>out.action.period="eve";</tag></item>
+        <item>soir<tag>out.action.period="eve";</tag></item>
+        <item>cette nuit<tag>out.action.period="night";</tag></item>
+        <item>dans la nuit<tag>out.action.period="night";</tag></item>
+      </one-of>
+    </item>
+
+    <!-- Villes favorites -->
+    <item repeat="0-1">
+      <one-of>
+        <item>à Rennes<tag> out.action.id="2983990"; </tag></item>
+        <item>à Barcelone<tag> out.action.id="6544100"; </tag></item>
+        <item><ruleref uri="#ruleMeteo_city"/><tag>out.action = rules.ruleMeteo_city;</tag></item>
+      </one-of>
+    </item>
+    
+    <tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/meteo2";</tag>
+  </rule>
+
+  <!-- Villes qui ne sont pas dans les favoris -->
+  <rule id="ruleMeteo_city" scope="public">
+    <example>d'après toi à San Francisco</example>
+    <example>d'après toi à Montréal</example>
+    <example>selon toi à Nouméa</example>
+    <example>selon toi à Saint-Denis</example>
+    <example>selon toi à Rome aux Etats-Unis</example>
+    <example>selon toi à Rome en Italie</example>
+    <example>d'après toi à Toledo en Espagne</example>
+    <example>d'après toi à Toledo aux Etats-Unis</example>
+    <tag>out.action=new Object();</tag>
+    <one-of>
+      <item>d'après toi à</item>
+      <item>selon toi à</item>
+    </one-of>
+    <ruleref special="GARBAGE" />
+    <tag>out._attributes.dictation="true";</tag>
+
+    <!-- Pays
+    <item repeat="0-1">
+      <one-of>
+        <item>à</item>
+        <item>en</item>
+        <item>au</item>
+        <item>aux</item>
+      </one-of>
+      <item><ruleref uri="#ruleMeteo_country"/><tag>out.action = rules.ruleMeteo_country;</tag></item>
+    </item> -->
+  </rule>
+
+  <!-- Pays : permet de préciser le pays pour les villes qui ont le même nom -->
+  <!--
+  <rule id="ruleMeteo_country" scope="public">
+    <example>France</example>
+    <example>Nouvelle-Calédonie</example>
+    <one-of>
+      <item>Île de l’Ascension<tag>out.action.countryCode="ac"</tag></item>
+      <item>Andorre<tag>out.action.countryCode="ad"</tag></item>
+      <item>Émirats arabes unis<tag>out.action.countryCode="ae"</tag></item>
+      <item>Afghanistan<tag>out.action.countryCode="af"</tag></item>
+      <item>Antigua-et-Barbuda<tag>out.action.countryCode="ag"</tag></item>
+      <item>Anguilla<tag>out.action.countryCode="ai"</tag></item>
+      <item>Albanie<tag>out.action.countryCode="al"</tag></item>
+      <item>Algérie<tag>out.action.countryCode="dz"</tag></item>
+      <item>Arménie<tag>out.action.countryCode="am"</tag></item>
+      <item>Antilles néerlandaises<tag>out.action.countryCode="an"</tag></item>
+      <item>Angola<tag>out.action.countryCode="ao"</tag></item>
+      <item>Antarctique<tag>out.action.countryCode="aq"</tag></item>
+      <item>Argentine<tag>out.action.countryCode="ar"</tag></item>
+      <item>Samoa américaines<tag>out.action.countryCode="as"</tag></item>
+      <item>Autriche<tag>out.action.countryCode="at"</tag></item>
+      <item>Australie<tag>out.action.countryCode="au"</tag></item>
+      <item>Aruba<tag>out.action.countryCode="aw"</tag></item>
+      <item>Åland<tag>out.action.countryCode="ax"</tag></item>
+      <item>Azerbaïdjan<tag>out.action.countryCode="az"</tag></item>
+      <item>Bosnie-Herzégovine<tag>out.action.countryCode="ba"</tag></item>
+      <item>Barbade<tag>out.action.countryCode="bb"</tag></item>
+      <item>Bangladesh<tag>out.action.countryCode="bd"</tag></item>
+      <item>Belgique<tag>out.action.countryCode="be"</tag></item>
+      <item>Burkina Faso<tag>out.action.countryCode="bf"</tag></item>
+      <item>Bulgarie<tag>out.action.countryCode="bg"</tag></item>
+      <item>Bahreïn<tag>out.action.countryCode="bh"</tag></item>
+      <item>Burundi<tag>out.action.countryCode="bi"</tag></item>
+      <item>Bénin<tag>out.action.countryCode="bj"</tag></item>
+      <item>Bermudes<tag>out.action.countryCode="bm"</tag></item>
+      <item>Brunei<tag>out.action.countryCode="bn"</tag></item>
+      <item>Bolivie<tag>out.action.countryCode="bo"</tag></item>
+      <item>Brésil<tag>out.action.countryCode="br"</tag></item>
+      <item>Bahamas<tag>out.action.countryCode="bs"</tag></item>
+      <item>Bhoutan<tag>out.action.countryCode="bt"</tag></item>
+      <item>Birmanie<tag>out.action.countryCode="bu"</tag></item>
+      <item>Île Bouvet<tag>out.action.countryCode="bv"</tag></item>
+      <item>Botswana<tag>out.action.countryCode="bw"</tag></item>
+      <item>Biélorussie<tag>out.action.countryCode="by"</tag></item>
+      <item>Belize<tag>out.action.countryCode="bz"</tag></item>
+      <item>Canada<tag>out.action.countryCode="ca"</tag></item>
+      <item>Îles Cocos<tag>out.action.countryCode="cc"</tag></item>
+      <item>République démocratique du Congo<tag>out.action.countryCode="cd"</tag></item>
+      <item>République centrafricaine<tag>out.action.countryCode="cf"</tag></item>
+      <item>Congo<tag>out.action.countryCode="cg"</tag></item>
+      <item>Suisse<tag>out.action.countryCode="ch"</tag></item>
+      <item>Côte d'Ivoire<tag>out.action.countryCode="ci"</tag></item>
+      <item>Îles Cook<tag>out.action.countryCode="ck"</tag></item>
+      <item>Chili<tag>out.action.countryCode="cl"</tag></item>
+      <item>Cameroun<tag>out.action.countryCode="cm"</tag></item>
+      <item>Chine<tag>out.action.countryCode="cn"</tag></item>
+      <item>Colombie<tag>out.action.countryCode="co"</tag></item>
+      <item>Costa Rica<tag>out.action.countryCode="cr"</tag></item>
+      <item>Serbie-et-Monténégro<tag>out.action.countryCode="cs"</tag></item>
+      <item>Cuba<tag>out.action.countryCode="cu"</tag></item>
+      <item>Cap-Vert<tag>out.action.countryCode="cv"</tag></item>
+      <item>Île Christmas<tag>out.action.countryCode="cx"</tag></item>
+      <item>Chypre<tag>out.action.countryCode="cy"</tag></item>
+      <item>République tchèque<tag>out.action.countryCode="cz"</tag></item>
+      <item>ex-RDA<tag>out.action.countryCode="dd"</tag></item>
+      <item>Allemagne<tag>out.action.countryCode="de"</tag></item>
+      <item>Djibouti<tag>out.action.countryCode="dj"</tag></item>
+      <item>Danemark<tag>out.action.countryCode="dk"</tag></item>
+      <item>Dominique<tag>out.action.countryCode="dm"</tag></item>
+      <item>République dominicaine<tag>out.action.countryCode="do"</tag></item>
+      <item>Algérie<tag>out.action.countryCode="dz"</tag></item>
+      <item>Équateur<tag>out.action.countryCode="ec"</tag></item>
+      <item>Estonie<tag>out.action.countryCode="ee"</tag></item>
+      <item>Égypte<tag>out.action.countryCode="eg"</tag></item>
+      <item>Sahara occidental<tag>out.action.countryCode="eh"</tag></item>
+      <item>Érythrée<tag>out.action.countryCode="er"</tag></item>
+      <item>Espagne<tag>out.action.countryCode="es"</tag></item>
+      <item>Éthiopie<tag>out.action.countryCode="et"</tag></item>
+      <item>Union européenne<tag>out.action.countryCode="eu"</tag></item>
+      <item>Finlande<tag>out.action.countryCode="fi"</tag></item>
+      <item>Fidji<tag>out.action.countryCode="fj"</tag></item>
+      <item>Îles Malouines<tag>out.action.countryCode="fk"</tag></item>
+      <item>Micronésie<tag>out.action.countryCode="fm"</tag></item>
+      <item>Îles Féroé<tag>out.action.countryCode="fo"</tag></item>
+      <item>France<tag>out.action.countryCode="fr"</tag></item>
+      <item>Gabon<tag>out.action.countryCode="ga"</tag></item>
+      <item>Grande-Bretagne<tag>out.action.countryCode="gb"</tag></item>
+      <item>Grenade<tag>out.action.countryCode="gd"</tag></item>
+      <item>Géorgie<tag>out.action.countryCode="ge"</tag></item>
+      <item>Guyane française<tag>out.action.countryCode="gf"</tag></item>
+      <item>Guernesey<tag>out.action.countryCode="gg"</tag></item>
+      <item>Ghana<tag>out.action.countryCode="gh"</tag></item>
+      <item>Gibraltar<tag>out.action.countryCode="gi"</tag></item>
+      <item>Groenland<tag>out.action.countryCode="gl"</tag></item>
+      <item>Gambie<tag>out.action.countryCode="gm"</tag></item>
+      <item>Guinée<tag>out.action.countryCode="gn"</tag></item>
+      <item>Guadeloupe<tag>out.action.countryCode="gp"</tag></item>
+      <item>Guinée équatoriale<tag>out.action.countryCode="gq"</tag></item>
+      <item>Grèce<tag>out.action.countryCode="gr"</tag></item>
+      <item>Géorgie du Sud-et-les Îles Sandwich du Sud<tag>out.action.countryCode="gs"</tag></item>
+      <item>Guatemala<tag>out.action.countryCode="gt"</tag></item>
+      <item>Guam<tag>out.action.countryCode="gu"</tag></item>
+      <item>Guinée-Bissau<tag>out.action.countryCode="gw"</tag></item>
+      <item>Guyana<tag>out.action.countryCode="gy"</tag></item>
+      <item>Hong Kong<tag>out.action.countryCode="hk"</tag></item>
+      <item>Îles Heard-et-MacDonald<tag>out.action.countryCode="hm"</tag></item>
+      <item>Honduras<tag>out.action.countryCode="hn"</tag></item>
+      <item>Croatie<tag>out.action.countryCode="hr"</tag></item>
+      <item>Haïti<tag>out.action.countryCode="ht"</tag></item>
+      <item>Hongrie<tag>out.action.countryCode="hu"</tag></item>
+      <item>Indonésie<tag>out.action.countryCode="id"</tag></item>
+      <item>Irlande<tag>out.action.countryCode="ie"</tag></item>
+      <item>Israël<tag>out.action.countryCode="il"</tag></item>
+      <item>Île de Man<tag>out.action.countryCode="im"</tag></item>
+      <item>Inde<tag>out.action.countryCode="in"</tag></item>
+      <item>Territoire britannique de l'océan Indien<tag>out.action.countryCode="io"</tag></item>
+      <item>Irak<tag>out.action.countryCode="iq"</tag></item>
+      <item>Iran<tag>out.action.countryCode="ir"</tag></item>
+      <item>Islande<tag>out.action.countryCode="is"</tag></item>
+      <item>Italie<tag>out.action.countryCode="it"</tag></item>
+      <item>Jersey<tag>out.action.countryCode="je"</tag></item>
+      <item>Jamaïque<tag>out.action.countryCode="jm"</tag></item>
+      <item>Jordanie<tag>out.action.countryCode="jo"</tag></item>
+      <item>Japon<tag>out.action.countryCode="jp"</tag></item>
+      <item>Kenya<tag>out.action.countryCode="ke"</tag></item>
+      <item>Kirghizstan<tag>out.action.countryCode="kg"</tag></item>
+      <item>Cambodge<tag>out.action.countryCode="kh"</tag></item>
+      <item>Kiribati<tag>out.action.countryCode="ki"</tag></item>
+      <item>Comores<tag>out.action.countryCode="km"</tag></item>
+      <item>Saint-Christophe-et-Niévès<tag>out.action.countryCode="kn"</tag></item>
+      <item>Corée du Nord<tag>out.action.countryCode="kp"</tag></item>
+      <item>Corée du Sud<tag>out.action.countryCode="kr"</tag></item>
+      <item>Koweït<tag>out.action.countryCode="kw"</tag></item>
+      <item>Îles Caïmans<tag>out.action.countryCode="ky"</tag></item>
+      <item>Kazakhstan<tag>out.action.countryCode="kz"</tag></item>
+      <item>Laos<tag>out.action.countryCode="la"</tag></item>
+      <item>Liban<tag>out.action.countryCode="lb"</tag></item>
+      <item>Sainte-Lucie<tag>out.action.countryCode="lc"</tag></item>
+      <item>Liechtenstein<tag>out.action.countryCode="li"</tag></item>
+      <item>Sri Lanka<tag>out.action.countryCode="lk"</tag></item>
+      <item>Libéria<tag>out.action.countryCode="lr"</tag></item>
+      <item>Lesotho<tag>out.action.countryCode="ls"</tag></item>
+      <item>Lituanie<tag>out.action.countryCode="lt"</tag></item>
+      <item>Luxembourg<tag>out.action.countryCode="lu"</tag></item>
+      <item>Lettonie<tag>out.action.countryCode="lv"</tag></item>
+      <item>Libye<tag>out.action.countryCode="ly"</tag></item>
+      <item>Maroc<tag>out.action.countryCode="ma"</tag></item>
+      <item>Monaco<tag>out.action.countryCode="mc"</tag></item>
+      <item>Moldavie<tag>out.action.countryCode="md"</tag></item>
+      <item>Monténégro<tag>out.action.countryCode="me"</tag></item>
+      <item>Madagascar<tag>out.action.countryCode="mg"</tag></item>
+      <item>Îles Marshall<tag>out.action.countryCode="mh"</tag></item>
+      <item>Macédoine<tag>out.action.countryCode="mk"</tag></item>
+      <item>Mali<tag>out.action.countryCode="ml"</tag></item>
+      <item>Birmanie<tag>out.action.countryCode="mm"</tag></item>
+      <item>Mongolie<tag>out.action.countryCode="mn"</tag></item>
+      <item>Macao<tag>out.action.countryCode="mo"</tag></item>
+      <item>Îles Mariannes du Nord<tag>out.action.countryCode="mp"</tag></item>
+      <item>Martinique<tag>out.action.countryCode="mq"</tag></item>
+      <item>Mauritanie<tag>out.action.countryCode="mr"</tag></item>
+      <item>Montserrat<tag>out.action.countryCode="ms"</tag></item>
+      <item>Malte<tag>out.action.countryCode="mt"</tag></item>
+      <item>Maurice<tag>out.action.countryCode="mu"</tag></item>
+      <item>Maldives<tag>out.action.countryCode="mv"</tag></item>
+      <item>Malawi<tag>out.action.countryCode="mw"</tag></item>
+      <item>Mexique<tag>out.action.countryCode="mx"</tag></item>
+      <item>Malaisie<tag>out.action.countryCode="my"</tag></item>
+      <item>Mozambique<tag>out.action.countryCode="mz"</tag></item>
+      <item>Namibie<tag>out.action.countryCode="na"</tag></item>
+      <item>Nouvelle-Calédonie<tag>out.action.countryCode="nc"</tag></item>
+      <item>Niger<tag>out.action.countryCode="ne"</tag></item>
+      <item>Île Norfolk<tag>out.action.countryCode="nf"</tag></item>
+      <item>Nigeria<tag>out.action.countryCode="ng"</tag></item>
+      <item>Nicaragua<tag>out.action.countryCode="ni"</tag></item>
+      <item>Pays-Bas<tag>out.action.countryCode="nl"</tag></item>
+      <item>Norvège<tag>out.action.countryCode="no"</tag></item>
+      <item>Népal<tag>out.action.countryCode="np"</tag></item>
+      <item>Nauru<tag>out.action.countryCode="nr"</tag></item>
+      <item>Niue<tag>out.action.countryCode="nu"</tag></item>
+      <item>Nouvelle-Zélande<tag>out.action.countryCode="nz"</tag></item>
+      <item>Oman<tag>out.action.countryCode="om"</tag></item>
+      <item>Panama<tag>out.action.countryCode="pa"</tag></item>
+      <item>Pérou<tag>out.action.countryCode="pe"</tag></item>
+      <item>Polynésie française<tag>out.action.countryCode="pf"</tag></item>
+      <item>Papouasie-Nouvelle-Guinée<tag>out.action.countryCode="pg"</tag></item>
+      <item>Philippines<tag>out.action.countryCode="ph"</tag></item>
+      <item>Pakistan<tag>out.action.countryCode="pk"</tag></item>
+      <item>Pologne<tag>out.action.countryCode="pl"</tag></item>
+      <item>Saint-Pierre-et-Miquelon<tag>out.action.countryCode="pm"</tag></item>
+      <item>Pitcairn<tag>out.action.countryCode="pn"</tag></item>
+      <item>Porto Rico<tag>out.action.countryCode="pr"</tag></item>
+      <item>Autorité palestinienne<tag>out.action.countryCode="ps"</tag></item>
+      <item>Portugal<tag>out.action.countryCode="pt"</tag></item>
+      <item>Palaos<tag>out.action.countryCode="pw"</tag></item>
+      <item>Paraguay<tag>out.action.countryCode="py"</tag></item>
+      <item>Qatar<tag>out.action.countryCode="qa"</tag></item>
+      <item>La Réunion<tag>out.action.countryCode="re"</tag></item>
+      <item>Roumanie<tag>out.action.countryCode="ro"</tag></item>
+      <item>Serbie<tag>out.action.countryCode="rs"</tag></item>
+      <item>Russie<tag>out.action.countryCode="ru"</tag></item>
+      <item>Rwanda<tag>out.action.countryCode="rw"</tag></item>
+      <item>Arabie saoudite<tag>out.action.countryCode="sa"</tag></item>
+      <item>Salomon<tag>out.action.countryCode="sb"</tag></item>
+      <item>Seychelles<tag>out.action.countryCode="sc"</tag></item>
+      <item>Soudan<tag>out.action.countryCode="sd"</tag></item>
+      <item>Suède<tag>out.action.countryCode="se"</tag></item>
+      <item>Singapour<tag>out.action.countryCode="sg"</tag></item>
+      <item>Sainte-Hélène<tag>out.action.countryCode="sh"</tag></item>
+      <item>Slovénie<tag>out.action.countryCode="si"</tag></item>
+      <item>Svalbard et Jan Mayen<tag>out.action.countryCode="sj"</tag></item>
+      <item>Slovaquie<tag>out.action.countryCode="sk"</tag></item>
+      <item>Sierra Leone<tag>out.action.countryCode="sl"</tag></item>
+      <item>Saint-Marin<tag>out.action.countryCode="sm"</tag></item>
+      <item>Sénégal<tag>out.action.countryCode="sn"</tag></item>
+      <item>Somalie<tag>out.action.countryCode="so"</tag></item>
+      <item>Suriname<tag>out.action.countryCode="sr"</tag></item>
+      <item>Soudan du Sud<tag>out.action.countryCode="ss"</tag></item>
+      <item>Sao Tomé-et-Principe<tag>out.action.countryCode="st"</tag></item>
+      <item>Union soviétique<tag>out.action.countryCode="su"</tag></item>
+      <item>Salvador<tag>out.action.countryCode="sv"</tag></item>
+      <item>Saint-Martin<tag>out.action.countryCode="sx"</tag></item>
+      <item>Syrie<tag>out.action.countryCode="sy"</tag></item>
+      <item>Swaziland<tag>out.action.countryCode="sz"</tag></item>
+      <item>Îles Turques et Caïques<tag>out.action.countryCode="tc"</tag></item>
+      <item>Tchad<tag>out.action.countryCode="td"</tag></item>
+      <item>Terres australes et antarctiques françaises<tag>out.action.countryCode="tf"</tag></item>
+      <item>Togo<tag>out.action.countryCode="tg"</tag></item>
+      <item>Thaïlande<tag>out.action.countryCode="th"</tag></item>
+      <item>Tadjikistan<tag>out.action.countryCode="tj"</tag></item>
+      <item>Tokelau<tag>out.action.countryCode="tk"</tag></item>
+      <item>Timor oriental<tag>out.action.countryCode="tl"</tag></item>
+      <item>Turkménistan<tag>out.action.countryCode="tm"</tag></item>
+      <item>Tunisie<tag>out.action.countryCode="tn"</tag></item>
+      <item>Tonga<tag>out.action.countryCode="to"</tag></item>
+      <item>Timor oriental<tag>out.action.countryCode="tp"</tag></item>
+      <item>Turquie<tag>out.action.countryCode="tr"</tag></item>
+      <item>Trinité-et-Tobago<tag>out.action.countryCode="tt"</tag></item>
+      <item>Tuvalu<tag>out.action.countryCode="tv"</tag></item>
+      <item>Taïwan<tag>out.action.countryCode="tw"</tag></item>
+      <item>Tanzanie<tag>out.action.countryCode="tz"</tag></item>
+      <item>Ukraine<tag>out.action.countryCode="ua"</tag></item>
+      <item>Ouganda<tag>out.action.countryCode="ug"</tag></item>
+      <item>Royaume-Uni<tag>out.action.countryCode="uk"</tag></item>
+      <item>Îles mineures éloignées des États-Unis<tag>out.action.countryCode="um"</tag></item>
+      <item>États-Unis<tag>out.action.countryCode="us"</tag></item>
+      <item>Uruguay<tag>out.action.countryCode="uy"</tag></item>
+      <item>Ouzbékistan<tag>out.action.countryCode="uz"</tag></item>
+      <item>Vatican<tag>out.action.countryCode="va"</tag></item>
+      <item>Saint-Vincent-et-les Grenadines<tag>out.action.countryCode="vc"</tag></item>
+      <item>Venezuela<tag>out.action.countryCode="ve"</tag></item>
+      <item>Îles Vierges britanniques<tag>out.action.countryCode="vg"</tag></item>
+      <item>Îles Vierges américaines<tag>out.action.countryCode="vi"</tag></item>
+      <item>Viêt Nam<tag>out.action.countryCode="vn"</tag></item>
+      <item>Vanuatu<tag>out.action.countryCode="vu"</tag></item>
+      <item>Wallis-et-Futuna<tag>out.action.countryCode="wf"</tag></item>
+      <item>Samoa<tag>out.action.countryCode="ws"</tag></item>
+      <item>Yémen<tag>out.action.countryCode="ye"</tag></item>
+      <item>Mayotte<tag>out.action.countryCode="yt"</tag></item>
+      <item>Yougoslavie<tag>out.action.countryCode="yu"</tag></item>
+      <item>Afrique du Sud<tag>out.action.countryCode="za"</tag></item>
+      <item>Zambie<tag>out.action.countryCode="zm"</tag></item>
+      <item>Zimbabwe<tag>out.action.countryCode="zw"</tag></item>
+      <item>Zaïre<tag>out.action.countryCode="zr"</tag></item>
+    </one-of>
+  </rule> -->
+</grammar>

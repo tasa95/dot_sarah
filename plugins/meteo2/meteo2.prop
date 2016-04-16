@@ -1,0 +1,10 @@
+{
+  "modules" : { 
+    "meteo2"  : {
+      "description": "Station météorologique",
+      "version": "3.0",
+      "id": "2983990",
+      "day": "0"
+    }
+  }
+}

@@ -1,0 +1,12 @@
+<match="0,7164302" text"non">
+<trigger="0,7164302" text"non">
+<SML text="non" utteranceConfidence="0.716" confidence="0.716">
+  <action confidence="0.002" uri="http://127.0.0.1:8080/askme">
+    <tag confidence="0.002">non</tag>
+  </action>
+  <alternate Rank="1" text="non" utteranceConfidence="0.716" confidence="0.716">
+    <action confidence="0.002" uri="http://127.0.0.1:8080/askme">
+      <tag confidence="0.002">non</tag>
+    </action>
+  </alternate>
+</SML>

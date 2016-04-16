@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "dictionary"  : {
+      "description": "Recherche d'une définition sur Wikipedia",
+      "version"    : "3.0"
+    }
+  }
+}

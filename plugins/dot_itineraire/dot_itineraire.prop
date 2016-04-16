@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "dot_itineraire"  : {
+      "description": "Calcul d'itineraire",
+      "version": "0.1"
+    }
+  }
+}
