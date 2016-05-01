@@ -1,3 +1,48 @@
+var conf=require("../dot_configuration/conf.js");
+var request = require('request');
+var query = function(callback,SARAH,fromCity,toCity){
+	var data = {to : toCity, from : fromCity};
+  //var url = conf.url+"/post";
+  var url = conf.urlEnvironnementTest + conf.path.url;
+  url = url.replace(":from", encodeURIComponent(fromCity));
+  url = url.replace(":to", encodeURIComponent(toCity));
+  
+
+  
+  /*
+  request({ 'uri' : url, method: 'POST',json:{fromCity : fromCity, toCity: toCity} }, function (err, response, body){
+	  console.log(body);
+    if (err || response.statusCode != 200) {
+		//SARAH.speak("l'action a échoué");
+      callback({'tts': "L'action a échoué"});
+    }
+	else
+	{
+		//SARAH.speak("c'est fait");
+	
+		callback({'tts': "c'est fait"});
+	}
+  });
+  */
+ 
+  console.log(url);
+  request({ 'uri' : url, method: 'GET' }, function (err, response, body){
+	  data=JSON.parse(body);
+    if (err || response.statusCode != 200) {
+		//SARAH.speak("l'action a échoué");
+      callback({'tts': "L'action a échoué : "+ data.message});
+    }
+	else
+	{
+		//SARAH.speak("c'est fait");
+	
+		callback({'tts': "c'est fait"});
+	}
+  })
+  
+  
+}
+
 
 exports.action = function(data, callback, config, SARAH){
   
@@ -26,17 +71,21 @@ exports.action = function(data, callback, config, SARAH){
 	var Ville2 = m[2];
 
 	SARAH.speak("J'ai compris:" +m[0],function() {
-		SARAH.speak("Calcul d'itineraire en cours !");	
+		SARAH.speak("Calcul d'itineraire en cours !", function(){
+		query(callback,SARAH,Ville1,Ville2);
+		});
 	});;
 					
 	}
   }
   else
   {
-	SARAH.speak("je n'ai pas compris");	
+	//SARAH.speak("je n'ai pas compris");	
+	callback({'tts': "je n'ai pas compris"});
+	
   }
 
-	callback();
+	
 }
 
 // ------------------------------------------

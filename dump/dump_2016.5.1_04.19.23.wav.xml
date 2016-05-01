@@ -1,0 +1,12 @@
+<match="0,4004858" text"SARAH quel est le temps demain">
+<trigger="0,7595685" text"SARAH">
+<SML text="SARAH quel est le temps demain" utteranceConfidence="0.400" confidence="0.400" dictation="false">
+  <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/meteo2">
+    <day confidence="0.998">1</day>
+  </action>
+  <alternate Rank="1" text="SARAH quel est le temps demain" utteranceConfidence="0.400" confidence="0.400" dictation="false">
+    <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/meteo2">
+      <day confidence="0.998">1</day>
+    </action>
+  </alternate>
+</SML>

@@ -1,0 +1,8 @@
+<match="0,9531064" text"SARAH Affiche moi la météo">
+<trigger="0,9606524" text"SARAH">
+<SML text="SARAH Affiche moi la météo" utteranceConfidence="0.953" confidence="0.953">
+  <action confidence="0.964" uri="http://127.0.0.1:8080/sarah/dot_meteo" />
+  <alternate Rank="1" text="SARAH Affiche moi la météo" utteranceConfidence="0.953" confidence="0.953">
+    <action confidence="0.964" uri="http://127.0.0.1:8080/sarah/dot_meteo" />
+  </alternate>
+</SML>

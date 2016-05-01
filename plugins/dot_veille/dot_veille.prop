@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "dot_veille"  : {
+      "description": "Mise en veille de SARAH dans le cadre du projet dot",
+      "version": "0.1"
+    }
+  }
+}

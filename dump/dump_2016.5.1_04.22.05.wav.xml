@@ -1,0 +1,8 @@
+<match="0,6192157" text"SARAH est-ce qu'il fait beau">
+<trigger="0,745689" text"SARAH">
+<SML text="SARAH est-ce qu'il fait beau" utteranceConfidence="0.619" confidence="0.619" dictation="false">
+  <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/meteo2" />
+  <alternate Rank="1" text="SARAH est-ce qu'il fait beau" utteranceConfidence="0.619" confidence="0.619" dictation="false">
+    <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/meteo2" />
+  </alternate>
+</SML>

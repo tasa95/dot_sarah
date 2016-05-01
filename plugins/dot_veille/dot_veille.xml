@@ -1,0 +1,17 @@
+﻿<grammar version="1.0" xml:lang="fr-FR" mode="voice"  root="ruleDot_veille" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleDot_veille" scope="public">
+    <tag>out.action=new Object(); </tag>
+    <item>Sarah</item> 
+    <one-of>
+      <item>Réveille toi
+			<tag>out.action._attributes.listen="True"</tag>
+			<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/dot_veille;</tag>
+			<tag>out.action._attributes.tts = "oui, je t'écoute"</tag>
+	  </item>
+      <item>mets toi en veille
+			<tag>out.action._attributes.tts = "Je me met en veille"</tag>
+			<tag>out.action._attributes.listen = "False"</tag>
+			</item>
+    </one-of>
+  </rule>
+</grammar>

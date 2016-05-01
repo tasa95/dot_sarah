@@ -1,0 +1,8 @@
+<match="0,8912725" text"SARAH quelle heure est il">
+<trigger="0,9922941" text"SARAH">
+<SML text="SARAH quelle heure est il" utteranceConfidence="0.891" confidence="0.891">
+  <action confidence="0.844" uri="http://127.0.0.1:8080/sarah/time" />
+  <alternate Rank="1" text="SARAH quelle heure est il" utteranceConfidence="0.891" confidence="0.891">
+    <action confidence="0.844" uri="http://127.0.0.1:8080/sarah/time" />
+  </alternate>
+</SML>

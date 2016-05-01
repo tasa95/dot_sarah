@@ -1,0 +1,8 @@
+<match="0,7384219" text"SARAH mets toi en veille">
+<trigger="0,8975168" text"SARAH">
+<SML text="SARAH mets toi en veille" utteranceConfidence="0.738" confidence="0.738">
+  <action confidence="0.998" context="lazyVeille.xml" tts="Mode en veille activé." threashold="0.40" />
+  <alternate Rank="1" text="SARAH mets toi en veille" utteranceConfidence="0.738" confidence="0.738">
+    <action confidence="0.998" context="lazyVeille.xml" tts="Mode en veille activé." threashold="0.40" />
+  </alternate>
+</SML>

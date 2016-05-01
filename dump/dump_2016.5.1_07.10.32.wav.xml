@@ -1,0 +1,8 @@
+<match="0,6311138" text"SARAH mets toi en veille">
+<trigger="0,8262748" text"SARAH">
+<SML text="SARAH mets toi en veille" utteranceConfidence="0.631" confidence="0.631">
+  <action confidence="0.002" tts="Je me met en veille" listen="False" />
+  <alternate Rank="1" text="SARAH mets toi en veille" utteranceConfidence="0.631" confidence="0.631">
+    <action confidence="0.002" tts="Je me met en veille" listen="False" />
+  </alternate>
+</SML>

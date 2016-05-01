@@ -1,0 +1,8 @@
+<match="0,7635967" text"SARAH Raconte moi une histoire">
+<trigger="0,761582" text"SARAH">
+<SML text="SARAH Raconte moi une histoire" utteranceConfidence="0.764" confidence="0.764">
+  <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/dot_histoire" />
+  <alternate Rank="1" text="SARAH Raconte moi une histoire" utteranceConfidence="0.764" confidence="0.764">
+    <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/dot_histoire" />
+  </alternate>
+</SML>

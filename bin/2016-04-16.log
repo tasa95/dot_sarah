@@ -9227,3 +9227,59 @@ Nom de l'objet : 'SpeechRecognitionEngine'.
 [19:30:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Donne moi un => 0,06400084
 [19:30:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel temps après => 0,2080234
 [19:30:01] [ENGINE - KINECT_0]	 AudioStateChanged (30:01.9):Silence
+[19:34:22] [ENGINE - KINECT_0]	 AudioStateChanged (34:22.7):Speech
+[19:34:22] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[19:34:22] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[19:34:22] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1246366
+[19:34:23] [ENGINE - KINECT_0]	 AudioStateChanged (34:23.4):Silence
+[19:34:25] [ENGINE]	 Restarting WSR: dispose
+[19:34:25] [RTPCLIENT]	 Stop RTPClient
+[19:34:25] [RTPCLIENT]	 Stop RTPClient
+[19:34:25] [RTPCLIENT]	 Stop RTPClient ... Done
+[19:34:25] [RTPCLIENT]	 Stop RTPClient ... Done
+[19:34:25] [ENGINE - File]	 Stop listening...done
+[19:35:15] [ENGINE - KINECT_0]	 Stop listening...done
+[19:35:15] [ENGINE]	 Restarting WSR: initialize
+[19:35:15] [GRAMMAR]	 File: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[19:35:15] [GRAMMAR]	 File: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[19:35:15] [GRAMMAR]	 File: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[19:35:15] [GRAMMAR]	 File: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[19:35:15] [GRAMMAR]	 File: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[19:35:15] [ENGINE - File]	 Init recognizer
+[19:35:15] [ENGINE - File]	 AudioLevel: 0
+[19:35:15] [ENGINE - File]	 MaxAlternates: 1
+[19:35:15] [ENGINE - File]	 BabbleTimeout: 00:00:00
+[19:35:15] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[19:35:15] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[19:35:15] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[19:35:15] [KINECT_0]	 AutomaticGainControlEnabled : False
+[19:35:15] [KINECT_0]	 BeamAngle : 10,0267614147894
+[19:35:15] [KINECT_0]	 EchoCancellationMode : CancellationAndSuppression
+[19:35:15] [KINECT_0]	 EchoCancellationSpeakerIndex : 1
+[19:35:15] [KINECT_0]	 NoiseSuppression : True
+[19:35:15] [KINECT_0]	 SoundSourceAngle : 0
+[19:35:15] [KINECT_0]	 SoundSourceAngleConfidence : 0
+[19:35:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 KINECT_0: Load: time.xml Enabled: True
+[19:35:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 KINECT_0: Load: dictionary.xml Enabled: True
+[19:35:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 KINECT_0: Load: dot_itineraire.xml Enabled: True
+[19:35:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 KINECT_0: Load: dot_meteo.xml Enabled: True
+[19:35:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[19:35:15] [GRAMMAR]	 KINECT_0: Load: meteo2.xml Enabled: True
+[19:35:15] [ENGINE - KINECT_0]	 Init recognizer
+[19:35:15] [ENGINE - KINECT_0]	 AudioLevel: 0
+[19:35:15] [ENGINE - KINECT_0]	 MaxAlternates: 1
+[19:35:15] [ENGINE - KINECT_0]	 BabbleTimeout: 00:00:00
+[19:35:15] [ENGINE - KINECT_0]	 InitialSilenceTimeout: 00:00:00
+[19:35:15] [ENGINE - KINECT_0]	 EndSilenceTimeout: 00:00:00.1500000
+[19:35:15] [ENGINE - KINECT_0]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[19:35:15] [ENGINE - KINECT_0]	 Start listening
+[19:35:15] [ENGINE - KINECT_0]	 AudioStateChanged (35:15.9):Silence

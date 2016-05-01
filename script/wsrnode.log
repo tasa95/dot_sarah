@@ -1084,3 +1084,1435 @@
 {"level":"info","message":"Run dot_itineraire: 47ms","timestamp":"2016-04-16T15:55:45.189Z"}
 {"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-16T15:55:45.292Z"}
 {"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-16T15:55:45.292Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T15:10:09.853Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T15:10:09.853Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T15:10:09.853Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T15:10:15.041Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T15:10:15.041Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T15:10:15.041Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T15:10:15.041Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T15:10:15.057Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T15:10:15.057Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T15:10:15.057Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T15:10:15.072Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T15:10:15.072Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T15:10:15.088Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T15:10:15.088Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T15:10:15.088Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:22:08.730Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T16:22:08.730Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:22:08.730Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T16:22:09.266Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T16:22:09.269Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T16:22:09.271Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T16:22:09.272Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T16:22:09.274Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T16:22:09.275Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T16:22:09.275Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T16:22:09.281Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T16:22:09.281Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T16:22:09.281Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T16:22:09.281Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T16:22:09.297Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T16:22:23.891Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-23T16:22:23.891Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:24:10.814Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T16:24:10.814Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:24:10.814Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T16:24:11.328Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T16:24:11.328Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T16:24:11.328Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T16:24:11.328Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T16:24:11.328Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T16:24:11.328Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T16:24:11.328Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T16:24:11.344Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T16:24:11.344Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T16:24:11.344Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T16:24:11.344Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T16:24:11.359Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T16:24:18.229Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-04-23T16:24:18.229Z"}
+{"level":"info","message":"Speak remote: c'est fait no callback","timestamp":"2016-04-23T16:24:35.206Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=c'est%20fait","timestamp":"2016-04-23T16:24:35.222Z"}
+{"level":"info","message":"Run dot_itineraire: 0ms","timestamp":"2016-04-23T16:26:17.545Z"}
+{"level":"info","message":"Run dot_itineraire: 16ms","timestamp":"2016-04-23T16:26:33.865Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:29:13.832Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T16:29:13.832Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:29:13.832Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T16:29:14.327Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T16:29:14.327Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T16:29:14.327Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T16:29:14.327Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T16:29:14.327Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T16:29:14.327Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T16:29:14.327Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T16:29:14.349Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T16:29:14.350Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T16:29:14.357Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T16:29:14.359Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T16:29:14.363Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T16:29:30.050Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-23T16:29:30.050Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:30:46.906Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T16:30:46.906Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:30:46.906Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T16:30:47.437Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T16:30:47.437Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T16:30:47.437Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T16:30:47.437Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T16:30:47.437Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T16:30:47.437Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T16:30:47.437Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T16:30:47.453Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T16:30:47.453Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T16:30:47.453Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T16:30:47.453Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T16:30:47.468Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T16:30:58.244Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-23T16:30:58.244Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:32:03.000Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T16:32:03.000Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:32:03.016Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T16:32:03.469Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T16:32:03.485Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T16:32:03.485Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T16:32:03.485Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T16:32:03.485Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T16:32:03.485Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T16:32:03.485Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T16:32:03.502Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T16:32:03.503Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T16:32:03.509Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T16:32:03.511Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T16:32:03.515Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T16:32:19.476Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-04-23T16:32:19.476Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-23T16:33:03.443Z"}
+{"level":"info","message":"Run dot_itineraire: 2ms","timestamp":"2016-04-23T16:33:39.635Z"}
+{"level":"info","message":"Run dot_itineraire: 5ms","timestamp":"2016-04-23T16:35:20.111Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:36:26.998Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T16:36:26.998Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:36:26.998Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T16:36:27.484Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T16:36:27.499Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T16:36:27.499Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T16:36:27.499Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T16:36:27.499Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T16:36:27.499Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T16:36:27.499Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T16:36:27.515Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T16:36:27.515Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T16:36:27.515Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T16:36:27.515Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T16:36:27.530Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T16:36:38.008Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-23T16:36:38.008Z"}
+{"level":"info","message":"Run dot_itineraire: 0ms","timestamp":"2016-04-23T16:37:19.441Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:42:01.634Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T16:42:01.634Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:42:01.634Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T16:42:02.219Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T16:42:02.219Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T16:42:02.219Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T16:42:02.219Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T16:42:02.219Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T16:42:02.219Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T16:42:02.234Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T16:42:02.234Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T16:42:02.234Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T16:42:02.250Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T16:42:02.250Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T16:42:02.266Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T16:42:13.813Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-23T16:42:13.813Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-23T16:43:35.017Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-23T16:44:28.003Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:45:42.819Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T16:45:42.819Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:45:42.819Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T16:45:43.319Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T16:45:43.319Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T16:45:43.334Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T16:45:43.334Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T16:45:43.334Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T16:45:43.334Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T16:45:43.334Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T16:45:43.334Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T16:45:43.350Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T16:45:43.350Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T16:45:43.350Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T16:45:43.350Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T16:45:49.486Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-23T16:45:49.501Z"}
+{"level":"info","message":"Run dot_itineraire: 16ms","timestamp":"2016-04-23T16:46:21.825Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:47:41.039Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T16:47:41.039Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T16:47:41.039Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T16:47:41.609Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T16:47:41.609Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T16:47:41.609Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T16:47:41.609Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T16:47:41.609Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T16:47:41.609Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T16:47:41.609Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T16:47:41.625Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T16:47:41.625Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T16:47:41.640Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T16:47:41.640Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T16:47:41.640Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T16:47:51.928Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-23T16:47:51.928Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T17:00:28.042Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-23T17:00:28.042Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-23T17:00:28.042Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-23T17:00:28.589Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-23T17:00:28.589Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-23T17:00:28.589Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-23T17:00:28.589Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-23T17:00:28.589Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-23T17:00:28.589Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-23T17:00:28.589Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-23T17:00:28.605Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-23T17:00:28.605Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-23T17:00:28.605Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-23T17:00:28.621Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-23T17:00:28.621Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-23T17:00:33.084Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-23T17:00:33.084Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-04-23T17:00:43.918Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-04-23T17:00:43.918Z"}
+{"level":"info","message":"Run dot_itineraire: 31ms","timestamp":"2016-04-23T17:00:43.918Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-23T17:00:47.699Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-23T17:00:47.699Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-23T17:01:14.561Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-04-23T17:01:23.524Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-04-23T17:01:23.524Z"}
+{"level":"info","message":"Run dot_itineraire: 31ms","timestamp":"2016-04-23T17:01:23.524Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-23T17:01:23.618Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-23T17:01:23.618Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Saint Gratien à Paris with callback","timestamp":"2016-04-23T17:01:58.078Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Saint%20Gratien%20%C3%A0%20Paris&sync=true","timestamp":"2016-04-23T17:01:58.078Z"}
+{"level":"info","message":"Run dot_itineraire: 31ms","timestamp":"2016-04-23T17:01:58.078Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-23T17:01:58.156Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-23T17:01:58.156Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-23T17:09:30.340Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-04-23T17:15:41.109Z"}
+{"level":"info","message":"Run dot_itineraire: 15ms","timestamp":"2016-04-23T17:16:09.818Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-04-23T17:16:41.426Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-04-23T17:16:41.426Z"}
+{"level":"info","message":"Run dot_itineraire: 31ms","timestamp":"2016-04-23T17:16:41.426Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-23T17:16:41.520Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-23T17:16:41.520Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Saint Gratien à Paris with callback","timestamp":"2016-04-23T17:17:06.495Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Saint%20Gratien%20%C3%A0%20Paris&sync=true","timestamp":"2016-04-23T17:17:06.497Z"}
+{"level":"info","message":"Run dot_itineraire: 30ms","timestamp":"2016-04-23T17:17:06.498Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-23T17:17:06.577Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-23T17:17:06.579Z"}
+{"level":"info","message":"Run time: 12ms","timestamp":"2016-04-23T17:22:27.939Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-04-23T17:23:01.620Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-04-23T17:23:01.622Z"}
+{"level":"info","message":"Run dot_itineraire: 44ms","timestamp":"2016-04-23T17:23:01.624Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-23T17:23:01.718Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-23T17:23:01.720Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T15:59:43.222Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T15:59:43.238Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T15:59:43.238Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T15:59:43.750Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T15:59:43.765Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T15:59:43.765Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T15:59:43.765Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T15:59:43.765Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T15:59:43.765Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T15:59:43.765Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T15:59:43.781Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T15:59:43.781Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T15:59:43.781Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T15:59:43.797Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T15:59:43.797Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T16:00:11.083Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-04-24T16:00:11.083Z"}
+{"level":"info","message":"Speak remote: c'est fait no callback","timestamp":"2016-04-24T16:00:17.987Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=c'est%20fait","timestamp":"2016-04-24T16:00:17.987Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:03:28.296Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T16:03:28.296Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:03:28.296Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T16:03:28.859Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T16:03:28.859Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T16:03:28.859Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T16:03:28.859Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T16:03:28.875Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T16:03:28.875Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T16:03:28.875Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T16:03:28.875Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T16:03:28.890Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T16:03:28.890Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T16:03:28.890Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T16:03:28.906Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T16:03:38.897Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T16:03:38.897Z"}
+{"level":"info","message":"Speak remote: c'est fait no callback","timestamp":"2016-04-24T16:03:46.226Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=c'est%20fait","timestamp":"2016-04-24T16:03:46.226Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:07:25.522Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T16:07:25.522Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:07:25.522Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T16:07:26.083Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T16:07:26.083Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T16:07:26.083Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T16:07:26.083Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T16:07:26.083Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T16:07:26.083Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T16:07:26.083Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T16:07:26.099Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T16:07:26.099Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T16:07:26.115Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T16:07:26.115Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T16:07:26.115Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T16:07:31.702Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-04-24T16:07:31.702Z"}
+{"level":"info","message":"Speak remote: c'est fait no callback","timestamp":"2016-04-24T16:07:42.136Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=c'est%20fait","timestamp":"2016-04-24T16:07:42.136Z"}
+{"level":"info","message":"Run dot_meteo: 235ms","timestamp":"2016-04-24T16:07:42.136Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-24T16:09:36.195Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:12:28.587Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T16:12:28.587Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:12:28.587Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T16:12:29.066Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T16:12:29.066Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T16:12:29.066Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T16:12:29.066Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T16:12:29.066Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T16:12:29.066Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T16:12:29.066Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T16:12:29.082Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T16:12:29.082Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T16:12:29.098Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T16:12:29.100Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T16:12:29.104Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T16:12:45.571Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-24T16:12:45.571Z"}
+{"level":"info","message":"Speak remote: c'est fait no callback","timestamp":"2016-04-24T16:12:56.862Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=c'est%20fait","timestamp":"2016-04-24T16:12:56.862Z"}
+{"level":"info","message":"Run dot_meteo: 251ms","timestamp":"2016-04-24T16:12:56.862Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-04-24T16:13:06.551Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-04-24T16:13:06.551Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-24T16:13:09.845Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-24T16:13:09.845Z"}
+{"level":"error","message":"Caught exception: ReferenceError: fromCity is not defined\n    at C:\\Users\\Tasa_PC\\Documents\\Projet\\plugins\\dot_itineraire\\dot_itineraire.js:50:24\n    at Request.callback [as _callback] (C:\\Users\\Tasa_PC\\Documents\\Projet\\script\\manager\\sarah.js:161:69)\n    at Request.self.callback (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:148:22)\n    at Request.EventEmitter.emit (events.js:98:17)\n    at Request.<anonymous> (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:876:14)\n    at Request.EventEmitter.emit (events.js:117:20)\n    at IncomingMessage.<anonymous> (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:827:12)\n    at IncomingMessage.EventEmitter.emit (events.js:117:20)\n    at _stream_readable.js:910:16\n    at process._tickCallback (node.js:415:13)","timestamp":"2016-04-24T16:13:09.892Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:14:36.413Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T16:14:36.413Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:14:36.413Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T16:14:36.969Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T16:14:36.969Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T16:14:36.985Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T16:14:36.985Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T16:14:36.985Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T16:14:36.985Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T16:14:36.985Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T16:14:36.985Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T16:14:37.000Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T16:14:37.000Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T16:14:37.000Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T16:14:37.016Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T16:14:53.117Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-04-24T16:14:53.132Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-04-24T16:15:01.967Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-04-24T16:15:01.967Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-24T16:15:05.155Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-24T16:15:05.155Z"}
+{"level":"error","message":"Caught exception: ReferenceError: conf is not defined\n    at query (C:\\Users\\Tasa_PC\\Documents\\Projet\\plugins\\dot_itineraire\\dot_itineraire.js:5:13)\n    at C:\\Users\\Tasa_PC\\Documents\\Projet\\plugins\\dot_itineraire\\dot_itineraire.js:50:3\n    at Request.callback [as _callback] (C:\\Users\\Tasa_PC\\Documents\\Projet\\script\\manager\\sarah.js:161:69)\n    at Request.self.callback (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:148:22)\n    at Request.EventEmitter.emit (events.js:98:17)\n    at Request.<anonymous> (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:876:14)\n    at Request.EventEmitter.emit (events.js:117:20)\n    at IncomingMessage.<anonymous> (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:827:12)\n    at IncomingMessage.EventEmitter.emit (events.js:117:20)\n    at _stream_readable.js:910:16","timestamp":"2016-04-24T16:15:05.155Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:16:21.440Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T16:16:21.440Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:16:21.440Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T16:16:21.983Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T16:16:21.983Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T16:16:21.983Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T16:16:21.983Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T16:16:21.983Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T16:16:21.983Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T16:16:21.983Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T16:16:21.998Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T16:16:21.998Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T16:16:22.014Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T16:16:22.014Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T16:16:22.014Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T16:16:34.786Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T16:16:34.786Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-04-24T16:17:02.702Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-04-24T16:17:02.702Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-24T16:17:05.864Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-24T16:17:05.880Z"}
+{"level":"error","message":"Caught exception: Error: Argument error, options.body.\n    at Request.init (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:347:13)\n    at new Request (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:124:8)\n    at request (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:1230:11)\n    at query (C:\\Users\\Tasa_PC\\Documents\\Projet\\plugins\\dot_itineraire\\dot_itineraire.js:6:3)\n    at C:\\Users\\Tasa_PC\\Documents\\Projet\\plugins\\dot_itineraire\\dot_itineraire.js:50:3\n    at Request.callback [as _callback] (C:\\Users\\Tasa_PC\\Documents\\Projet\\script\\manager\\sarah.js:161:69)\n    at Request.self.callback (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:148:22)\n    at Request.EventEmitter.emit (events.js:98:17)\n    at Request.<anonymous> (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:876:14)\n    at Request.EventEmitter.emit (events.js:117:20)","timestamp":"2016-04-24T16:17:05.880Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:32:12.457Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T16:32:12.457Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T16:32:12.457Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T16:32:13.016Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T16:32:13.016Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T16:32:13.032Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T16:32:13.032Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T16:32:13.032Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T16:32:13.032Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T16:32:13.032Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T16:32:13.047Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T16:32:13.047Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T16:32:13.047Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T16:32:13.063Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T16:32:13.063Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T16:32:16.418Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-04-24T16:32:16.418Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Saint Gratien à Paris with callback","timestamp":"2016-04-24T16:32:24.813Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Saint%20Gratien%20%C3%A0%20Paris&sync=true","timestamp":"2016-04-24T16:32:24.813Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-24T16:32:28.193Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-24T16:32:28.209Z"}
+{"level":"info","message":"Run dot_itineraire: 3656ms","timestamp":"2016-04-24T16:32:28.439Z"}
+{"level":"info","message":"Run time: 10ms","timestamp":"2016-04-24T16:57:45.200Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T17:39:30.865Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T17:39:30.865Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T17:39:30.865Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T17:39:31.466Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T17:39:31.466Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T17:39:31.466Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T17:39:31.466Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T17:39:31.466Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T17:39:31.466Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T17:39:31.466Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T17:39:31.481Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T17:39:31.497Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T17:39:31.512Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T17:39:31.512Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T17:39:31.512Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T17:40:25.214Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T17:40:25.214Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T17:41:21.727Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Saint-Gratien with callback","timestamp":"2016-04-24T17:41:48.932Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Saint-Gratien&sync=true","timestamp":"2016-04-24T17:41:48.932Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-04-24T17:41:52.372Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-04-24T17:41:52.372Z"}
+{"level":"info","message":"Run dot_itineraire: 3695ms","timestamp":"2016-04-24T17:41:52.591Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T17:43:48.725Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T17:43:48.725Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T17:43:48.725Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T17:43:49.314Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T17:43:49.316Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T17:43:49.317Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T17:43:49.317Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T17:43:49.317Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T17:43:49.317Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T17:43:49.317Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T17:43:49.332Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T17:43:49.332Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T17:43:49.332Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T17:43:49.332Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T17:43:49.348Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T17:43:56.683Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T17:43:56.683Z"}
+{"level":"info","message":"[Plugin] Download plugin:  werewolf http://goo.gl/47mv3","timestamp":"2016-04-24T17:48:49.521Z"}
+{"level":"info","message":"[Plugin] Clean tmp:  werewolf","timestamp":"2016-04-24T17:48:58.287Z"}
+{"level":"info","message":"[Plugin] Unzip plugin:  werewolf","timestamp":"2016-04-24T17:48:58.288Z"}
+{"level":"info","message":"[Plugin] Check content:  werewolf","timestamp":"2016-04-24T17:48:59.158Z"}
+{"level":"info","message":"[Plugin] Is a folder, copy files werewolf","timestamp":"2016-04-24T17:48:59.159Z"}
+{"level":"info","message":"[Plugin] Download plugin:  werewolf http://goo.gl/47mv3","timestamp":"2016-04-24T17:48:59.212Z"}
+{"level":"error","message":"[Plugin] Can't download plugin","timestamp":"2016-04-24T17:49:00.293Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:01:40.333Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:01:40.335Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:01:40.335Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:01:40.875Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:01:40.890Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:01:40.890Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:01:40.890Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:01:40.890Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:01:40.890Z"}
+{"level":"info","message":"Loading plugin properties plugins/werewolf/werewolf.prop ...","timestamp":"2016-04-24T18:01:40.890Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:01:40.890Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:01:40.890Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:01:40.906Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:01:40.906Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:01:40.922Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:01:40.922Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:01:40.922Z"}
+{"level":"info","message":"initModule:  werewolf","timestamp":"2016-04-24T18:01:40.922Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:01:40.937Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:03:10.437Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:03:10.439Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:03:10.439Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:03:11.001Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:03:11.001Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:03:11.001Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:03:11.001Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:03:11.001Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:03:11.001Z"}
+{"level":"info","message":"Loading plugin properties plugins/werewolf/werewolf.prop ...","timestamp":"2016-04-24T18:03:11.001Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:03:11.016Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:03:11.016Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:03:11.016Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:03:11.016Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:03:11.032Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:03:11.032Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:03:11.032Z"}
+{"level":"info","message":"initModule:  werewolf","timestamp":"2016-04-24T18:03:11.048Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:03:11.048Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:11:06.906Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:11:06.923Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:11:06.923Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:11:07.432Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:11:07.448Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:11:07.448Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:11:07.448Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:11:07.448Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:11:07.448Z"}
+{"level":"info","message":"Loading plugin properties plugins/werewolf/werewolf.prop ...","timestamp":"2016-04-24T18:11:07.448Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:11:07.448Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:11:07.448Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:11:07.467Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:11:07.469Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:11:07.476Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:11:07.483Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:11:07.483Z"}
+{"level":"info","message":"initModule:  werewolf","timestamp":"2016-04-24T18:11:07.483Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:11:07.483Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:11:27.144Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:11:27.144Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:11:27.144Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:11:27.686Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:11:27.686Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:11:27.686Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:11:27.686Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:11:27.686Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:11:27.686Z"}
+{"level":"info","message":"Loading plugin properties plugins/werewolf/werewolf.prop ...","timestamp":"2016-04-24T18:11:27.686Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:11:27.686Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:11:27.686Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:11:27.702Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:11:27.702Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:11:27.718Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:11:27.718Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:11:27.718Z"}
+{"level":"info","message":"initModule:  werewolf","timestamp":"2016-04-24T18:11:27.718Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:11:27.733Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:13:25.484Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:13:25.484Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:13:25.484Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:13:26.028Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:13:26.028Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:13:26.028Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:13:26.028Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:13:26.028Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:13:26.028Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:13:26.028Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:13:26.028Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:13:26.044Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:13:26.044Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:13:26.060Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:13:26.060Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:13:26.060Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:13:26.075Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:17:59.187Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:17:59.190Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:17:59.190Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:17:59.782Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:17:59.782Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:17:59.782Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:17:59.782Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:17:59.782Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:17:59.782Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:17:59.782Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:17:59.797Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:17:59.797Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:17:59.797Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:17:59.813Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:17:59.813Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:17:59.813Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:17:59.829Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T18:19:22.291Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-24T18:19:22.291Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:21:18.702Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:21:18.702Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:21:18.702Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:21:19.246Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:21:19.246Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:21:19.246Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:21:19.246Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:21:19.246Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:21:19.262Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:21:19.262Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:21:19.262Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:21:19.262Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:21:19.262Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:21:19.277Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:21:19.277Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:21:19.277Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:21:19.293Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T18:22:15.538Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T18:22:15.538Z"}
+{"level":"info","message":"Speak remote: c'est fait no callback","timestamp":"2016-04-24T18:25:01.178Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=c'est%20fait","timestamp":"2016-04-24T18:25:01.194Z"}
+{"level":"info","message":"Run dot_meteo: 250ms","timestamp":"2016-04-24T18:25:01.194Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-24T18:25:18.757Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:26:22.811Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:26:22.811Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:32:27.926Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:32:27.943Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:32:27.944Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:32:28.617Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:32:28.617Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:32:28.617Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:32:28.617Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:32:28.617Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:32:28.632Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:32:28.632Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:32:28.632Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:32:28.632Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:32:28.648Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:32:28.648Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:32:28.648Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:32:28.664Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:32:28.664Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:33:22.220Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:33:22.237Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:33:22.238Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:33:22.830Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:33:22.845Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:33:22.845Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:33:22.845Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:33:22.845Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:33:22.845Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:33:22.845Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:33:22.845Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:33:22.863Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:33:22.866Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:33:22.866Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:33:22.881Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:33:22.881Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:33:22.881Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T18:35:12.391Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T18:35:12.391Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:36:06.241Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:36:06.257Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T18:36:08.833Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T18:36:08.833Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T18:36:14.124Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T18:36:14.124Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T18:36:18.361Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T18:36:18.361Z"}
+{"level":"info","message":"Speak remote: Florent a très très mal au derrière no callback","timestamp":"2016-04-24T18:36:22.911Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mal%20au%20derri%C3%A8re","timestamp":"2016-04-24T18:36:22.911Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:41:34.266Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:41:34.266Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:41:34.266Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:41:34.802Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:41:34.817Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:41:34.817Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:41:34.817Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:41:34.817Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:41:34.817Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:41:34.817Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:41:34.817Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:41:34.833Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:41:34.833Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:41:34.833Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:41:34.849Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:41:34.849Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:41:34.849Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T18:42:19.660Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T18:42:19.660Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-24T18:43:38.749Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:44:21.062Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:44:21.064Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T18:44:23.597Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T18:44:23.597Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T18:44:28.548Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T18:44:28.548Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T18:44:32.715Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T18:44:32.715Z"}
+{"level":"info","message":"Speak remote: Florent a très très mal au derrière no callback","timestamp":"2016-04-24T18:44:37.116Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mal%20au%20derri%C3%A8re","timestamp":"2016-04-24T18:44:37.116Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-24T18:46:01.247Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T18:46:03.917Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:47:24.078Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:47:24.078Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:47:24.078Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:47:24.594Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:47:24.594Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:47:24.610Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:47:24.610Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:47:24.610Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:47:24.610Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:47:24.610Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:47:24.610Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:47:24.610Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:47:24.626Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:47:24.626Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:47:24.626Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:47:24.641Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:47:24.641Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T18:49:32.664Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-04-24T18:49:32.664Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:49:40.866Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:49:40.866Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T18:49:43.423Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T18:49:43.423Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T18:49:48.370Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T18:49:48.370Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T18:49:52.490Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T18:49:52.490Z"}
+{"level":"info","message":"Speak remote: Florent a très très mal au derrière no callback","timestamp":"2016-04-24T18:49:56.945Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mal%20au%20derri%C3%A8re","timestamp":"2016-04-24T18:49:56.945Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-04-24T18:53:42.911Z"}
+{"level":"info","message":"Reloading dot_histoire","timestamp":"2016-04-24T18:53:42.927Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:53:42.927Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:53:53.901Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:53:53.904Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T18:53:56.474Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T18:53:56.474Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T18:54:01.343Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T18:54:01.343Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T18:54:05.543Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T18:54:05.543Z"}
+{"level":"info","message":"Speak remote: Florent a très très mal au derrière no callback","timestamp":"2016-04-24T18:54:10.047Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mal%20au%20derri%C3%A8re","timestamp":"2016-04-24T18:54:10.047Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:55:17.093Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T18:55:17.093Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T18:55:17.093Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T18:55:17.624Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T18:55:17.624Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T18:55:17.640Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T18:55:17.640Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T18:55:17.640Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T18:55:17.640Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T18:55:17.640Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T18:55:17.640Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T18:55:17.640Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:55:17.655Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T18:55:17.655Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T18:55:17.671Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T18:55:17.671Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T18:55:17.671Z"}
+{"level":"info","message":"Run meteo2: 110ms","timestamp":"2016-04-24T18:56:17.492Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T18:56:33.367Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-04-24T18:56:33.367Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:56:40.418Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:56:40.418Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T18:56:42.951Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T18:56:42.951Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T18:56:47.928Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T18:56:47.928Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T18:56:52.097Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T18:56:52.097Z"}
+{"level":"info","message":"Speak remote: Florent a très très mais alors très mal au derrière no callback","timestamp":"2016-04-24T18:56:56.581Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mais%20alors%20tr%C3%A8s%20mal%20au%20derri%C3%A8re","timestamp":"2016-04-24T18:56:56.581Z"}
+{"level":"info","message":"Reloading dot_histoire","timestamp":"2016-04-24T18:58:20.667Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T18:58:20.667Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:58:20.667Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T18:58:20.667Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T18:58:48.698Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T18:58:48.698Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T18:58:53.578Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T18:58:53.578Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T18:58:57.766Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T18:58:57.766Z"}
+{"level":"info","message":"Speak remote: Florent a très très mais alors très mal au derrière no callback","timestamp":"2016-04-24T18:59:02.171Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mais%20alors%20tr%C3%A8s%20mal%20au%20derri%C3%A8re","timestamp":"2016-04-24T18:59:02.173Z"}
+{"level":"info","message":"Reloading dot_histoire","timestamp":"2016-04-24T19:00:00.773Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T19:00:00.789Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:00:00.789Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:00:00.789Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T19:00:28.816Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T19:00:28.816Z"}
+{"level":"info","message":"Reloading dot_histoire","timestamp":"2016-04-24T19:00:31.661Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T19:00:31.661Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T19:00:33.691Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T19:00:33.691Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T19:00:37.884Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T19:00:37.884Z"}
+{"level":"info","message":"Speak remote: Florent a très très mais alors très mal au derrière no callback","timestamp":"2016-04-24T19:00:42.370Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mais%20alors%20tr%C3%A8s%20mal%20au%20derri%C3%A8re","timestamp":"2016-04-24T19:00:42.370Z"}
+{"level":"info","message":"Run dot_histoire: 41597ms","timestamp":"2016-04-24T19:00:42.370Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T19:03:17.939Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T19:03:17.939Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T19:03:17.939Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T19:03:18.464Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T19:03:18.464Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T19:03:18.464Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T19:03:18.464Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T19:03:18.464Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T19:03:18.464Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T19:03:18.464Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T19:03:18.464Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T19:03:18.480Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T19:03:18.480Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T19:03:18.480Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T19:03:18.496Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T19:03:18.496Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T19:03:18.496Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:03:50.153Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:03:50.154Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T19:04:18.178Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T19:04:18.178Z"}
+{"level":"info","message":"Run dot_histoire: 28031ms","timestamp":"2016-04-24T19:04:18.178Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T19:04:20.351Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T19:04:20.351Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T19:04:22.429Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T19:04:22.429Z"}
+{"level":"info","message":"Speak remote: Florent a très très mais alors très mal au derrière with callback","timestamp":"2016-04-24T19:04:24.490Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mais%20alors%20tr%C3%A8s%20mal%20au%20derri%C3%A8re&sync=true","timestamp":"2016-04-24T19:04:24.490Z"}
+{"level":"info","message":"Speak remote: ce fut une bonne histoire no callback","timestamp":"2016-04-24T19:04:26.542Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=ce%20fut%20une%20bonne%20histoire","timestamp":"2016-04-24T19:04:26.542Z"}
+{"level":"error","message":"Caught exception: ReferenceError: c is not defined\n    at C:\\Users\\Tasa_PC\\Documents\\Projet\\plugins\\dot_histoire\\dot_histoire.js:29:5\n    at Request.callback [as _callback] (C:\\Users\\Tasa_PC\\Documents\\Projet\\script\\manager\\sarah.js:161:69)\n    at Request.self.callback (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:148:22)\n    at Request.EventEmitter.emit (events.js:98:17)\n    at Request.<anonymous> (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:876:14)\n    at Request.EventEmitter.emit (events.js:117:20)\n    at IncomingMessage.<anonymous> (C:\\Users\\Tasa_PC\\Documents\\Projet\\NodeJS\\node_modules\\npm\\node_modules\\request\\index.js:827:12)\n    at IncomingMessage.EventEmitter.emit (events.js:117:20)\n    at _stream_readable.js:910:16\n    at process._tickCallback (node.js:415:13)","timestamp":"2016-04-24T19:04:26.542Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T19:06:23.174Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T19:06:23.174Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T19:06:23.174Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T19:06:23.694Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T19:06:23.709Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T19:06:23.709Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T19:06:23.709Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T19:06:23.709Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T19:06:23.709Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T19:06:23.709Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T19:06:23.709Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T19:06:23.725Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T19:06:23.725Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T19:06:23.740Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T19:06:23.740Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T19:06:23.740Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T19:06:23.756Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:06:55.277Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:06:55.277Z"}
+{"level":"info","message":"Speak remote: Il était une fois.. with callback","timestamp":"2016-04-24T19:06:55.300Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Il%20%C3%A9tait%20une%20fois..&sync=true","timestamp":"2016-04-24T19:06:55.300Z"}
+{"level":"info","message":"Run dot_histoire: 23ms","timestamp":"2016-04-24T19:06:55.300Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T19:07:23.576Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T19:07:23.576Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T19:07:28.513Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T19:07:28.513Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T19:07:32.666Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T19:07:32.667Z"}
+{"level":"info","message":"Speak remote: Florent a très très mais alors très mal au derrière with callback","timestamp":"2016-04-24T19:07:37.120Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mais%20alors%20tr%C3%A8s%20mal%20au%20derri%C3%A8re&sync=true","timestamp":"2016-04-24T19:07:37.120Z"}
+{"level":"info","message":"Speak remote: ce fut une bonne histoire no callback","timestamp":"2016-04-24T19:07:43.059Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=ce%20fut%20une%20bonne%20histoire","timestamp":"2016-04-24T19:07:43.059Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T19:08:41.601Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-04-24T19:08:41.601Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-04-24T19:08:41.601Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-04-24T19:08:42.154Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-04-24T19:08:42.154Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-04-24T19:08:42.154Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-04-24T19:08:42.154Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-04-24T19:08:42.154Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-04-24T19:08:42.154Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-04-24T19:08:42.154Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-04-24T19:08:42.154Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-04-24T19:08:42.170Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-04-24T19:08:42.170Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-04-24T19:08:42.170Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-04-24T19:08:42.185Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-04-24T19:08:42.185Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-04-24T19:08:42.185Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-04-24T19:09:25.596Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-04-24T19:09:25.596Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:09:38.127Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:09:38.129Z"}
+{"level":"info","message":"Speak remote: Il était une fois.. with callback","timestamp":"2016-04-24T19:09:38.156Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Il%20%C3%A9tait%20une%20fois..&sync=true","timestamp":"2016-04-24T19:09:38.156Z"}
+{"level":"info","message":"Run dot_histoire: 32ms","timestamp":"2016-04-24T19:09:38.156Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T19:09:58.185Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T19:09:58.185Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T19:10:03.050Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T19:10:03.050Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T19:10:07.205Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T19:10:07.205Z"}
+{"level":"info","message":"Speak remote: Florent a très très mais alors très mal au derrière with callback","timestamp":"2016-04-24T19:10:11.628Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mais%20alors%20tr%C3%A8s%20mal%20au%20derri%C3%A8re&sync=true","timestamp":"2016-04-24T19:10:11.629Z"}
+{"level":"info","message":"Speak remote: ce fut une bonne histoire no callback","timestamp":"2016-04-24T19:10:17.582Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=ce%20fut%20une%20bonne%20histoire","timestamp":"2016-04-24T19:10:17.582Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:10:46.973Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:10:46.973Z"}
+{"level":"info","message":"Speak remote: Il était une fois.. with callback","timestamp":"2016-04-24T19:10:46.989Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Il%20%C3%A9tait%20une%20fois..&sync=true","timestamp":"2016-04-24T19:10:47.004Z"}
+{"level":"info","message":"Run dot_histoire: 31ms","timestamp":"2016-04-24T19:10:47.004Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T19:11:05.098Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T19:11:05.098Z"}
+{"level":"info","message":"Run time: 18ms","timestamp":"2016-04-24T19:11:05.117Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T19:11:07.218Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T19:11:07.218Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T19:11:09.274Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T19:11:09.274Z"}
+{"level":"info","message":"Speak remote: Florent a très très mais alors très mal au derrière with callback","timestamp":"2016-04-24T19:11:11.322Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mais%20alors%20tr%C3%A8s%20mal%20au%20derri%C3%A8re&sync=true","timestamp":"2016-04-24T19:11:11.322Z"}
+{"level":"info","message":"Speak remote: ce fut une bonne histoire no callback","timestamp":"2016-04-24T19:11:13.378Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=ce%20fut%20une%20bonne%20histoire","timestamp":"2016-04-24T19:11:13.378Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:19:59.471Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-04-24T19:19:59.471Z"}
+{"level":"info","message":"Speak remote: Il était une fois.. with callback","timestamp":"2016-04-24T19:19:59.502Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Il%20%C3%A9tait%20une%20fois..&sync=true","timestamp":"2016-04-24T19:19:59.502Z"}
+{"level":"info","message":"Run dot_histoire: 31ms","timestamp":"2016-04-24T19:19:59.502Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-04-24T19:20:19.401Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-04-24T19:20:19.403Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-04-24T19:20:24.261Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-04-24T19:20:24.261Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-04-24T19:20:28.478Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-04-24T19:20:28.478Z"}
+{"level":"info","message":"Speak remote: Florent a très très mais alors très mal au derrière with callback","timestamp":"2016-04-24T19:20:33.000Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mais%20alors%20tr%C3%A8s%20mal%20au%20derri%C3%A8re&sync=true","timestamp":"2016-04-24T19:20:33.000Z"}
+{"level":"info","message":"Speak remote: ce fut une bonne histoire no callback","timestamp":"2016-04-24T19:20:38.958Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=ce%20fut%20une%20bonne%20histoire","timestamp":"2016-04-24T19:20:38.958Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T13:48:47.438Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T13:48:47.454Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T13:48:47.454Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T13:48:52.213Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T13:48:52.229Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T13:48:52.244Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T13:48:52.291Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T13:48:52.322Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T13:48:52.338Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T13:48:52.338Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T13:48:52.338Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T13:48:52.447Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T13:48:52.494Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T13:48:52.572Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T13:48:52.604Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T13:48:52.650Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T13:48:52.713Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T13:49:43.101Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-05-01T13:49:43.101Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-05-01T13:49:51.004Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-05-01T13:49:51.004Z"}
+{"level":"info","message":"Speak remote: Il était une fois.. with callback","timestamp":"2016-05-01T13:49:51.036Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Il%20%C3%A9tait%20une%20fois..&sync=true","timestamp":"2016-05-01T13:49:51.036Z"}
+{"level":"info","message":"Run dot_histoire: 32ms","timestamp":"2016-05-01T13:49:51.036Z"}
+{"level":"info","message":"Speak remote: Nicolas veut enculer tout le monde with callback","timestamp":"2016-05-01T13:50:11.640Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Nicolas%20veut%20enculer%20tout%20le%20monde&sync=true","timestamp":"2016-05-01T13:50:11.640Z"}
+{"level":"info","message":"Speak remote: Pierre est encore bourré with callback","timestamp":"2016-05-01T13:50:16.935Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Pierre%20est%20encore%20bourr%C3%A9&sync=true","timestamp":"2016-05-01T13:50:16.935Z"}
+{"level":"info","message":"Speak remote: Thierry prie pour ses fesses with callback","timestamp":"2016-05-01T13:50:21.285Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thierry%20prie%20pour%20ses%20fesses&sync=true","timestamp":"2016-05-01T13:50:21.285Z"}
+{"level":"info","message":"Speak remote: Florent a très très mais alors très mal au derrière with callback","timestamp":"2016-05-01T13:50:25.966Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Florent%20a%20tr%C3%A8s%20tr%C3%A8s%20mais%20alors%20tr%C3%A8s%20mal%20au%20derri%C3%A8re&sync=true","timestamp":"2016-05-01T13:50:25.966Z"}
+{"level":"info","message":"Speak remote: ce fut une bonne histoire no callback","timestamp":"2016-05-01T13:50:32.117Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=ce%20fut%20une%20bonne%20histoire","timestamp":"2016-05-01T13:50:32.117Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Saint-Gratien with callback","timestamp":"2016-05-01T13:50:49.690Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Saint-Gratien&sync=true","timestamp":"2016-05-01T13:50:49.690Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-05-01T13:50:53.335Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-05-01T13:50:53.335Z"}
+{"level":"info","message":"Run dot_itineraire: 3973ms","timestamp":"2016-05-01T13:50:53.632Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-05-01T13:53:23.584Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:02:49.468Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T14:02:49.468Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:02:49.468Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T14:02:50.047Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T14:02:50.063Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T14:02:50.063Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T14:02:50.063Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T14:02:50.063Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T14:02:50.063Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T14:02:50.063Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T14:02:50.063Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T14:02:50.079Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T14:02:50.079Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T14:02:50.110Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T14:02:50.110Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:03:24.061Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T14:03:24.061Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:03:24.061Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T14:03:24.577Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T14:03:24.579Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T14:03:24.581Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T14:03:24.582Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T14:03:24.583Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T14:03:24.585Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T14:03:24.586Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T14:03:24.586Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T14:03:24.594Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T14:03:24.594Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T14:03:24.609Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T14:03:24.625Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:03:52.702Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T14:03:52.718Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:03:52.718Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T14:03:53.312Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T14:03:53.312Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T14:03:53.312Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T14:03:53.312Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T14:03:53.328Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T14:03:53.328Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T14:03:53.328Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T14:03:53.328Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T14:03:53.328Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T14:03:53.328Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T14:03:53.344Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T14:03:53.344Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T14:03:53.359Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T14:03:53.359Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T14:04:12.265Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-05-01T14:04:12.265Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Saint-Gratien with callback","timestamp":"2016-05-01T14:04:56.903Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Saint-Gratien&sync=true","timestamp":"2016-05-01T14:04:56.919Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-05-01T14:05:00.269Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-05-01T14:05:00.269Z"}
+{"level":"info","message":"Run dot_itineraire: 3397ms","timestamp":"2016-05-01T14:05:00.269Z"}
+{"level":"info","message":"Reloading dot_itineraire","timestamp":"2016-05-01T14:06:39.081Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T14:06:39.081Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Saint-Gratien with callback","timestamp":"2016-05-01T14:06:39.112Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Saint-Gratien&sync=true","timestamp":"2016-05-01T14:06:39.128Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! no callback","timestamp":"2016-05-01T14:06:42.397Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!","timestamp":"2016-05-01T14:06:42.397Z"}
+{"level":"info","message":"Run dot_itineraire: 3331ms","timestamp":"2016-05-01T14:06:42.412Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:10:17.046Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T14:10:17.046Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:10:17.046Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T14:10:17.577Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T14:10:17.577Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T14:10:17.577Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T14:10:17.577Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T14:10:17.577Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T14:10:17.577Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T14:10:17.577Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T14:10:17.577Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T14:10:17.593Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T14:10:17.593Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T14:10:17.593Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T14:10:17.608Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T14:10:17.608Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T14:10:17.608Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T14:11:03.932Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-05-01T14:11:03.932Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-05-01T14:11:34.757Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-05-01T14:11:34.757Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T14:11:38.115Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T14:11:38.115Z"}
+{"level":"info","message":"Run dot_itineraire: 6199ms","timestamp":"2016-05-01T14:11:40.924Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-05-01T14:13:36.450Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-05-01T14:14:19.774Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-05-01T14:14:19.774Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T14:14:23.040Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T14:14:23.040Z"}
+{"level":"info","message":"Run dot_itineraire: 6111ms","timestamp":"2016-05-01T14:14:25.854Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:15:12.957Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T14:15:12.959Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:15:12.959Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T14:15:13.478Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T14:15:13.478Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T14:15:13.478Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T14:15:13.478Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T14:15:13.478Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T14:15:13.478Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T14:15:13.478Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T14:15:13.478Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T14:15:13.499Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T14:15:13.500Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T14:15:13.509Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T14:15:13.514Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T14:15:13.514Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T14:15:13.514Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T14:15:35.342Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-05-01T14:15:35.342Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-05-01T14:15:45.340Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-05-01T14:15:45.340Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T14:15:48.628Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T14:15:48.628Z"}
+{"level":"info","message":"Run dot_itineraire: 6653ms","timestamp":"2016-05-01T14:15:51.962Z"}
+{"level":"info","message":"Run meteo2: 148ms","timestamp":"2016-05-01T14:19:23.494Z"}
+{"level":"info","message":"Run meteo2: 139ms","timestamp":"2016-05-01T14:22:05.536Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:31:26.337Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T14:31:26.337Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:31:26.353Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T14:31:26.867Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T14:31:26.867Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T14:31:26.867Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T14:31:26.867Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T14:31:26.867Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T14:31:26.867Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T14:31:26.867Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T14:31:26.867Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T14:31:26.883Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T14:31:26.883Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T14:31:26.883Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T14:31:26.898Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T14:31:26.898Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T14:31:26.898Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T14:32:18.587Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-05-01T14:32:18.587Z"}
+{"level":"info","message":"Play remote: plugins/dot_histoire/media/link-between-worlds-title-screen.mp3","timestamp":"2016-05-01T14:32:28.815Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?play=plugins%2Fdot_histoire%2Fmedia%2Flink-between-worlds-title-screen.mp3","timestamp":"2016-05-01T14:32:28.815Z"}
+{"level":"info","message":"Speak remote: Il était une fois à l'E S G I with callback","timestamp":"2016-05-01T14:32:28.846Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Il%20%C3%A9tait%20une%20fois%20%C3%A0%20l'E%20S%20G%20I&sync=true","timestamp":"2016-05-01T14:32:28.846Z"}
+{"level":"info","message":"Run dot_histoire: 31ms","timestamp":"2016-05-01T14:32:28.846Z"}
+{"level":"info","message":"Speak remote: Bader est absent à 8h et sera présent après avoir au moins bu son café  with callback","timestamp":"2016-05-01T14:32:49.754Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Bader%20est%20absent%20%C3%A0%208h%20et%20sera%20pr%C3%A9sent%20apr%C3%A8s%20avoir%20au%20moins%20bu%20son%20caf%C3%A9%20&sync=true","timestamp":"2016-05-01T14:32:49.754Z"}
+{"level":"info","message":"Speak remote: Julien jouera pendant la pause midi au même jeu with callback","timestamp":"2016-05-01T14:32:57.324Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Julien%20jouera%20pendant%20la%20pause%20midi%20au%20m%C3%AAme%20jeu&sync=true","timestamp":"2016-05-01T14:32:57.324Z"}
+{"level":"info","message":"Speak remote: Marc fera du Marc with callback","timestamp":"2016-05-01T14:33:02.895Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Marc%20fera%20du%20Marc&sync=true","timestamp":"2016-05-01T14:33:02.895Z"}
+{"level":"info","message":"Speak remote: Une bonne partie de la classe sera au baby-foot with callback","timestamp":"2016-05-01T14:33:07.231Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Une%20bonne%20partie%20de%20la%20classe%20sera%20au%20baby-foot&sync=true","timestamp":"2016-05-01T14:33:07.231Z"}
+{"level":"info","message":"Speak remote: Thomas arrivera peut être à l'heure aujourd'hui with callback","timestamp":"2016-05-01T14:33:12.810Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Thomas%20arrivera%20peut%20%C3%AAtre%20%C3%A0%20l'heure%20aujourd'hui&sync=true","timestamp":"2016-05-01T14:33:12.810Z"}
+{"level":"info","message":"Speak remote: Le prof de marketing viendra surement pas with callback","timestamp":"2016-05-01T14:33:17.986Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Le%20prof%20de%20marketing%20viendra%20surement%20pas&sync=true","timestamp":"2016-05-01T14:33:17.986Z"}
+{"level":"info","message":"Speak remote: Ce fut une bonne histoire with callback","timestamp":"2016-05-01T14:33:23.577Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Ce%20fut%20une%20bonne%20histoire&sync=true","timestamp":"2016-05-01T14:33:23.577Z"}
+{"level":"info","message":"Speak remote: Fin no callback","timestamp":"2016-05-01T14:33:26.983Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Fin","timestamp":"2016-05-01T14:33:26.983Z"}
+{"level":"info","message":"Reloading dot_histoire","timestamp":"2016-05-01T14:34:05.790Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T14:34:05.790Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-05-01T14:34:05.790Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-05-01T14:34:05.790Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T14:34:09.016Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T14:34:09.016Z"}
+{"level":"info","message":"Run dot_itineraire: 6180ms","timestamp":"2016-05-01T14:34:11.938Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-05-01T14:38:54.156Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:41:21.248Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T14:41:21.248Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:41:21.248Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T14:41:21.779Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T14:41:21.779Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T14:41:21.779Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T14:41:21.779Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T14:41:21.779Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T14:41:21.779Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T14:41:21.779Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T14:41:21.779Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T14:41:21.795Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T14:41:21.795Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T14:41:21.795Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T14:41:21.811Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T14:41:21.811Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T14:41:21.826Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:49:44.655Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T14:49:44.655Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T14:49:44.655Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T14:49:45.207Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T14:49:45.209Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T14:49:45.211Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T14:49:45.212Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T14:49:45.213Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T14:49:45.214Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T14:49:45.215Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T14:49:45.216Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T14:49:45.225Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T14:49:45.226Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T14:49:45.237Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T14:49:45.243Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T14:49:45.244Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T14:49:45.244Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T14:50:25.805Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-05-01T14:50:25.805Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Saint Gratien à Clichy with callback","timestamp":"2016-05-01T14:50:40.080Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Saint%20Gratien%20%C3%A0%20Clichy&sync=true","timestamp":"2016-05-01T14:50:40.080Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T14:50:43.755Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T14:50:43.755Z"}
+{"level":"info","message":"Run dot_itineraire: 6639ms","timestamp":"2016-05-01T14:50:46.688Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Saint-Cassien à Clichy with callback","timestamp":"2016-05-01T14:52:35.257Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Saint-Cassien%20%C3%A0%20Clichy&sync=true","timestamp":"2016-05-01T14:52:35.257Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T14:52:38.894Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T14:52:38.894Z"}
+{"level":"info","message":"Run dot_itineraire: 6584ms","timestamp":"2016-05-01T14:52:41.826Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Paris à Marseille with callback","timestamp":"2016-05-01T14:53:22.085Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Paris%20%C3%A0%20Marseille&sync=true","timestamp":"2016-05-01T14:53:22.085Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T14:53:25.348Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T14:53:25.348Z"}
+{"level":"info","message":"Run dot_itineraire: 6181ms","timestamp":"2016-05-01T14:53:28.219Z"}
+{"level":"info","message":"Run meteo2: 125ms","timestamp":"2016-05-01T15:03:18.795Z"}
+{"level":"info","message":"Reloading dot_itineraire","timestamp":"2016-05-01T15:03:18.826Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T15:03:18.826Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-05-01T15:03:46.470Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de Pablo à Paris with callback","timestamp":"2016-05-01T15:04:10.890Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20Pablo%20%C3%A0%20Paris&sync=true","timestamp":"2016-05-01T15:04:10.890Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T15:04:13.756Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T15:04:13.756Z"}
+{"level":"info","message":"Run dot_itineraire: 5839ms","timestamp":"2016-05-01T15:04:16.698Z"}
+{"level":"info","message":"Run time: 12ms","timestamp":"2016-05-01T15:06:05.551Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de guten tag à Paris with callback","timestamp":"2016-05-01T15:07:23.274Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20guten%20tag%20%C3%A0%20Paris&sync=true","timestamp":"2016-05-01T15:07:23.274Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T15:07:26.638Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T15:07:26.654Z"}
+{"level":"info","message":"Run dot_itineraire: 6266ms","timestamp":"2016-05-01T15:07:29.508Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de guten tag à Paris with callback","timestamp":"2016-05-01T15:12:30.448Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20guten%20tag%20%C3%A0%20Paris&sync=true","timestamp":"2016-05-01T15:12:30.450Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T15:12:33.608Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T15:12:33.610Z"}
+{"level":"info","message":"Run dot_itineraire: 5979ms","timestamp":"2016-05-01T15:12:36.398Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T15:14:26.362Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T15:14:26.364Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T15:14:26.364Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T15:14:26.993Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T15:14:26.995Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T15:14:26.997Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T15:14:26.998Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T15:14:26.999Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_sendXml/dot_sendXml.prop ...","timestamp":"2016-05-01T15:14:27.001Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T15:14:27.003Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T15:14:27.004Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T15:14:27.004Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T15:14:27.015Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T15:14:27.017Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T15:14:27.028Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T15:14:27.035Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T15:14:27.039Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T15:14:27.048Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T15:15:20.329Z"}
+{"level":"info","message":"Run time: 13ms","timestamp":"2016-05-01T15:15:20.330Z"}
+{"level":"info","message":"initModule:  dot_sendXml","timestamp":"2016-05-01T15:15:20.391Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de guten tag à Paris with callback","timestamp":"2016-05-01T15:15:48.744Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20guten%20tag%20%C3%A0%20Paris&sync=true","timestamp":"2016-05-01T15:15:48.746Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T15:15:52.106Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T15:15:52.108Z"}
+{"level":"info","message":"Run dot_itineraire: 6215ms","timestamp":"2016-05-01T15:15:54.931Z"}
+{"level":"info","message":"Reloading dot_itineraire","timestamp":"2016-05-01T15:17:31.669Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T15:17:31.669Z"}
+{"level":"info","message":"Speak remote: J'ai compris:de guten tag à Paris with callback","timestamp":"2016-05-01T15:17:31.700Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=J'ai%20compris%3Ade%20guten%20tag%20%C3%A0%20Paris&sync=true","timestamp":"2016-05-01T15:17:31.700Z"}
+{"level":"info","message":"Speak remote: Calcul d'itineraire en cours ! with callback","timestamp":"2016-05-01T15:17:34.864Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=Calcul%20d'itineraire%20en%20cours%20!&sync=true","timestamp":"2016-05-01T15:17:34.864Z"}
+{"level":"info","message":"Run dot_itineraire: 6068ms","timestamp":"2016-05-01T15:17:37.737Z"}
+{"level":"info","message":"[Plugin] Download plugin:  byebye http://goo.gl/T7QdR","timestamp":"2016-05-01T15:18:56.552Z"}
+{"level":"info","message":"[Plugin] Clean tmp:  byebye","timestamp":"2016-05-01T15:18:57.479Z"}
+{"level":"info","message":"[Plugin] Unzip plugin:  byebye","timestamp":"2016-05-01T15:18:57.480Z"}
+{"level":"info","message":"[Plugin] Check content:  byebye","timestamp":"2016-05-01T15:18:57.526Z"}
+{"level":"info","message":"[Plugin] Not a folder, rename sync byebye","timestamp":"2016-05-01T15:18:57.527Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T15:31:54.366Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T15:31:54.366Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T15:31:54.366Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T15:31:55.106Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T15:31:55.121Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T15:31:55.121Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T15:31:55.199Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T15:31:55.199Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T15:31:55.246Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T15:31:55.246Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T15:31:55.246Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T15:31:55.262Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T15:31:55.262Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T15:31:55.278Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T15:31:55.293Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T15:31:55.293Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T15:31:55.309Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T15:50:01.151Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T15:50:01.151Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T15:50:01.151Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T15:50:01.745Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T15:50:01.745Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T15:50:01.745Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T15:50:01.745Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T15:50:01.760Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T15:50:01.776Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T15:50:01.776Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T15:50:01.776Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T15:50:01.776Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T15:50:01.797Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T15:50:01.814Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T15:50:01.826Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T15:50:01.830Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T15:50:01.837Z"}
+{"level":"info","message":"[Plugin] Download plugin:  veille http://goo.gl/cyjLU","timestamp":"2016-05-01T15:56:49.685Z"}
+{"level":"info","message":"[Plugin] Clean tmp:  veille","timestamp":"2016-05-01T15:56:50.662Z"}
+{"level":"info","message":"[Plugin] Unzip plugin:  veille","timestamp":"2016-05-01T15:56:50.662Z"}
+{"level":"info","message":"[Plugin] Check content:  veille","timestamp":"2016-05-01T15:56:50.722Z"}
+{"level":"info","message":"[Plugin] Not a folder, rename sync veille","timestamp":"2016-05-01T15:56:50.722Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T16:02:26.375Z"}
+{"level":"info","message":"Run time: 37ms","timestamp":"2016-05-01T16:02:26.375Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:03:51.288Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T16:03:51.288Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:03:51.288Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T16:03:51.815Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T16:03:51.817Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T16:03:51.819Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T16:03:51.820Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T16:03:51.821Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T16:03:51.823Z"}
+{"level":"info","message":"Loading plugin properties plugins/veille/veille.prop ...","timestamp":"2016-05-01T16:03:51.823Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T16:03:51.824Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T16:03:51.825Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T16:03:51.838Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T16:03:51.839Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T16:03:51.839Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T16:03:51.839Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T16:03:51.855Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T16:03:51.870Z"}
+{"level":"info","message":"Run meteo2: 254ms","timestamp":"2016-05-01T16:04:58.504Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T16:08:30.435Z"}
+{"level":"info","message":"Run time: 10ms","timestamp":"2016-05-01T16:08:30.436Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:21:34.740Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T16:21:34.755Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:21:34.755Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T16:21:35.358Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T16:21:35.358Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T16:21:35.358Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T16:21:35.358Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T16:21:35.358Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_veille/dot_veille.prop ...","timestamp":"2016-05-01T16:21:35.358Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T16:21:35.358Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T16:21:35.358Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T16:21:35.358Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T16:21:35.374Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T16:21:35.374Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T16:21:35.390Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T16:21:35.390Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T16:21:35.407Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T16:21:35.416Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T16:22:00.801Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-05-01T16:22:00.801Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:22:00.863Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:29:00.457Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T16:29:00.457Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:29:00.457Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T16:29:01.087Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T16:29:01.103Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T16:29:01.103Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T16:29:01.103Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T16:29:01.103Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_veille/dot_veille.prop ...","timestamp":"2016-05-01T16:29:01.103Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T16:29:01.103Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T16:29:01.103Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T16:29:01.103Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T16:29:01.118Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T16:29:01.118Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T16:29:01.134Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T16:29:01.134Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T16:29:01.134Z"}
+{"level":"error","message":"Caught exception: TypeError: Cannot read property 'port' of null\n    at Object.<anonymous> (C:\\Users\\Tasa_PC\\Documents\\Projet\\script\\wsrnode.js:147:76)\n    at Module._compile (module.js:456:26)\n    at Object.Module._extensions..js (module.js:474:10)\n    at Module.load (module.js:356:32)\n    at Function.Module._load (module.js:312:12)\n    at Function.Module.runMain (module.js:497:10)\n    at startup (node.js:119:16)\n    at node.js:901:3","timestamp":"2016-05-01T16:29:01.164Z"}
+{"level":"error","message":"Caught exception: Error: listen EADDRINUSE\n    at errnoException (net.js:901:11)\n    at Server._listen2 (net.js:1039:14)\n    at listen (net.js:1061:10)\n    at Server.listen (net.js:1127:5)\n    at Object.<anonymous> (C:\\Users\\Tasa_PC\\Documents\\Projet\\script\\wsrnode.js:146:21)\n    at Module._compile (module.js:456:26)\n    at Object.Module._extensions..js (module.js:474:10)\n    at Module.load (module.js:356:32)\n    at Function.Module._load (module.js:312:12)\n    at Function.Module.runMain (module.js:497:10)","timestamp":"2016-05-01T16:29:01.174Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:29:21.217Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T16:29:21.217Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:29:21.217Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T16:29:21.807Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T16:29:21.807Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T16:29:21.807Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T16:29:21.807Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T16:29:21.822Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_veille/dot_veille.prop ...","timestamp":"2016-05-01T16:29:21.822Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T16:29:21.822Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T16:29:21.822Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T16:29:21.822Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T16:29:21.838Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T16:29:21.838Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T16:29:21.838Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T16:29:21.858Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T16:29:21.862Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T16:29:21.869Z"}
+{"level":"warn","message":"Module not found: dot_veille","timestamp":"2016-05-01T16:33:30.476Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:36:09.551Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T16:36:09.551Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:36:09.551Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T16:36:10.049Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T16:36:10.065Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T16:36:10.065Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T16:36:10.065Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T16:36:10.065Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_veille/dot_veille.prop ...","timestamp":"2016-05-01T16:36:10.065Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T16:36:10.065Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T16:36:10.065Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T16:36:10.065Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T16:36:10.081Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T16:36:10.082Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T16:36:10.090Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T16:36:10.096Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T16:36:10.098Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T16:36:10.105Z"}
+{"level":"warn","message":"Module not found: dot_veille","timestamp":"2016-05-01T16:39:25.878Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:39:58.960Z"}
+{"level":"info","message":"Speak remote: c'est fait no callback","timestamp":"2016-05-01T16:39:58.964Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=c'est%20fait","timestamp":"2016-05-01T16:39:58.965Z"}
+{"level":"info","message":"Run dot_meteo: 354ms","timestamp":"2016-05-01T16:39:58.966Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:41:38.481Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T16:41:38.481Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T16:41:38.481Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T16:41:39.020Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T16:41:39.023Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T16:41:39.025Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T16:41:39.025Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T16:41:39.025Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_veille/dot_veille.prop ...","timestamp":"2016-05-01T16:41:39.025Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T16:41:39.025Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T16:41:39.025Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T16:41:39.025Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T16:41:39.040Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T16:41:39.040Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T16:41:39.040Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T16:41:39.056Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:41:39.056Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T16:41:39.056Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T16:41:39.072Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T16:43:56.192Z"}
+{"level":"info","message":"Run time: 15ms","timestamp":"2016-05-01T16:43:56.192Z"}
+{"level":"warn","message":"Run dot_veille: Callback is not defined","timestamp":"2016-05-01T16:44:30.208Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T16:45:05.132Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:45:05.134Z"}
+{"level":"info","message":"Run dot_veille: 5ms","timestamp":"2016-05-01T16:45:05.139Z"}
+{"level":"info","message":"Run dot_veille: 1ms","timestamp":"2016-05-01T16:45:58.273Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T16:46:27.667Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:46:27.671Z"}
+{"level":"info","message":"Run dot_veille: 8ms","timestamp":"2016-05-01T16:46:27.675Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T16:47:04.086Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:47:04.087Z"}
+{"level":"info","message":"Run dot_veille: 2ms","timestamp":"2016-05-01T16:47:04.088Z"}
+{"level":"info","message":"Run dot_veille: 3ms","timestamp":"2016-05-01T16:47:04.089Z"}
+{"level":"info","message":"Run dot_veille: 0ms","timestamp":"2016-05-01T16:47:16.527Z"}
+{"level":"info","message":"Run dot_veille: 3ms","timestamp":"2016-05-01T16:47:16.529Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T16:47:37.679Z"}
+{"level":"warn","message":"Run dot_veille: Object false has no method 'action'","timestamp":"2016-05-01T16:47:37.705Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:47:58.208Z"}
+{"level":"info","message":"Run dot_veille: 6ms","timestamp":"2016-05-01T16:47:58.213Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T16:50:30.068Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:50:30.069Z"}
+{"level":"info","message":"Run dot_veille: 2ms","timestamp":"2016-05-01T16:50:30.070Z"}
+{"level":"info","message":"Run dot_veille: 1ms","timestamp":"2016-05-01T16:51:32.251Z"}
+{"level":"info","message":"Run dot_veille: 1ms","timestamp":"2016-05-01T16:55:12.861Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T16:57:54.008Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:57:54.010Z"}
+{"level":"info","message":"Speak remote: okaaaaaaaaay no callback","timestamp":"2016-05-01T16:57:54.040Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=okaaaaaaaaay","timestamp":"2016-05-01T16:57:54.041Z"}
+{"level":"info","message":"Run dot_veille: 34ms","timestamp":"2016-05-01T16:57:54.042Z"}
+{"level":"info","message":"Speak remote: okaaaaaaaaay no callback","timestamp":"2016-05-01T16:57:55.352Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=okaaaaaaaaay","timestamp":"2016-05-01T16:57:55.353Z"}
+{"level":"info","message":"Run dot_veille: 34ms","timestamp":"2016-05-01T16:57:55.354Z"}
+{"level":"info","message":"Speak remote: okaaaaaaaaay no callback","timestamp":"2016-05-01T16:58:34.646Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=okaaaaaaaaay","timestamp":"2016-05-01T16:58:34.648Z"}
+{"level":"info","message":"Run dot_veille: 35ms","timestamp":"2016-05-01T16:58:34.649Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T16:59:08.363Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:59:08.365Z"}
+{"level":"info","message":"Speak remote: okaaaaaaaaay no callback","timestamp":"2016-05-01T16:59:08.405Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=okaaaaaaaaay","timestamp":"2016-05-01T16:59:08.406Z"}
+{"level":"info","message":"Run dot_veille: 46ms","timestamp":"2016-05-01T16:59:08.408Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T16:59:36.169Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T16:59:36.171Z"}
+{"level":"info","message":"Speak remote: okaaaaaaaaay no callback","timestamp":"2016-05-01T16:59:36.200Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=okaaaaaaaaay","timestamp":"2016-05-01T16:59:36.202Z"}
+{"level":"info","message":"Run dot_veille: 34ms","timestamp":"2016-05-01T16:59:36.203Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T17:03:52.447Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T17:03:52.449Z"}
+{"level":"info","message":"Speak remote: okaaaaaaaaay no callback","timestamp":"2016-05-01T17:03:52.482Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=okaaaaaaaaay","timestamp":"2016-05-01T17:03:52.483Z"}
+{"level":"info","message":"Run dot_veille: 38ms","timestamp":"2016-05-01T17:03:52.485Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T17:05:03.358Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T17:05:03.362Z"}
+{"level":"info","message":"Speak remote: okaaaaaaaaay no callback","timestamp":"2016-05-01T17:05:03.401Z"}
+{"level":"info","message":"Remote: http://127.0.0.1:8888/?tts=okaaaaaaaaay","timestamp":"2016-05-01T17:05:03.403Z"}
+{"level":"info","message":"Run dot_veille: 46ms","timestamp":"2016-05-01T17:05:03.404Z"}
+{"level":"info","message":"Reloading dot_veille","timestamp":"2016-05-01T17:06:25.515Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T17:06:25.516Z"}
+{"level":"info","message":"Run dot_veille: 5ms","timestamp":"2016-05-01T17:06:25.520Z"}
+{"level":"info","message":"Run dot_veille: 1ms","timestamp":"2016-05-01T17:06:25.526Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T18:14:14.418Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-01T18:14:14.418Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-01T18:14:14.418Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-01T18:14:15.004Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-01T18:14:15.004Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-01T18:14:15.004Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-01T18:14:15.019Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-01T18:14:15.021Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_veille/dot_veille.prop ...","timestamp":"2016-05-01T18:14:15.022Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-01T18:14:15.024Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-01T18:14:15.024Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-01T18:14:15.025Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-01T18:14:15.034Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-01T18:14:15.035Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-01T18:14:15.042Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-01T18:14:15.049Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-01T18:14:15.051Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-01T18:14:15.055Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-01T18:14:15.055Z"}
+{"level":"info","message":"Run meteo2: 141ms","timestamp":"2016-05-01T18:15:02.940Z"}
+{"level":"info","message":"initModule:  time","timestamp":"2016-05-01T18:15:31.060Z"}
+{"level":"info","message":"Run time: 16ms","timestamp":"2016-05-01T18:15:31.060Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-05-01T18:33:12.361Z"}
+{"level":"info","message":"Run time: 0ms","timestamp":"2016-05-01T18:33:49.233Z"}

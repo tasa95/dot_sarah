@@ -6,11 +6,14 @@ var query = function(callback,SARAH){
 	  console.log(url);
     if (err || response.statusCode != 200) {
 		SARAH.speak("l'action a échoué");
-      //return callback({'tts': "L'action a échoué"});
+      callback({'tts': "L'action a échoué"});
     }
-	SARAH.speak("c'est fait");
-   // last = scrap(body, date);
-	//return callback({'tts': "c'est fait"});
+	else
+	{
+		SARAH.speak("c'est fait");
+		// last = scrap(body, date);
+		callback({'tts': "c'est fait"});
+	}
   });
 }
 

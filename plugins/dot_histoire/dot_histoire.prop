@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "dot_histoire"  : {
+      "description": "private joke",
+      "version": "0.1"
+    }
+  }
+}
