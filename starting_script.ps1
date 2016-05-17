@@ -9,9 +9,17 @@ $client_path  =  $path, $client_cmd -join ""
 if( (Test-Path $server_path) -And (Test-Path $client_path) )
 {
 	Write-host "Find starting script" -foreground "Green"
-	$client_app = Start-Process -filepath $client_path -WorkingDirectory $path -passthru
+	$ProcessClient= Get-Process WSRMacro -ErrorAction SilentlyContinue
+	if($ProcessClient -eq $null){	
+		$client_app = Start-Process -filepath $client_path -WorkingDirectory $path -passthru
+		Write-host "Client has started id : " + $client_app.id -foreground "Green"
+	}
+	else
+	{
+		Write-host "Client is already started : " + $ProcessClient.id  -foreground "Green"
+	}
 	
-	Write-host "Client has started id : " + $client_app.id -foreground "Green"
+	Start-Sleep -s 10
 	#Wait-Process  $client_app.id
 	$server_app = Start-Process -filepath $server_cmd -WorkingDirectory $path -passthru
 	
@@ -29,6 +37,11 @@ if( (Test-Path $server_path) -And (Test-Path $client_path) )
 				get-process $server_app.name | %{ $_.closemainwindow() } 
 				#stop-process -id $server_app.id  -passthru -Force
 				Write-host "Server has stopped" -foreground "Green"
+				$ProcessClient= Get-Process WSRMacro -ErrorAction SilentlyContinue
+				if($ProcessClient -ne $null){
+					kill $ProcessClient.Id
+					Write-host "Client has stopped" -foreground "Green"
+				}
 				$response = $TRUE;
 			}
 			Catch
@@ -38,10 +51,7 @@ if( (Test-Path $server_path) -And (Test-Path $client_path) )
 			}
 		}
 	}
-	while(-Not ($response))
-	
-	
-	
+	while(-Not ($response))	
 }
 else
 {

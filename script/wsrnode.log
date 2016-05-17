@@ -2516,3 +2516,41 @@
 {"level":"info","message":"Run time: 16ms","timestamp":"2016-05-01T18:15:31.060Z"}
 {"level":"info","message":"Run time: 0ms","timestamp":"2016-05-01T18:33:12.361Z"}
 {"level":"info","message":"Run time: 0ms","timestamp":"2016-05-01T18:33:49.233Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-17T19:23:55.275Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-17T19:23:55.275Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-17T19:23:55.275Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-17T19:23:55.779Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-17T19:23:55.783Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-17T19:23:55.783Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-17T19:23:55.783Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-17T19:23:55.783Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_veille/dot_veille.prop ...","timestamp":"2016-05-17T19:23:55.783Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-17T19:23:55.783Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-17T19:23:55.783Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-17T19:23:55.783Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-17T19:23:55.799Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-17T19:23:55.799Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-17T19:23:55.799Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-17T19:23:55.815Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-17T19:23:55.815Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-17T19:23:55.831Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-17T19:23:55.835Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-17T19:41:19.243Z"}
+{"level":"info","message":" STARTING WSRNodeJS ","timestamp":"2016-05-17T19:41:19.259Z"}
+{"level":"info","message":"==========================================","timestamp":"2016-05-17T19:41:19.259Z"}
+{"level":"info","message":"Loading core properties...","timestamp":"2016-05-17T19:41:19.723Z"}
+{"level":"info","message":"Loading plugin properties plugins/dictionary/dictionary.prop ...","timestamp":"2016-05-17T19:41:19.723Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_histoire/dot_histoire.prop ...","timestamp":"2016-05-17T19:41:19.723Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_itineraire/dot_itineraire.prop ...","timestamp":"2016-05-17T19:41:19.723Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_meteo/dot_meteo.prop ...","timestamp":"2016-05-17T19:41:19.723Z"}
+{"level":"info","message":"Loading plugin properties plugins/dot_veille/dot_veille.prop ...","timestamp":"2016-05-17T19:41:19.738Z"}
+{"level":"info","message":"Loading plugin properties plugins/meteo2/meteo2.prop ...","timestamp":"2016-05-17T19:41:19.738Z"}
+{"level":"info","message":"Loading custom properties...","timestamp":"2016-05-17T19:41:19.738Z"}
+{"level":"warn","message":"Bypass config:  interface","timestamp":"2016-05-17T19:41:19.738Z"}
+{"level":"info","message":"initModule:  dictionary","timestamp":"2016-05-17T19:41:19.738Z"}
+{"level":"info","message":"initModule:  dot_histoire","timestamp":"2016-05-17T19:41:19.738Z"}
+{"level":"info","message":"initModule:  dot_itineraire","timestamp":"2016-05-17T19:41:19.758Z"}
+{"level":"info","message":"initModule:  dot_meteo","timestamp":"2016-05-17T19:41:19.762Z"}
+{"level":"info","message":"initModule:  dot_veille","timestamp":"2016-05-17T19:41:19.766Z"}
+{"level":"info","message":"initModule:  meteo2","timestamp":"2016-05-17T19:41:19.770Z"}
+{"level":"info","message":"Express server listening on port 8080","timestamp":"2016-05-17T19:41:19.774Z"}
