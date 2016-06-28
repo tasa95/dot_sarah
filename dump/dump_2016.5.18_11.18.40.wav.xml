@@ -1,0 +1,14 @@
+<match="0,4265881" text"SARAH est-ce qu'il pleut lundi dans la nuit">
+<trigger="0,7957134" text"SARAH">
+<SML text="SARAH est-ce qu'il pleut lundi dans la nuit" utteranceConfidence="0.427" confidence="0.427" dictation="false">
+  <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/meteo2">
+    <day confidence="0.998">lundi</day>
+    <period confidence="0.998">night</period>
+  </action>
+  <alternate Rank="1" text="SARAH est-ce qu'il pleut lundi dans la nuit" utteranceConfidence="0.427" confidence="0.427" dictation="false">
+    <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/meteo2">
+      <day confidence="0.998">lundi</day>
+      <period confidence="0.998">night</period>
+    </action>
+  </alternate>
+</SML>

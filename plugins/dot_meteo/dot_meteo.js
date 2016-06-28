@@ -1,7 +1,7 @@
 var conf=require("../dot_configuration/conf.js");
 var request = require('request');
 var query = function(callback,SARAH){
-  var url = conf.url+"/post";
+  var url = conf.urlProd+"/post";
   request({ 'uri' : url, method: 'POST' }, function (err, response, body){
 	  console.log(url);
     if (err || response.statusCode != 200) {

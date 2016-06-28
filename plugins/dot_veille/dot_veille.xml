@@ -5,12 +5,11 @@
     <one-of>
       <item>Réveille toi
 			<tag>out.action._attributes.listen="True"</tag>
-			<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/dot_veille;</tag>
-			<tag>out.action._attributes.tts = "oui, je t'écoute"</tag>
+			<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/dot_veille?reveil=true";</tag>
 	  </item>
       <item>mets toi en veille
-			<tag>out.action._attributes.tts = "Je me met en veille"</tag>
 			<tag>out.action._attributes.listen = "False"</tag>
+			<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/dot_veille?reveil=false";</tag>
 			</item>
     </one-of>
   </rule>

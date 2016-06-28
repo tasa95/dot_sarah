@@ -1,0 +1,8 @@
+{
+  "modules" : { 
+    "dot_text_to_speech"  : {
+      "description": "[dot]Répete ce qui a été écris dans l'url",
+      "version": "0.1"
+    }
+  }
+}

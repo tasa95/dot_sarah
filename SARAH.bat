@@ -1,0 +1,1 @@
+call  C:\Users\Tasa_PC\Documents\Projet\starting_script.bat

@@ -3,7 +3,7 @@ var request = require('request');
 var query = function(callback,SARAH,fromCity,toCity){
 	var data = {to : toCity, from : fromCity};
   //var url = conf.url+"/post";
-  var url = conf.urlEnvironnementTest + conf.path.url;
+  var url = conf.urlProd + conf.path.url;
   url = url.replace(":from", encodeURIComponent(fromCity));
   url = url.replace(":to", encodeURIComponent(toCity));
   

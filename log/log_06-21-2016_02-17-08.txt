@@ -1,0 +1,63 @@
+﻿**********************
+Début de la transcription Windows Powershell
+Heure de début : 20160621021710
+Nom d'utilisateur : WORKGROUP\Système
+Utilisateur runAs : WORKGROUP\Système
+Ordinateur : DESKTOP-H9Q3FJ9 (Microsoft Windows NT 10.0.10240.0)
+Application hôte :  -ExecutionPolicy ByPass -File C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1
+ID de processus : 2132
+PSVersion: 5.0.10240.16384
+WSManStackVersion: 3.0
+SerializationVersion: 1.1.0.1
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.10240.16384
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0.10240.16384
+PSRemotingProtocolVersion: 2.3
+**********************
+Transcription démarrée, le fichier de sortie est C:\Users\Tasa_PC\Documents\Pro
+jet\log\log_06-21-2016_02-17-08.txt
+Starting Script
+try to send IP to API
+IP:192.168.1.98, mac:A8:86:DD:96:1A:E6
+PS>Erreur de terminaison (Invoke-RestMethod) : « Impossible de valider l'argument sur le paramètre « Uri ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez. »
+Invoke-RestMethod : Impossible de valider l'argument sur le paramètre «Uri». L’argument est Null ou vide. Indiquez un 
+argument qui n’est pas Null ou vide et réessayez.
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:52 : 47
++     $response=Invoke-RestMethod -Method PUT -Uri $url -ContentType "a ...
++                                                  ~~~~
+    + CategoryInfo          : InvalidData : (:) [Invoke-RestMethod], ParameterBindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+Invoke-RestMethod : Impossible de valider l'argument sur le paramètre «Uri».
+L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide
+et réessayez.
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:52 : 47
++     $response=Invoke-RestMethod -Method PUT -Uri $url -ContentType "a ...
++                                                  ~~~~
+    + CategoryInfo          : InvalidData : (:) [Invoke-RestMethod], Parameter
+   BindingValidationException
+    + FullyQualifiedErrorId : ParameterArgumentValidationError,Microsoft.Power
+   Shell.Commands.InvokeRestMethodCommand
+
+Find starting script
+Client has started id :  + 5864
+Server has started  id :  + 2820
+PS>Erreur de terminaison (Invoke-RestMethod) : « URI non valide : Impossible d'analyser le nom d'hôte. »
+Invoke-RestMethod : URI non valide : Impossible d'analyser le nom d'hôte.
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:9 : 12
++     $response=Invoke-RestMethod -Method GET -Uri $url
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Invoke-RestMethod], UriFormatException
+    + FullyQualifiedErrorId : System.UriFormatException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+Invoke-RestMethod : URI non valide : Impossible d'analyser le nom d'hôte.
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:9 : 12
++     $response=Invoke-RestMethod -Method GET -Uri $url
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (:) [Invoke-RestMethod], UriFormat
+   Exception
+    + FullyQualifiedErrorId : System.UriFormatException,Microsoft.PowerShell.C
+   ommands.InvokeRestMethodCommand
+
+**********************
+Fin de la transcription Windows PowerShell
+Heure de fin : 20160621021849
+**********************

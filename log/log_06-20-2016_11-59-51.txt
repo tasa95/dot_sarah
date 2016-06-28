@@ -1,0 +1,48 @@
+﻿**********************
+Début de la transcription Windows Powershell
+Heure de début : 20160620235953
+Nom d'utilisateur : DESKTOP-H9Q3FJ9\Tasa_PC
+Utilisateur runAs : DESKTOP-H9Q3FJ9\Tasa_PC
+Ordinateur : DESKTOP-H9Q3FJ9 (Microsoft Windows NT 10.0.10240.0)
+Application hôte : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1'
+ID de processus : 3028
+PSVersion: 5.0.10240.16384
+WSManStackVersion: 3.0
+SerializationVersion: 1.1.0.1
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.10240.16384
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0.10240.16384
+PSRemotingProtocolVersion: 2.3
+**********************
+Transcription démarrée, le fichier de sortie est C:\Users\Tasa_PC\Documents\Projet\log\log_06-20-2016_11-59-51.txt
+Starting Script
+try to send IP to API
+IP:192.168.1.98, mac:A8:86:DD:96:1A:E6
+
+data : @{id=1; type=voice-recognition-servers; attributes=}
+
+Find starting script
+Client has started id :  + 3048
+Server has started  id :  + 6852
+PS>Erreur de terminaison (Invoke-RestMethod) : « Impossible de lier le paramètre « Uri ». Impossible de convertir la valeur « http://127.0.0.1:8080+/sarah/dot_text_to_speech?text=+Bienvenue Ã  ITNOVEM » en type « System.Uri ». Erreur : « URI non valide : Port non valide spécifié. » »
+Invoke-RestMethod : Impossible de lier le paramètre «Uri». Impossible de convertir la valeur «
+http://127.0.0.1:8080+/sarah/dot_text_to_speech?text=+Bienvenue Ã ITNOVEM» en type «System.Uri». Erreur: «URI non 
+valide : Port non valide spécifié.»
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:7 : 47
++ ... od -Method PUT -Uri $localUrl+"/sarah/dot_text_to_speech?text="+$text
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument : (:) [Invoke-RestMethod], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+Invoke-RestMethod : Impossible de lier le paramètre «Uri». Impossible de convertir la valeur «
+http://127.0.0.1:8080+/sarah/dot_text_to_speech?text=+Bienvenue Ã ITNOVEM» en type «System.Uri». Erreur: «URI non
+valide : Port non valide spécifié.»
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:7 : 47
++ ... od -Method PUT -Uri $localUrl+"/sarah/dot_text_to_speech?text="+$text
++                         ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidArgument : (:) [Invoke-RestMethod], ParameterBindingException
+    + FullyQualifiedErrorId : CannotConvertArgumentNoMessage,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+
+**********************
+Fin de la transcription Windows PowerShell
+Heure de fin : 20160621000100
+**********************

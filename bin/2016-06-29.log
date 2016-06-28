@@ -1,0 +1,560 @@
+[00:03:32] [LOGGING]	 STARTING LOGGING
+[00:03:34] [INIT]	 ==========================================
+[00:03:34] [INIT]	 S.A.R.A.H. => KINECT
+[00:03:34] [INIT]	 ==========================================
+[00:03:34] [INIT]	 Server: http://127.0.0.1:8080
+[00:03:34] [INIT]	 Confidence: 0,4
+[00:03:34] [INIT]	 ==========================================
+[00:03:39] [KINECT]	 Setup sensor stream
+[00:03:39] [KINECT]	 Start sensor
+[00:03:42] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[00:03:42] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[00:03:43] [WATCHER]	 Stop watching
+[00:03:43] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[00:03:43] [GRAMMAR]	 Add to context list: time.xml
+[00:03:44] [WATCHER]	 Watching directory: macros
+[00:03:44] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[00:03:44] [GRAMMAR]	 Add to context list: dictionary.xml
+[00:03:44] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[00:03:44] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[00:03:45] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[00:03:45] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[00:03:45] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[00:03:45] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[00:03:45] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[00:03:46] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[00:03:46] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[00:03:46] [GRAMMAR]	 Add to context list: dot_veille.xml
+[00:03:47] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[00:03:47] [GRAMMAR]	 Add to context list: meteo2.xml
+[00:03:47] [WATCHER]	 Watching directory: plugins
+[00:03:47] [WATCHER]	 Start watching
+[00:03:48] [GRAMMAR]	 Context: default
+[00:03:48] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[00:03:48] [CONTEXT]	 time.xml = True
+[00:03:48] [CONTEXT]	 dictionary.xml = True
+[00:03:48] [CONTEXT]	 dot_histoire.xml = True
+[00:03:48] [CONTEXT]	 dot_itineraire.xml = True
+[00:03:48] [CONTEXT]	 dot_meteo.xml = True
+[00:03:48] [CONTEXT]	 dot_text_to_speech.xml = True
+[00:03:48] [CONTEXT]	 dot_veille.xml = True
+[00:03:48] [CONTEXT]	 meteo2.xml = True
+[00:03:55] [GRAMMAR]	 File: Load Grammar to Engine
+[00:03:57] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[00:04:00] [GRAMMAR]	 File: Load Grammar to Engine
+[00:04:01] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[00:04:01] [GRAMMAR]	 File: Load Grammar to Engine
+[00:04:01] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[00:04:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:04:02] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[00:04:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:04:02] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[00:04:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:04:03] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:04:03] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:04:03] [GRAMMAR]	 File: Load Grammar to Engine
+[00:04:03] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[00:04:04] [GRAMMAR]	 File: Load Grammar to Engine
+[00:04:04] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[00:04:04] [ENGINE - File]	 Init recognizer
+[00:04:04] [ENGINE - File]	 AudioLevel: 0
+[00:04:04] [ENGINE - File]	 MaxAlternates: 1
+[00:04:05] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[00:04:05] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[00:04:05] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[00:04:05] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[00:04:06] [KINECT_0]	 AutomaticGainControlEnabled : False
+[00:04:06] [KINECT_0]	 BeamAngle : 0
+[00:04:06] [KINECT_0]	 EchoCancellationMode : CancellationAndSuppression
+[00:04:06] [KINECT_0]	 EchoCancellationSpeakerIndex : 1
+[00:04:06] [KINECT_0]	 NoiseSuppression : True
+[00:04:06] [KINECT_0]	 SoundSourceAngle : 0
+[00:04:06] [KINECT_0]	 SoundSourceAngleConfidence : 0
+[00:04:06] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[00:04:06] [GRAMMAR]	 KINECT_0: Load: time.xml Enabled: True
+[00:04:06] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[00:04:06] [GRAMMAR]	 KINECT_0: Load: dictionary.xml Enabled: True
+[00:04:07] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[00:04:07] [GRAMMAR]	 KINECT_0: Load: dot_histoire.xml Enabled: True
+[00:04:07] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[00:04:07] [GRAMMAR]	 KINECT_0: Load: dot_itineraire.xml Enabled: True
+[00:04:07] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[00:04:07] [GRAMMAR]	 KINECT_0: Load: dot_meteo.xml Enabled: True
+[00:04:07] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[00:04:07] [GRAMMAR]	 KINECT_0: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:04:07] [GRAMMAR]	 KINECT_0: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:04:07] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[00:04:07] [GRAMMAR]	 KINECT_0: Load: dot_veille.xml Enabled: True
+[00:04:07] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[00:04:08] [GRAMMAR]	 KINECT_0: Load: meteo2.xml Enabled: True
+[00:04:08] [ENGINE - KINECT_0]	 Init recognizer
+[00:04:08] [ENGINE - KINECT_0]	 AudioLevel: 0
+[00:04:08] [ENGINE - KINECT_0]	 MaxAlternates: 1
+[00:04:08] [ENGINE - KINECT_0]	 BabbleTimeout: 00:00:05
+[00:04:08] [ENGINE - KINECT_0]	 InitialSilenceTimeout: 00:00:00
+[00:04:08] [ENGINE - KINECT_0]	 EndSilenceTimeout: 00:00:00.1500000
+[00:04:08] [ENGINE - KINECT_0]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[00:04:08] [ENGINE - KINECT_0]	 Start listening
+[00:04:08] [ENGINE - KINECT_0]	 AudioStateChanged (04:08.9):Silence
+[00:04:11] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[00:04:12] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[00:04:12] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[00:04:12] [ENGINE]	 Restart timeout: 3600000
+[00:04:29] [CAMERA]	 Storing camera: Kinect_0
+[00:05:54] [ENGINE - KINECT_0]	 AudioStateChanged (05:54.6):Speech
+[00:05:54] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:05:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Dis => 0,5229779
+[00:05:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,1678411
+[00:05:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,1877241
+[00:05:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,2242225
+[00:05:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,0731093
+[00:05:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,0731093
+[00:05:57] [ENGINE - KINECT_0]	 AudioStateChanged (05:57.8):Silence
+[00:06:28] [ENGINE - KINECT_0]	 AudioStateChanged (06:28.8):Speech
+[00:06:29] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:06:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:06:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,5813403
+[00:06:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,6857222
+[00:06:30] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,7306059
+[00:06:33] [ENGINE - KINECT_0]	 AudioStateChanged (06:33.0):Silence
+[00:06:33] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7341176 (0,4) / 0,6599432 (SARAH) Device:  Text: SARAH quelle heure est il
+[00:06:33] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,7341176 (0,4) / 0,6599432 (SARAH) Device:  Text: SARAH quelle heure est il
+[00:06:33] [ENGINE - KINECT_0]	 <SML text="SARAH quelle heure est il" utteranceConfidence="0.734" confidence="0.734">
+  <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/time" />
+  <alternate Rank="1" text="SARAH quelle heure est il" utteranceConfidence="0.734" confidence="0.734">
+    <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/time" />
+  </alternate>
+</SML>
+[00:06:34] [CONTEXT]	 Reset timeout
+[00:06:37] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.7341176&client=SARAH1&profile=Unknow_5868&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[00:06:38] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.7341176&client=SARAH1&profile=Unknow_5868&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[00:06:38] [TTS]	 Try speaking ... il est 0 heure 6 
+[00:06:38] [TTS]	 [0] Say: il est 0 heure 6 
+[00:06:47] [PLAYER]	 [0]Start Player
+[00:06:49] [PLAYER]	 [0]End Player
+[00:06:50] [PLAYER]	 [0]speaking false
+[00:06:50] [TTS]	 End speaking
+[00:06:51] [ENGINE - KINECT_0]	 SpeechRecognized: 18260,6465ms Text: SARAH quelle heure est il
+[00:06:51] [ENGINE - KINECT_0]	 AudioStateChanged (06:51.5):Speech
+[00:06:51] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:06:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9466653
+[00:06:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,9454943
+[00:06:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,9186965
+[00:06:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,8833879
+[00:06:52] [ENGINE - KINECT_0]	 AudioStateChanged (06:52.2):Silence
+[00:06:52] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9153326 (0,4) / 0,9496484 (SARAH) Device:  Text: SARAH quelle heure est il
+[00:06:52] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9153326 (0,4) / 0,9496484 (SARAH) Device:  Text: SARAH quelle heure est il
+[00:06:52] [ENGINE - KINECT_0]	 <SML text="SARAH quelle heure est il" utteranceConfidence="0.915" confidence="0.915">
+  <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/time" />
+  <alternate Rank="1" text="SARAH quelle heure est il" utteranceConfidence="0.915" confidence="0.915">
+    <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/time" />
+  </alternate>
+</SML>
+[00:06:53] [CONTEXT]	 Reset timeout
+[00:06:53] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9153326&client=SARAH1&profile=Unknow_5868&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[00:06:53] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9153326&client=SARAH1&profile=Unknow_5868&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[00:06:53] [TTS]	 Try speaking ... il est 0 heure 6 
+[00:06:53] [TTS]	 [0] Say: il est 0 heure 6 
+[00:06:53] [PLAYER]	 [0]Start Player
+[00:06:55] [PLAYER]	 [0]End Player
+[00:06:56] [PLAYER]	 [0]speaking false
+[00:06:56] [TTS]	 End speaking
+[00:06:56] [ENGINE - KINECT_0]	 SpeechRecognized: 4063,9834ms Text: SARAH quelle heure est il
+[00:06:56] [ENGINE - KINECT_0]	 AudioStateChanged (06:56.5):Speech
+[00:06:56] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:06:57] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:06:57] [ENGINE - KINECT_0]	 AudioStateChanged (06:57.2):Silence
+[00:06:57] [ENGINE - KINECT_0]	 AudioStateChanged (06:57.3):Speech
+[00:06:57] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:06:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:06:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,03343722
+[00:06:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH mets toi => 0,3519146
+[00:06:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Raconte moi une => 0,3486915
+[00:06:59] [ENGINE - KINECT_0]	 AudioStateChanged (06:59.8):Silence
+[00:06:59] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[00:06:59] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[00:07:00] [ENGINE - KINECT_0]	 SpeechRecognized: 705,3638ms Text: SARAH quelle heure est il
+[00:07:00] [ENGINE - KINECT_0]	 AudioStateChanged (07:00.7):Speech
+[00:07:01] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:07:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,361888
+[00:07:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,5153356
+[00:07:02] [ENGINE - KINECT_0]	 AudioStateChanged (07:02.2):Silence
+[00:07:02] [ENGINE - KINECT_0]	 AudioStateChanged (07:02.6):Speech
+[00:07:02] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:07:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,33162
+[00:07:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,2188546
+[00:07:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,2227449
+[00:07:03] [ENGINE - KINECT_0]	 AudioStateChanged (07:03.4):Silence
+[00:07:03] [ENGINE - KINECT_0]	 AudioStateChanged (07:03.5):Speech
+[00:07:03] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:07:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:07:04] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,1755646
+[00:07:04] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est => 0,4136129
+[00:07:04] [ENGINE - KINECT_0]	 AudioStateChanged (07:04.2):Silence
+[00:08:58] [ENGINE - KINECT_0]	 AudioStateChanged (08:58.8):Speech
+[00:08:58] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:08:58] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce => 0,1759948
+[00:08:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,2418842
+[00:08:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3497488
+[00:08:59] [ENGINE - KINECT_0]	 AudioStateChanged (08:59.7):Silence
+[00:09:12] [ENGINE - KINECT_0]	 AudioStateChanged (09:12.5):Speech
+[00:09:12] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:09:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:09:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,2988954
+[00:09:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est => 0,4607461
+[00:09:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelles sont => 0,5140434
+[00:09:14] [ENGINE - KINECT_0]	 AudioStateChanged (09:14.0):Silence
+[00:09:16] [ENGINE - KINECT_0]	 AudioStateChanged (09:16.4):Speech
+[00:09:16] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:09:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:09:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,2586576
+[00:09:16] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,3904909
+[00:09:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH mets => 0,2927401
+[00:09:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3954304
+[00:09:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,1460313
+[00:09:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel temps => 0,2176093
+[00:09:19] [ENGINE - KINECT_0]	 AudioStateChanged (09:19.5):Silence
+[00:11:04] [ENGINE - KINECT_0]	 AudioStateChanged (11:04.2):Speech
+[00:11:04] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:11:04] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1189076
+[00:11:04] [ENGINE - KINECT_0]	 AudioStateChanged (11:04.5):Silence
+[00:11:20] [ENGINE - KINECT_0]	 AudioStateChanged (11:20.2):Speech
+[00:11:20] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:11:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Donne-moi => 0,4876575
+[00:11:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH mets => 0,3546149
+[00:11:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,312003
+[00:11:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps => 0,2078521
+[00:11:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps en => 0,206407
+[00:11:22] [ENGINE - KINECT_0]	 AudioStateChanged (11:22.0):Silence
+[00:11:24] [ENGINE - KINECT_0]	 AudioStateChanged (11:24.0):Speech
+[00:11:24] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:11:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:11:24] [ENGINE - KINECT_0]	 AudioStateChanged (11:24.3):Silence
+[00:11:28] [ENGINE - KINECT_0]	 AudioStateChanged (11:28.2):Speech
+[00:11:28] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:11:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:11:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,2093354
+[00:11:29] [ENGINE - KINECT_0]	 AudioStateChanged (11:29.2):Silence
+[00:13:20] [ENGINE - KINECT_0]	 AudioStateChanged (13:20.1):Speech
+[00:13:20] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:13:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,1965617
+[00:13:20] [ENGINE - KINECT_0]	 AudioStateChanged (13:20.5):Silence
+[00:16:40] [ENGINE - KINECT_0]	 AudioStateChanged (16:40.1):Speech
+[00:16:40] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:16:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,2949924
+[00:16:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,280614
+[00:16:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,2510267
+[00:16:40] [ENGINE - KINECT_0]	 AudioStateChanged (16:40.7):Silence
+[00:20:05] [ENGINE - KINECT_0]	 AudioStateChanged (20:05.8):Speech
+[00:20:05] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:20:06] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,1928662
+[00:20:06] [ENGINE - KINECT_0]	 AudioStateChanged (20:06.3):Silence
+[00:23:37] [ENGINE - KINECT_0]	 AudioStateChanged (23:37.4):Speech
+[00:23:37] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:23:37] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:23:37] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH mets => 0,3970858
+[00:23:38] [ENGINE - KINECT_0]	 AudioStateChanged (23:38.4):Silence
+[00:29:07] [ENGINE - KINECT_0]	 AudioStateChanged (29:07.5):Speech
+[00:29:07] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:29:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,2659655
+[00:29:07] [ENGINE - KINECT_0]	 AudioStateChanged (29:07.8):Silence
+[00:32:48] [ENGINE - KINECT_0]	 AudioStateChanged (32:48.3):Speech
+[00:32:48] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:32:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH comment => 0,4605792
+[00:32:48] [ENGINE - KINECT_0]	 AudioStateChanged (32:48.9):Silence
+[00:32:52] [ENGINE - KINECT_0]	 AudioStateChanged (32:52.7):Speech
+[00:32:52] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:32:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,1742649
+[00:32:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,3613867
+[00:32:54] [ENGINE - KINECT_0]	 AudioStateChanged (32:54.3):Silence
+[00:35:02] [ENGINE - KINECT_0]	 AudioStateChanged (35:02.4):Speech
+[00:35:02] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:35:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:35:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,001
+[00:35:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,001
+[00:35:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera => 0,1283136
+[00:35:03] [ENGINE - KINECT_0]	 AudioStateChanged (35:03.8):Silence
+[00:35:04] [ENGINE - KINECT_0]	 AudioStateChanged (35:04.6):Speech
+[00:35:04] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:35:04] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4850954
+[00:35:04] [ENGINE - KINECT_0]	 AudioStateChanged (35:04.9):Silence
+[00:35:07] [ENGINE - KINECT_0]	 AudioStateChanged (35:07.4):Speech
+[00:35:07] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:35:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4721555
+[00:35:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,5511394
+[00:35:08] [ENGINE - KINECT_0]	 AudioStateChanged (35:08.4):Silence
+[00:35:12] [ENGINE - KINECT_0]	 AudioStateChanged (35:12.5):Speech
+[00:35:12] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:35:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,3634176
+[00:35:12] [ENGINE - KINECT_0]	 AudioStateChanged (35:12.8):Silence
+[00:35:31] [ENGINE - KINECT_0]	 AudioStateChanged (35:31.4):Speech
+[00:35:31] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:35:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,4394481
+[00:35:31] [ENGINE - KINECT_0]	 AudioStateChanged (35:31.8):Silence
+[00:36:22] [ENGINE - KINECT_0]	 AudioStateChanged (36:22.8):Speech
+[00:36:22] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:36:22] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:36:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,2405722
+[00:36:23] [ENGINE - KINECT_0]	 AudioStateChanged (36:23.3):Silence
+[00:36:25] [ENGINE - KINECT_0]	 AudioStateChanged (36:25.0):Speech
+[00:36:25] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:36:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,2514066
+[00:36:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,4347768
+[00:36:25] [ENGINE - KINECT_0]	 AudioStateChanged (36:25.5):Silence
+[00:36:25] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[00:36:25] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[00:36:25] [ENGINE - KINECT_0]	 SpeechRecognized: 68,9922ms Text: SARAH il est quelle heure
+[00:37:07] [ENGINE - KINECT_0]	 AudioStateChanged (37:07.8):Speech
+[00:37:07] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:37:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,1194199
+[00:37:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4036408
+[00:37:08] [ENGINE - KINECT_0]	 AudioStateChanged (37:08.8):Silence
+[00:40:04] [ENGINE - KINECT_0]	 AudioStateChanged (40:04.9):Speech
+[00:40:04] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:40:05] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:40:05] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,0504634
+[00:40:05] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:40:05] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH recherche ... => 0,001
+[00:40:06] [ENGINE - KINECT_0]	 AudioStateChanged (40:06.9):Silence
+[00:40:11] [ENGINE - KINECT_0]	 AudioStateChanged (40:11.5):Speech
+[00:40:11] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:40:11] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:40:11] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,001
+[00:40:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Dis => 0,1065855
+[00:40:12] [ENGINE - KINECT_0]	 AudioStateChanged (40:12.1):Silence
+[00:40:32] [ENGINE - KINECT_0]	 AudioStateChanged (40:32.0):Speech
+[00:40:32] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:40:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,2346964
+[00:40:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,2690278
+[00:40:33] [ENGINE - KINECT_0]	 AudioStateChanged (40:33.0):Silence
+[00:40:48] [ENGINE - KINECT_0]	 AudioStateChanged (40:48.2):Speech
+[00:40:48] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:40:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:40:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,001
+[00:40:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,2770425
+[00:40:49] [ENGINE - KINECT_0]	 AudioStateChanged (40:49.0):Silence
+[00:42:14] [ENGINE - KINECT_0]	 AudioStateChanged (42:14.0):Speech
+[00:42:14] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:42:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,1823056
+[00:42:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Donne moi => 0,3660443
+[00:42:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,3273401
+[00:42:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,4045239
+[00:42:16] [ENGINE - KINECT_0]	 AudioStateChanged (42:16.0):Silence
+[00:42:55] [ENGINE - KINECT_0]	 AudioStateChanged (42:55.3):Speech
+[00:42:55] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:42:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:42:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,4739307
+[00:42:57] [ENGINE - KINECT_0]	 AudioStateChanged (42:57.2):Silence
+[00:43:18] [ENGINE - KINECT_0]	 AudioStateChanged (43:18.1):Speech
+[00:43:18] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:43:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:43:18] [ENGINE - KINECT_0]	 AudioStateChanged (43:18.4):Silence
+[00:43:19] [ENGINE - KINECT_0]	 AudioStateChanged (43:19.7):Speech
+[00:43:19] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:43:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est => 0,1989098
+[00:43:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3309781
+[00:43:20] [ENGINE - KINECT_0]	 AudioStateChanged (43:20.2):Silence
+[00:43:32] [ENGINE - KINECT_0]	 AudioStateChanged (43:32.6):Speech
+[00:43:32] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:43:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:43:32] [ENGINE - KINECT_0]	 AudioStateChanged (43:32.8):Silence
+[00:43:34] [ENGINE - KINECT_0]	 AudioStateChanged (43:34.8):Speech
+[00:43:34] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:43:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3302307
+[00:43:35] [ENGINE - KINECT_0]	 AudioStateChanged (43:35.0):Silence
+[00:43:38] [ENGINE - KINECT_0]	 AudioStateChanged (43:38.2):Speech
+[00:43:38] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:43:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu peux => 0,2138886
+[00:43:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:43:38] [ENGINE - KINECT_0]	 AudioStateChanged (43:38.4):Silence
+[00:43:40] [ENGINE - KINECT_0]	 AudioStateChanged (43:40.8):Speech
+[00:43:40] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:43:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelles sont => 0,4101214
+[00:43:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelles sont les => 0,3909669
+[00:43:41] [ENGINE - KINECT_0]	 AudioStateChanged (43:41.3):Silence
+[00:43:48] [ENGINE - KINECT_0]	 AudioStateChanged (43:48.5):Speech
+[00:43:48] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:43:48] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,3730884
+[00:43:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,4410458
+[00:43:49] [ENGINE - KINECT_0]	 AudioStateChanged (43:49.5):Silence
+[00:43:53] [ENGINE - KINECT_0]	 AudioStateChanged (43:53.2):Speech
+[00:43:53] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:43:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,2826838
+[00:43:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,4713121
+[00:43:54] [ENGINE - KINECT_0]	 AudioStateChanged (43:54.9):Silence
+[00:44:01] [ENGINE - KINECT_0]	 AudioStateChanged (44:01.0):Speech
+[00:44:01] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:44:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,290348
+[00:44:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,1790976
+[00:44:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH mets toi en => 0,3757156
+[00:44:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Raconte moi une => 0,3020897
+[00:44:02] [ENGINE - KINECT_0]	 AudioStateChanged (44:02.8):Silence
+[00:44:12] [ENGINE - KINECT_0]	 AudioStateChanged (44:12.1):Speech
+[00:44:12] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:44:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1908084
+[00:44:12] [ENGINE - KINECT_0]	 AudioStateChanged (44:12.5):Silence
+[00:44:14] [ENGINE - KINECT_0]	 AudioStateChanged (44:14.6):Speech
+[00:44:14] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:44:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,001
+[00:44:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,2083271
+[00:44:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est t'il => 0,05544899
+[00:44:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,2807635
+[00:44:15] [ENGINE - KINECT_0]	 AudioStateChanged (44:15.9):Silence
+[00:44:19] [ENGINE - KINECT_0]	 AudioStateChanged (44:19.0):Speech
+[00:44:19] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:44:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1448014
+[00:44:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Dis moi => 0,1661076
+[00:44:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Dis => 0,3077007
+[00:44:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1761726
+[00:44:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est t'il => 0,2551731
+[00:44:20] [ENGINE - KINECT_0]	 AudioStateChanged (44:20.3):Silence
+[00:44:26] [ENGINE - KINECT_0]	 AudioStateChanged (44:26.0):Speech
+[00:44:26] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:44:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,2611322
+[00:44:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,1900491
+[00:44:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,3609018
+[00:44:26] [ENGINE - KINECT_0]	 AudioStateChanged (44:26.6):Silence
+[00:44:34] [ENGINE - KINECT_0]	 AudioStateChanged (44:34.4):Speech
+[00:44:34] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:44:34] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce => 0,2143609
+[00:44:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va => 0,06696992
+[00:44:35] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,09126243
+[00:44:36] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va => 0,086922
+[00:44:36] [ENGINE - KINECT_0]	 AudioStateChanged (44:36.6):Silence
+[00:44:39] [ENGINE - KINECT_0]	 AudioStateChanged (44:39.1):Speech
+[00:44:39] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:44:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,001
+[00:44:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,001
+[00:44:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,09000058
+[00:44:39] [ENGINE - KINECT_0]	 AudioStateChanged (44:39.7):Silence
+[00:44:40] [ENGINE - KINECT_0]	 AudioStateChanged (44:40.9):Speech
+[00:44:40] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:44:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,2434481
+[00:44:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est t'il => 0,1406435
+[00:44:42] [ENGINE - KINECT_0]	 AudioStateChanged (44:42.3):Silence
+[00:46:15] [ENGINE - KINECT_0]	 AudioStateChanged (46:15.0):Speech
+[00:46:15] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:46:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:46:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,3917174
+[00:46:15] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,5312492
+[00:46:17] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH mets toi en => 0,3669597
+[00:46:17] [ENGINE - KINECT_0]	 AudioStateChanged (46:17.2):Silence
+[00:48:26] [ENGINE - KINECT_0]	 AudioStateChanged (48:26.9):Speech
+[00:48:26] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:48:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce => 0,1118297
+[00:48:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,001
+[00:48:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,3923317
+[00:48:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,3909267
+[00:48:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il va faire => 0,1781299
+[00:48:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,3018006
+[00:48:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,08951514
+[00:48:28] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,1080154
+[00:48:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,1605568
+[00:48:29] [ENGINE - KINECT_0]	 AudioStateChanged (48:29.3):Silence
+[00:48:41] [ENGINE - KINECT_0]	 AudioStateChanged (48:41.3):Speech
+[00:48:41] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:48:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,9272402
+[00:48:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,8880311
+[00:48:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,8950555
+[00:48:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,9005839
+[00:48:42] [ENGINE - KINECT_0]	 AudioStateChanged (48:42.7):Silence
+[00:48:42] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9116159 (0,4) / 0,93022 (SARAH) Device:  Text: SARAH il est quelle heure
+[00:48:42] [ENGINE - KINECT_0]	 RECOGNIZED Speech: 0,9116159 (0,4) / 0,93022 (SARAH) Device:  Text: SARAH il est quelle heure
+[00:48:42] [ENGINE - KINECT_0]	 <SML text="SARAH il est quelle heure" utteranceConfidence="0.912" confidence="0.912">
+  <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/time" />
+  <alternate Rank="1" text="SARAH il est quelle heure" utteranceConfidence="0.912" confidence="0.912">
+    <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/time" />
+  </alternate>
+</SML>
+[00:48:43] [CONTEXT]	 Reset timeout
+[00:48:43] [HTTP]	 Build HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9116159&client=SARAH1&profile=Unknow_5868&directory=C%3a%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[00:48:43] [HTTP]	 Send HttpRequest: http://127.0.0.1:8080/sarah/time?confidence=0.9116159&client=SARAH1&profile=Unknow_5868&directory=C:%5cUsers%5cTasa_PC%5cDocuments%5cProjet%5cmacros
+[00:48:43] [TTS]	 Try speaking ... il est 0 heure 48 
+[00:48:43] [TTS]	 [0] Say: il est 0 heure 48 
+[00:48:43] [PLAYER]	 [0]Start Player
+[00:48:46] [PLAYER]	 [0]End Player
+[00:48:46] [PLAYER]	 [0]speaking false
+[00:48:46] [TTS]	 End speaking
+[00:48:46] [ENGINE - KINECT_0]	 SpeechRecognized: 3702,6129ms Text: SARAH il est quelle heure
+[00:49:12] [ENGINE - KINECT_0]	 AudioStateChanged (49:12.8):Speech
+[00:49:12] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:49:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4311812
+[00:49:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3603621
+[00:49:14] [ENGINE - KINECT_0]	 AudioStateChanged (49:14.6):Silence
+[00:49:18] [ENGINE - KINECT_0]	 AudioStateChanged (49:18.9):Speech
+[00:49:18] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:49:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait => 0,377441
+[00:49:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,2950309
+[00:49:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,1149004
+[00:49:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le => 0,2172915
+[00:49:21] [ENGINE - KINECT_0]	 AudioStateChanged (49:21.0):Silence
+[00:49:23] [ENGINE - KINECT_0]	 AudioStateChanged (49:23.9):Speech
+[00:49:23] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:49:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:49:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,2929806
+[00:49:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,2704943
+[00:49:24] [ENGINE - KINECT_0]	 AudioStateChanged (49:24.5):Silence
+[00:50:05] [ENGINE - KINECT_0]	 AudioStateChanged (50:05.8):Speech
+[00:50:05] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:50:05] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,08347909
+[00:50:06] [ENGINE - KINECT_0]	 AudioStateChanged (50:06.4):Silence
+[00:50:13] [ENGINE - KINECT_0]	 AudioStateChanged (50:13.3):Speech
+[00:50:13] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:50:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4955684
+[00:50:13] [ENGINE - KINECT_0]	 AudioStateChanged (50:13.5):Silence
+[00:50:40] [ENGINE - KINECT_0]	 AudioStateChanged (50:40.8):Speech
+[00:50:40] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:50:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4908315
+[00:50:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure => 0,4774274
+[00:50:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,5050437
+[00:50:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,5692274
+[00:50:41] [ENGINE - KINECT_0]	 AudioStateChanged (50:41.8):Silence
+[00:50:41] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[00:50:41] [ENGINE - KINECT_0]	 REJECTED Trigger: 0,001 Text: SARAH
+[00:50:42] [ENGINE - KINECT_0]	 SpeechRecognized: 109,6506ms Text: SARAH quelle heure est il
+[00:50:47] [ENGINE - KINECT_0]	 AudioStateChanged (50:47.6):Speech
+[00:50:47] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:50:47] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[00:50:48] [ENGINE - KINECT_0]	 AudioStateChanged (50:48.1):Silence
+[00:50:55] [ENGINE - KINECT_0]	 AudioStateChanged (50:55.3):Speech
+[00:50:55] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:50:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,2257521
+[00:50:55] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,3810312
+[00:50:56] [ENGINE - KINECT_0]	 AudioStateChanged (50:56.1):Silence
+[00:51:19] [ENGINE - KINECT_0]	 AudioStateChanged (51:19.0):Speech
+[00:51:19] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:51:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,3008894
+[00:51:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,325589
+[00:51:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,258525
+[00:51:19] [ENGINE - KINECT_0]	 AudioStateChanged (51:19.8):Silence
+[00:51:23] [ENGINE - KINECT_0]	 AudioStateChanged (51:23.5):Speech
+[00:51:24] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:51:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4141701
+[00:51:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,4868577
+[00:51:25] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,5270222
+[00:51:25] [ENGINE - KINECT_0]	 AudioStateChanged (51:25.0):Silence
+[00:51:26] [ENGINE - KINECT_0]	 AudioStateChanged (51:26.0):Speech
+[00:51:26] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:51:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,2037686
+[00:51:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Dis moi => 0,2806968
+[00:51:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4026835
+[00:51:27] [ENGINE - KINECT_0]	 AudioStateChanged (51:27.5):Silence
+[00:51:30] [ENGINE - KINECT_0]	 AudioStateChanged (51:30.6):Speech
+[00:51:30] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:51:30] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,426102
+[00:51:31] [ENGINE - KINECT_0]	 AudioStateChanged (51:31.1):Silence
+[00:51:45] [ENGINE - KINECT_0]	 AudioStateChanged (51:45.3):Speech
+[00:51:45] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:51:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est t'il => 0,2815073
+[00:51:46] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,2501247
+[00:51:46] [ENGINE - KINECT_0]	 AudioStateChanged (51:46.4):Silence
+[00:52:04] [ENGINE - KINECT_0]	 AudioStateChanged (52:03.9):Speech
+[00:52:15] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:52:20] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,3265883
+[00:52:44] [ENGINE - KINECT_0]	 AudioStateChanged (52:44.6):Silence
+[00:52:45] [ENGINE - KINECT_0]	 AudioStateChanged (52:45.2):Speech
+[00:52:45] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[00:52:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4148065
+[00:52:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,1698332
+[00:52:45] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,3299511
+[00:52:45] [ENGINE - KINECT_0]	 AudioStateChanged (52:45.7):Silence

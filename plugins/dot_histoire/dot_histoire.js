@@ -15,33 +15,9 @@ exports.action = function(data, callback, config, SARAH){
   console.log(data);
   SARAH.play(mp3);
   console.log("play song");
-  SARAH.speak("Il était une fois à l'E S G I", function()
+  SARAH.speak("Il était une fois à ITNOVEM", function()
  {
 	 sleep(18000);
-	 SARAH.speak("Badére est absent à 8h et sera présent après avoir au moins bu son café ", function()
-	 {
-		 sleep(2000);
-		 SARAH.speak("Julien jouera pendant la pause midi au même jeu", function(){
-			 sleep(2000);
-			SARAH.speak("Marc fera du Marc", function(){
-				sleep(2000);
-				SARAH.speak("Une bonne partie de la classe sera au baby-foot",function(){
-					sleep(2000);
-					SARAH.speak("Thomas arrivera peut être à l'heure aujourd'hui",function() {
-						sleep(2000);
-						SARAH.speak("Le prof de marketing viendra surement pas", function(){
-							sleep(2000);
-							SARAH.speak("Ce fut une bonne histoire", function(){
-								sleep(1000);
-								SARAH.speak("Fin");	
-							});
-						});
-					});	
-				});
-				
-			});		
-		 }); 
-	 });
  });
  callback();
  

@@ -1,0 +1,8 @@
+<match="0,8758528" text"SARAH mets toi en veille">
+<trigger="0,9394698" text"SARAH">
+<SML text="SARAH mets toi en veille" utteranceConfidence="0.876" confidence="0.876">
+  <action confidence="0.998" listen="False" uri="http://127.0.0.1:8080/sarah/dot_veille?reveil=false" />
+  <alternate Rank="1" text="SARAH mets toi en veille" utteranceConfidence="0.876" confidence="0.876">
+    <action confidence="0.998" listen="False" uri="http://127.0.0.1:8080/sarah/dot_veille?reveil=false" />
+  </alternate>
+</SML>

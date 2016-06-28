@@ -1,0 +1,599 @@
+[00:01:14] [RTPCLIENT]	 Stop RTPClient
+[00:01:14] [RTPCLIENT]	 Stop RTPClient
+[00:01:14] [RTPCLIENT]	 Stop RTPClient ... Done
+[00:01:14] [RTPCLIENT]	 Stop RTPClient ... Done
+[00:01:14] [ENGINE - File]	 Stop listening...done
+[00:01:14] [KINECT]	 Stop Sensors
+[00:01:24] [LOGGING]	 STARTING LOGGING
+[00:01:24] [INIT]	 ==========================================
+[00:01:24] [INIT]	 S.A.R.A.H. => KINECT
+[00:01:24] [INIT]	 ==========================================
+[00:01:24] [INIT]	 Server: http://127.0.0.1:8080
+[00:01:24] [INIT]	 Confidence: 0,4
+[00:01:24] [INIT]	 ==========================================
+[00:01:24] [KINECT]	 No Kinect Sensor
+[00:01:24] [KINECT]	 No Kinect Sensor
+[00:01:24] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[00:01:24] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[00:01:24] [WATCHER]	 Stop watching
+[00:01:24] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[00:01:24] [GRAMMAR]	 Add to context list: time.xml
+[00:01:24] [WATCHER]	 Watching directory: macros
+[00:01:24] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[00:01:24] [GRAMMAR]	 Add to context list: dictionary.xml
+[00:01:24] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[00:01:24] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[00:01:24] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[00:01:24] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[00:01:24] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[00:01:24] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[00:01:24] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[00:01:24] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[00:01:24] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[00:01:24] [GRAMMAR]	 Add to context list: dot_veille.xml
+[00:01:24] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[00:01:24] [GRAMMAR]	 Add to context list: meteo2.xml
+[00:01:24] [WATCHER]	 Watching directory: plugins
+[00:01:24] [WATCHER]	 Start watching
+[00:01:24] [GRAMMAR]	 Context: default
+[00:01:24] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[00:01:24] [CONTEXT]	 time.xml = True
+[00:01:24] [CONTEXT]	 dictionary.xml = True
+[00:01:24] [CONTEXT]	 dot_histoire.xml = True
+[00:01:24] [CONTEXT]	 dot_itineraire.xml = True
+[00:01:24] [CONTEXT]	 dot_meteo.xml = True
+[00:01:24] [CONTEXT]	 dot_text_to_speech.xml = True
+[00:01:24] [CONTEXT]	 dot_veille.xml = True
+[00:01:24] [CONTEXT]	 meteo2.xml = True
+[00:01:24] [GRAMMAR]	 File: Load Grammar to Engine
+[00:01:24] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[00:01:24] [GRAMMAR]	 File: Load Grammar to Engine
+[00:01:24] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[00:01:24] [GRAMMAR]	 File: Load Grammar to Engine
+[00:01:24] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[00:01:24] [GRAMMAR]	 File: Load Grammar to Engine
+[00:01:24] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[00:01:24] [GRAMMAR]	 File: Load Grammar to Engine
+[00:01:24] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[00:01:24] [GRAMMAR]	 File: Load Grammar to Engine
+[00:01:24] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:01:24] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:01:24] [GRAMMAR]	 File: Load Grammar to Engine
+[00:01:24] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[00:01:24] [GRAMMAR]	 File: Load Grammar to Engine
+[00:01:24] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[00:01:24] [ENGINE - File]	 Init recognizer
+[00:01:24] [ENGINE - File]	 AudioLevel: 0
+[00:01:24] [ENGINE - File]	 MaxAlternates: 1
+[00:01:24] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[00:01:24] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[00:01:24] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[00:01:24] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[00:01:24] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[00:01:25] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[00:01:25] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[00:01:25] [ENGINE]	 Restart timeout: 3600000
+[00:02:51] [LOGGING]	 STARTING LOGGING
+[00:02:51] [INIT]	 ==========================================
+[00:02:51] [INIT]	 S.A.R.A.H. => KINECT
+[00:02:51] [INIT]	 ==========================================
+[00:02:51] [INIT]	 Server: http://127.0.0.1:8080
+[00:02:51] [INIT]	 Confidence: 0,4
+[00:02:51] [INIT]	 ==========================================
+[00:02:51] [KINECT]	 No Kinect Sensor
+[00:02:51] [KINECT]	 No Kinect Sensor
+[00:02:51] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[00:02:51] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[00:02:51] [WATCHER]	 Stop watching
+[00:02:51] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[00:02:51] [GRAMMAR]	 Add to context list: time.xml
+[00:02:51] [WATCHER]	 Watching directory: macros
+[00:02:51] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[00:02:51] [GRAMMAR]	 Add to context list: dictionary.xml
+[00:02:51] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[00:02:51] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[00:02:51] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[00:02:51] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[00:02:51] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[00:02:51] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[00:02:51] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[00:02:51] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[00:02:51] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[00:02:51] [GRAMMAR]	 Add to context list: dot_veille.xml
+[00:02:51] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[00:02:52] [GRAMMAR]	 Add to context list: meteo2.xml
+[00:02:52] [WATCHER]	 Watching directory: plugins
+[00:02:52] [WATCHER]	 Start watching
+[00:02:52] [GRAMMAR]	 Context: default
+[00:02:52] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[00:02:52] [CONTEXT]	 time.xml = True
+[00:02:52] [CONTEXT]	 dictionary.xml = True
+[00:02:52] [CONTEXT]	 dot_histoire.xml = True
+[00:02:52] [CONTEXT]	 dot_itineraire.xml = True
+[00:02:52] [CONTEXT]	 dot_meteo.xml = True
+[00:02:52] [CONTEXT]	 dot_text_to_speech.xml = True
+[00:02:52] [CONTEXT]	 dot_veille.xml = True
+[00:02:52] [CONTEXT]	 meteo2.xml = True
+[00:02:52] [GRAMMAR]	 File: Load Grammar to Engine
+[00:02:52] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[00:02:52] [GRAMMAR]	 File: Load Grammar to Engine
+[00:02:52] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[00:02:52] [GRAMMAR]	 File: Load Grammar to Engine
+[00:02:52] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[00:02:52] [GRAMMAR]	 File: Load Grammar to Engine
+[00:02:52] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[00:02:52] [GRAMMAR]	 File: Load Grammar to Engine
+[00:02:52] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[00:02:52] [GRAMMAR]	 File: Load Grammar to Engine
+[00:02:52] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:02:52] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:02:52] [GRAMMAR]	 File: Load Grammar to Engine
+[00:02:52] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[00:02:52] [GRAMMAR]	 File: Load Grammar to Engine
+[00:02:52] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[00:02:52] [ENGINE - File]	 Init recognizer
+[00:02:52] [ENGINE - File]	 AudioLevel: 0
+[00:02:52] [ENGINE - File]	 MaxAlternates: 1
+[00:02:52] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[00:02:52] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[00:02:52] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[00:02:52] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[00:02:52] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[00:02:52] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[00:02:52] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[00:02:52] [ENGINE]	 Restart timeout: 3600000
+[00:03:41] [HTTP]	 Request received: http://127.0.0.1:8888/?tts=Bienvenue%20%C3%83%20ITNOVEM
+[00:03:42] [TTS]	 Try speaking ... Bienvenue Ã ITNOVEM
+[00:03:42] [TTS]	 [0] Say: Bienvenue Ã ITNOVEM
+[00:03:43] [PLAYER]	 [0]Start Player
+[00:03:45] [PLAYER]	 [0]End Player
+[00:03:45] [PLAYER]	 [0]speaking false
+[00:03:45] [TTS]	 End speaking
+[00:07:27] [HTTP]	 Request received: http://127.0.0.1:8888/?tts=Bienvenue
+[00:07:27] [TTS]	 Try speaking ... Bienvenue
+[00:07:27] [TTS]	 [0] Say: Bienvenue
+[00:07:27] [PLAYER]	 [0]Start Player
+[00:07:28] [PLAYER]	 [0]End Player
+[00:07:28] [PLAYER]	 [0]speaking false
+[00:07:28] [TTS]	 End speaking
+[00:08:29] [RTPCLIENT]	 Stop RTPClient
+[00:08:29] [RTPCLIENT]	 Stop RTPClient
+[00:08:29] [RTPCLIENT]	 Stop RTPClient ... Done
+[00:08:29] [RTPCLIENT]	 Stop RTPClient ... Done
+[00:08:29] [ENGINE - File]	 Stop listening...done
+[00:08:29] [KINECT]	 Stop Sensors
+[00:08:42] [LOGGING]	 STARTING LOGGING
+[00:08:42] [INIT]	 ==========================================
+[00:08:42] [INIT]	 S.A.R.A.H. => KINECT
+[00:08:42] [INIT]	 ==========================================
+[00:08:42] [INIT]	 Server: http://127.0.0.1:8080
+[00:08:42] [INIT]	 Confidence: 0,4
+[00:08:42] [INIT]	 ==========================================
+[00:08:42] [KINECT]	 No Kinect Sensor
+[00:08:42] [KINECT]	 No Kinect Sensor
+[00:08:42] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[00:08:42] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[00:08:42] [WATCHER]	 Stop watching
+[00:08:42] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[00:08:42] [GRAMMAR]	 Add to context list: time.xml
+[00:08:42] [WATCHER]	 Watching directory: macros
+[00:08:42] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[00:08:42] [GRAMMAR]	 Add to context list: dictionary.xml
+[00:08:42] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[00:08:42] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[00:08:42] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[00:08:42] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[00:08:42] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[00:08:42] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[00:08:42] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[00:08:43] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[00:08:43] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[00:08:43] [GRAMMAR]	 Add to context list: dot_veille.xml
+[00:08:43] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[00:08:43] [GRAMMAR]	 Add to context list: meteo2.xml
+[00:08:43] [WATCHER]	 Watching directory: plugins
+[00:08:43] [WATCHER]	 Start watching
+[00:08:43] [GRAMMAR]	 Context: default
+[00:08:43] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[00:08:43] [CONTEXT]	 time.xml = True
+[00:08:43] [CONTEXT]	 dictionary.xml = True
+[00:08:43] [CONTEXT]	 dot_histoire.xml = True
+[00:08:43] [CONTEXT]	 dot_itineraire.xml = True
+[00:08:43] [CONTEXT]	 dot_meteo.xml = True
+[00:08:43] [CONTEXT]	 dot_text_to_speech.xml = True
+[00:08:43] [CONTEXT]	 dot_veille.xml = True
+[00:08:43] [CONTEXT]	 meteo2.xml = True
+[00:08:43] [GRAMMAR]	 File: Load Grammar to Engine
+[00:08:43] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[00:08:43] [GRAMMAR]	 File: Load Grammar to Engine
+[00:08:43] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[00:08:43] [GRAMMAR]	 File: Load Grammar to Engine
+[00:08:43] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[00:08:43] [GRAMMAR]	 File: Load Grammar to Engine
+[00:08:43] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[00:08:43] [GRAMMAR]	 File: Load Grammar to Engine
+[00:08:43] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[00:08:43] [GRAMMAR]	 File: Load Grammar to Engine
+[00:08:43] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:08:43] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:08:43] [GRAMMAR]	 File: Load Grammar to Engine
+[00:08:43] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[00:08:43] [GRAMMAR]	 File: Load Grammar to Engine
+[00:08:43] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[00:08:43] [ENGINE - File]	 Init recognizer
+[00:08:43] [ENGINE - File]	 AudioLevel: 0
+[00:08:43] [ENGINE - File]	 MaxAlternates: 1
+[00:08:43] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[00:08:43] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[00:08:43] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[00:08:43] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[00:08:43] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[00:08:43] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[00:08:43] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[00:08:43] [ENGINE]	 Restart timeout: 3600000
+[00:08:57] [HTTP]	 Request received: http://127.0.0.1:8888/?tts=Bienvenue%20%C3%83%C2%A0%20ITNOVEM
+[00:08:57] [TTS]	 Try speaking ... Bienvenue Ã  ITNOVEM
+[00:08:57] [TTS]	 [0] Say: Bienvenue Ã  ITNOVEM
+[00:08:57] [PLAYER]	 [0]Start Player
+[00:08:59] [PLAYER]	 [0]End Player
+[00:08:59] [PLAYER]	 [0]speaking false
+[00:08:59] [TTS]	 End speaking
+[00:10:25] [HTTP]	 Request received: http://127.0.0.1:8888/?tts=Bienvenue%20a%20ITNOVEM
+[00:10:25] [TTS]	 Try speaking ... Bienvenue a ITNOVEM
+[00:10:25] [TTS]	 [0] Say: Bienvenue a ITNOVEM
+[00:10:26] [PLAYER]	 [0]Start Player
+[00:10:28] [PLAYER]	 [0]End Player
+[00:10:28] [PLAYER]	 [0]speaking false
+[00:10:28] [TTS]	 End speaking
+[02:16:28] [LOGGING]	 STARTING LOGGING
+[02:16:28] [INIT]	 ==========================================
+[02:16:28] [INIT]	 S.A.R.A.H. => KINECT
+[02:16:28] [INIT]	 ==========================================
+[02:16:28] [INIT]	 Server: http://127.0.0.1:8080
+[02:16:28] [INIT]	 Confidence: 0,4
+[02:16:28] [INIT]	 ==========================================
+[02:16:28] [KINECT]	 No Kinect Sensor
+[02:16:28] [KINECT]	 No Kinect Sensor
+[02:16:29] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[02:16:29] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[02:16:29] [WATCHER]	 Stop watching
+[02:16:29] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[02:16:29] [GRAMMAR]	 Add to context list: time.xml
+[02:16:29] [WATCHER]	 Watching directory: macros
+[02:16:29] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[02:16:29] [GRAMMAR]	 Add to context list: dictionary.xml
+[02:16:29] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[02:16:29] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[02:16:29] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[02:16:29] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[02:16:29] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[02:16:29] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[02:16:29] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[02:16:29] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[02:16:29] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[02:16:29] [GRAMMAR]	 Add to context list: dot_veille.xml
+[02:16:29] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[02:16:29] [GRAMMAR]	 Add to context list: meteo2.xml
+[02:16:29] [WATCHER]	 Watching directory: plugins
+[02:16:29] [WATCHER]	 Start watching
+[02:16:29] [GRAMMAR]	 Context: default
+[02:16:29] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[02:16:29] [CONTEXT]	 time.xml = True
+[02:16:29] [CONTEXT]	 dictionary.xml = True
+[02:16:29] [CONTEXT]	 dot_histoire.xml = True
+[02:16:29] [CONTEXT]	 dot_itineraire.xml = True
+[02:16:29] [CONTEXT]	 dot_meteo.xml = True
+[02:16:29] [CONTEXT]	 dot_text_to_speech.xml = True
+[02:16:29] [CONTEXT]	 dot_veille.xml = True
+[02:16:29] [CONTEXT]	 meteo2.xml = True
+[02:16:29] [GRAMMAR]	 File: Load Grammar to Engine
+[02:16:29] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[02:16:29] [GRAMMAR]	 File: Load Grammar to Engine
+[02:16:29] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[02:16:29] [GRAMMAR]	 File: Load Grammar to Engine
+[02:16:29] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[02:16:29] [GRAMMAR]	 File: Load Grammar to Engine
+[02:16:29] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[02:16:29] [GRAMMAR]	 File: Load Grammar to Engine
+[02:16:29] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[02:16:29] [GRAMMAR]	 File: Load Grammar to Engine
+[02:16:29] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[02:16:29] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[02:16:29] [GRAMMAR]	 File: Load Grammar to Engine
+[02:16:29] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[02:16:29] [GRAMMAR]	 File: Load Grammar to Engine
+[02:16:29] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[02:16:29] [ENGINE - File]	 Init recognizer
+[02:16:29] [ENGINE - File]	 AudioLevel: 0
+[02:16:29] [ENGINE - File]	 MaxAlternates: 1
+[02:16:29] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[02:16:29] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[02:16:29] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[02:16:29] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[02:16:29] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[02:16:29] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[02:16:29] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[02:16:29] [ENGINE]	 Restart timeout: 3600000
+[02:16:37] [HTTP]	 Request received: http://127.0.0.1:8888/?tts=Bienvenue%20a%20ITNOVEM
+[02:16:39] [TTS]	 Try speaking ... Bienvenue a ITNOVEM
+[02:16:39] [TTS]	 [0] Say: Bienvenue a ITNOVEM
+[02:16:40] [PLAYER]	 [0]Start Player
+[02:16:42] [PLAYER]	 [0]End Player
+[02:16:42] [PLAYER]	 [0]speaking false
+[02:16:42] [TTS]	 End speaking
+[02:17:12] [LOGGING]	 STARTING LOGGING
+[02:17:12] [INIT]	 ==========================================
+[02:17:12] [INIT]	 S.A.R.A.H. => KINECT
+[02:17:12] [INIT]	 ==========================================
+[02:17:12] [INIT]	 Server: http://127.0.0.1:8080
+[02:17:12] [INIT]	 Confidence: 0,4
+[02:17:12] [INIT]	 ==========================================
+[02:17:13] [KINECT]	 No Kinect Sensor
+[02:17:13] [KINECT]	 No Kinect Sensor
+[02:17:13] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[02:17:13] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[02:17:13] [WATCHER]	 Stop watching
+[02:17:13] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[02:17:13] [GRAMMAR]	 Add to context list: time.xml
+[02:17:13] [WATCHER]	 Watching directory: macros
+[02:17:13] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[02:17:14] [GRAMMAR]	 Add to context list: dictionary.xml
+[02:17:14] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[02:17:14] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[02:17:14] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[02:17:14] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[02:17:14] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[02:17:14] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[02:17:14] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[02:17:14] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[02:17:14] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[02:17:15] [GRAMMAR]	 Add to context list: dot_veille.xml
+[02:17:15] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[02:17:15] [GRAMMAR]	 Add to context list: meteo2.xml
+[02:17:15] [WATCHER]	 Watching directory: plugins
+[02:17:15] [WATCHER]	 Start watching
+[02:17:15] [GRAMMAR]	 Context: default
+[02:17:15] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[02:17:15] [CONTEXT]	 time.xml = True
+[02:17:15] [CONTEXT]	 dictionary.xml = True
+[02:17:15] [CONTEXT]	 dot_histoire.xml = True
+[02:17:16] [CONTEXT]	 dot_itineraire.xml = True
+[02:17:16] [CONTEXT]	 dot_meteo.xml = True
+[02:17:16] [CONTEXT]	 dot_text_to_speech.xml = True
+[02:17:16] [CONTEXT]	 dot_veille.xml = True
+[02:17:16] [CONTEXT]	 meteo2.xml = True
+[02:17:17] [GRAMMAR]	 File: Load Grammar to Engine
+[02:17:17] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[02:17:18] [GRAMMAR]	 File: Load Grammar to Engine
+[02:17:18] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[02:17:18] [GRAMMAR]	 File: Load Grammar to Engine
+[02:17:18] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[02:17:18] [GRAMMAR]	 File: Load Grammar to Engine
+[02:17:18] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[02:17:18] [GRAMMAR]	 File: Load Grammar to Engine
+[02:17:18] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[02:17:18] [GRAMMAR]	 File: Load Grammar to Engine
+[02:17:19] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[02:17:19] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[02:17:19] [GRAMMAR]	 File: Load Grammar to Engine
+[02:17:19] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[02:17:19] [GRAMMAR]	 File: Load Grammar to Engine
+[02:17:19] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[02:17:19] [ENGINE - File]	 Init recognizer
+[02:17:19] [ENGINE - File]	 AudioLevel: 0
+[02:17:19] [ENGINE - File]	 MaxAlternates: 1
+[02:17:19] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[02:17:19] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[02:17:19] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[02:17:19] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[02:17:19] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[02:17:19] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[02:17:20] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[02:17:20] [ENGINE]	 Restart timeout: 3600000
+[06:33:58] [LOGGING]	 STARTING LOGGING
+[06:33:59] [INIT]	 ==========================================
+[06:33:59] [INIT]	 S.A.R.A.H. => KINECT
+[06:33:59] [INIT]	 ==========================================
+[06:33:59] [INIT]	 Server: http://127.0.0.1:8080
+[06:33:59] [INIT]	 Confidence: 0,4
+[06:33:59] [INIT]	 ==========================================
+[06:34:01] [KINECT]	 No Kinect Sensor
+[06:34:01] [KINECT]	 No Kinect Sensor
+[06:34:02] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[06:34:03] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[06:34:04] [WATCHER]	 Stop watching
+[06:34:04] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[06:34:04] [GRAMMAR]	 Add to context list: time.xml
+[06:34:04] [WATCHER]	 Watching directory: macros
+[06:34:05] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[06:34:05] [GRAMMAR]	 Add to context list: dictionary.xml
+[06:34:05] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[06:34:05] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[06:34:05] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[06:34:05] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[06:34:06] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[06:34:06] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[06:34:06] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[06:34:06] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[06:34:07] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[06:34:07] [GRAMMAR]	 Add to context list: dot_veille.xml
+[06:34:07] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[06:34:08] [GRAMMAR]	 Add to context list: meteo2.xml
+[06:34:08] [WATCHER]	 Watching directory: plugins
+[06:34:08] [WATCHER]	 Start watching
+[06:34:08] [GRAMMAR]	 Context: default
+[06:34:08] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[06:34:08] [CONTEXT]	 time.xml = True
+[06:34:08] [CONTEXT]	 dictionary.xml = True
+[06:34:08] [CONTEXT]	 dot_histoire.xml = True
+[06:34:08] [CONTEXT]	 dot_itineraire.xml = True
+[06:34:09] [CONTEXT]	 dot_meteo.xml = True
+[06:34:09] [CONTEXT]	 dot_text_to_speech.xml = True
+[06:34:09] [CONTEXT]	 dot_veille.xml = True
+[06:34:09] [CONTEXT]	 meteo2.xml = True
+[06:34:14] [GRAMMAR]	 File: Load Grammar to Engine
+[06:34:15] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[06:34:17] [GRAMMAR]	 File: Load Grammar to Engine
+[06:34:18] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[06:34:18] [GRAMMAR]	 File: Load Grammar to Engine
+[06:34:19] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[06:34:19] [GRAMMAR]	 File: Load Grammar to Engine
+[06:34:19] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[06:34:20] [GRAMMAR]	 File: Load Grammar to Engine
+[06:34:20] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[06:34:20] [GRAMMAR]	 File: Load Grammar to Engine
+[06:34:21] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[06:34:21] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[06:34:21] [GRAMMAR]	 File: Load Grammar to Engine
+[06:34:21] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[06:34:21] [GRAMMAR]	 File: Load Grammar to Engine
+[06:34:21] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[06:34:22] [ENGINE - File]	 Init recognizer
+[06:34:22] [ENGINE - File]	 AudioLevel: 0
+[06:34:22] [ENGINE - File]	 MaxAlternates: 1
+[06:34:22] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[06:34:22] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[06:34:22] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[06:34:22] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[06:34:23] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[06:34:23] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[06:34:23] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[06:34:23] [ENGINE]	 Restart timeout: 3600000
+[08:14:59] [LOGGING]	 STARTING LOGGING
+[08:14:59] [INIT]	 ==========================================
+[08:14:59] [INIT]	 S.A.R.A.H. => KINECT
+[08:14:59] [INIT]	 ==========================================
+[08:14:59] [INIT]	 Server: http://127.0.0.1:8080
+[08:14:59] [INIT]	 Confidence: 0,4
+[08:15:00] [INIT]	 ==========================================
+[08:15:01] [KINECT]	 No Kinect Sensor
+[08:15:01] [KINECT]	 No Kinect Sensor
+[08:15:01] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[08:15:01] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[08:15:01] [WATCHER]	 Stop watching
+[08:15:01] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[08:15:01] [GRAMMAR]	 Add to context list: time.xml
+[08:15:02] [WATCHER]	 Watching directory: macros
+[08:15:02] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[08:15:02] [GRAMMAR]	 Add to context list: dictionary.xml
+[08:15:02] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[08:15:02] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[08:15:02] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[08:15:02] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[08:15:02] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[08:15:03] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[08:15:03] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[08:15:03] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[08:15:03] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[08:15:03] [GRAMMAR]	 Add to context list: dot_veille.xml
+[08:15:03] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[08:15:04] [GRAMMAR]	 Add to context list: meteo2.xml
+[08:15:04] [WATCHER]	 Watching directory: plugins
+[08:15:04] [WATCHER]	 Start watching
+[08:15:04] [GRAMMAR]	 Context: default
+[08:15:04] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[08:15:04] [CONTEXT]	 time.xml = True
+[08:15:04] [CONTEXT]	 dictionary.xml = True
+[08:15:05] [CONTEXT]	 dot_histoire.xml = True
+[08:15:05] [CONTEXT]	 dot_itineraire.xml = True
+[08:15:05] [CONTEXT]	 dot_meteo.xml = True
+[08:15:05] [CONTEXT]	 dot_text_to_speech.xml = True
+[08:15:05] [CONTEXT]	 dot_veille.xml = True
+[08:15:05] [CONTEXT]	 meteo2.xml = True
+[08:15:07] [GRAMMAR]	 File: Load Grammar to Engine
+[08:15:07] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[08:15:10] [GRAMMAR]	 File: Load Grammar to Engine
+[08:15:10] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[08:15:11] [GRAMMAR]	 File: Load Grammar to Engine
+[08:15:11] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[08:15:12] [GRAMMAR]	 File: Load Grammar to Engine
+[08:15:12] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[08:15:12] [GRAMMAR]	 File: Load Grammar to Engine
+[08:15:12] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[08:15:13] [GRAMMAR]	 File: Load Grammar to Engine
+[08:15:13] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[08:15:13] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[08:15:13] [GRAMMAR]	 File: Load Grammar to Engine
+[08:15:13] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[08:15:13] [GRAMMAR]	 File: Load Grammar to Engine
+[08:15:13] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[08:15:14] [ENGINE - File]	 Init recognizer
+[08:15:14] [ENGINE - File]	 AudioLevel: 0
+[08:15:14] [ENGINE - File]	 MaxAlternates: 1
+[08:15:14] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[08:15:14] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[08:15:14] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[08:15:14] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[08:15:15] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[08:15:15] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[08:15:15] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[08:15:15] [ENGINE]	 Restart timeout: 3600000
+[08:26:35] [LOGGING]	 STARTING LOGGING
+[08:26:37] [INIT]	 ==========================================
+[08:26:38] [INIT]	 S.A.R.A.H. => KINECT
+[08:26:38] [INIT]	 ==========================================
+[08:26:38] [INIT]	 Server: http://127.0.0.1:8080
+[08:26:38] [INIT]	 Confidence: 0,4
+[08:26:38] [INIT]	 ==========================================
+[08:26:40] [KINECT]	 No Kinect Sensor
+[08:26:40] [KINECT]	 No Kinect Sensor
+[08:26:42] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[08:26:42] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[08:26:43] [WATCHER]	 Stop watching
+[08:26:43] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[08:26:43] [GRAMMAR]	 Add to context list: time.xml
+[08:26:43] [WATCHER]	 Watching directory: macros
+[08:26:44] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[08:26:44] [GRAMMAR]	 Add to context list: dictionary.xml
+[08:26:44] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[08:26:44] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[08:26:45] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[08:26:45] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[08:26:45] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[08:26:45] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[08:26:45] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[08:26:45] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[08:26:46] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[08:26:46] [GRAMMAR]	 Add to context list: dot_veille.xml
+[08:26:46] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[08:26:50] [GRAMMAR]	 Add to context list: meteo2.xml
+[08:26:51] [WATCHER]	 Watching directory: plugins
+[08:26:53] [WATCHER]	 Start watching
+[08:26:53] [GRAMMAR]	 Context: default
+[08:26:53] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[08:26:53] [CONTEXT]	 time.xml = True
+[08:26:53] [CONTEXT]	 dictionary.xml = True
+[08:26:54] [CONTEXT]	 dot_histoire.xml = True
+[08:26:54] [CONTEXT]	 dot_itineraire.xml = True
+[08:26:56] [CONTEXT]	 dot_meteo.xml = True
+[08:26:56] [CONTEXT]	 dot_text_to_speech.xml = True
+[08:26:57] [CONTEXT]	 dot_veille.xml = True
+[08:26:59] [CONTEXT]	 meteo2.xml = True
+[08:27:18] [GRAMMAR]	 File: Load Grammar to Engine
+[08:27:20] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[08:27:23] [GRAMMAR]	 File: Load Grammar to Engine
+[08:27:23] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[08:27:24] [GRAMMAR]	 File: Load Grammar to Engine
+[08:27:24] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[08:27:25] [GRAMMAR]	 File: Load Grammar to Engine
+[08:27:25] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[08:27:25] [GRAMMAR]	 File: Load Grammar to Engine
+[08:27:25] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[08:27:25] [GRAMMAR]	 File: Load Grammar to Engine
+[08:27:26] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[08:27:26] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[08:27:26] [GRAMMAR]	 File: Load Grammar to Engine
+[08:27:26] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[08:27:27] [GRAMMAR]	 File: Load Grammar to Engine
+[08:27:27] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[08:27:27] [ENGINE - File]	 Init recognizer
+[08:27:27] [ENGINE - File]	 AudioLevel: 0
+[08:27:28] [ENGINE - File]	 MaxAlternates: 1
+[08:27:28] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[08:27:28] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[08:27:28] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[08:27:28] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[08:27:30] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[08:27:30] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[08:27:30] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[08:27:30] [ENGINE]	 Restart timeout: 3600000

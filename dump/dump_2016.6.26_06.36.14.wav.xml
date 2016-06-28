@@ -1,0 +1,14 @@
+<match="0,4004499" text"SARAH il fera quel temps lundi à Rennes">
+<trigger="0,8796068" text"SARAH">
+<SML text="SARAH il fera quel temps lundi à Rennes" utteranceConfidence="0.400" confidence="0.400" dictation="false">
+  <action confidence="0.002" uri="http://127.0.0.1:8080/sarah/meteo2">
+    <day confidence="0.002">lundi</day>
+    <id confidence="0.002">2983990</id>
+  </action>
+  <alternate Rank="1" text="SARAH il fera quel temps lundi à Rennes" utteranceConfidence="0.400" confidence="0.400" dictation="false">
+    <action confidence="0.002" uri="http://127.0.0.1:8080/sarah/meteo2">
+      <day confidence="0.002">lundi</day>
+      <id confidence="0.002">2983990</id>
+    </action>
+  </alternate>
+</SML>

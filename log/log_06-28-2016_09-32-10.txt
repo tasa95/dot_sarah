@@ -1,0 +1,48 @@
+﻿**********************
+Début de la transcription Windows Powershell
+Heure de début : 20160628213216
+Nom d'utilisateur : WORKGROUP\Système
+Utilisateur runAs : WORKGROUP\Système
+Ordinateur : DESKTOP-H9Q3FJ9 (Microsoft Windows NT 10.0.10240.0)
+Application hôte :  -ExecutionPolicy ByPass -File C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1
+ID de processus : 884
+PSVersion: 5.0.10240.16384
+WSManStackVersion: 3.0
+SerializationVersion: 1.1.0.1
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.10240.16384
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0.10240.16384
+PSRemotingProtocolVersion: 2.3
+**********************
+Transcription démarrée, le fichier de sortie est C:\Users\Tasa_PC\Documents\Pro
+jet\log\log_06-28-2016_09-32-10.txt
+Starting Script
+try to send IP to API
+IP:192.168.1.98, mac:A8:86:DD:96:1A:E6
+
+data : @{id=1; type=voice-recognition-servers; attributes=}
+
+Find starting script
+Client has started id :  + 6864
+Server has started  id :  + 4932
+PS>Erreur de terminaison (Invoke-RestMethod) : « Impossible de se connecter au serveur distant »
+Invoke-RestMethod : Impossible de se connecter au serveur distant
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:9 : 12
++     $response=Invoke-RestMethod -Method GET -Uri $url
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation : (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], 
+WebException
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+Invoke-RestMethod : Impossible de se connecter au serveur distant
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:9 : 12
++     $response=Invoke-RestMethod -Method GET -Uri $url
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation : (System.Net.HttpWebRequest:Ht
+   tpWebRequest) [Invoke-RestMethod], WebException
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShe
+   ll.Commands.InvokeRestMethodCommand
+
+**********************
+Fin de la transcription Windows PowerShell
+Heure de fin : 20160628214105
+**********************

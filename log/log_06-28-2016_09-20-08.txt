@@ -1,0 +1,32 @@
+﻿**********************
+Début de la transcription Windows Powershell
+Heure de début : 20160628212011
+Nom d'utilisateur : DESKTOP-H9Q3FJ9\Tasa_PC
+Utilisateur runAs : DESKTOP-H9Q3FJ9\Tasa_PC
+Ordinateur : DESKTOP-H9Q3FJ9 (Microsoft Windows NT 10.0.10240.0)
+Application hôte : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1'
+ID de processus : 8088
+PSVersion: 5.0.10240.16384
+WSManStackVersion: 3.0
+SerializationVersion: 1.1.0.1
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.10240.16384
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0.10240.16384
+PSRemotingProtocolVersion: 2.3
+**********************
+Transcription démarrée, le fichier de sortie est C:\Users\Tasa_PC\Documents\Projet\log\log_06-28-2016_09-20-08.txt
+Starting Script
+try to send IP to API
+IP:192.168.1.98, mac:A8:86:DD:96:1A:E6
+
+data : @{id=1; type=voice-recognition-servers; attributes=}
+
+Find starting script
+Client is already started :  + 4448
+Server has started  id :  + 1944
+PS>Erreur de terminaison (Get-Process) : « Impossible de valider l'argument sur le paramètre « Name ». L’argument est Null ou vide. Indiquez un argument qui n’est pas Null ou vide et réessayez. »
+Server process ID don't exists
+**********************
+Fin de la transcription Windows PowerShell
+Heure de fin : 20160628212031
+**********************

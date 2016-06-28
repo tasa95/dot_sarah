@@ -1,0 +1,62 @@
+[00:10:02] [ENGINE]	 Restarting WSR: dispose
+[00:10:02] [RTPCLIENT]	 Stop RTPClient
+[00:10:02] [RTPCLIENT]	 Stop RTPClient
+[00:10:02] [RTPCLIENT]	 Stop RTPClient ... Done
+[00:10:02] [RTPCLIENT]	 Stop RTPClient ... Done
+[00:10:02] [ENGINE - File]	 Stop listening...done
+[00:10:02] [ENGINE]	 Restarting WSR: initialize
+[00:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:10:02] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[00:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:10:02] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[00:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:10:02] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[00:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:10:02] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[00:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:10:02] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[00:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:10:02] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:10:02] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[00:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:10:02] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[00:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[00:10:02] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[00:10:02] [ENGINE - File]	 Init recognizer
+[00:10:02] [ENGINE - File]	 AudioLevel: 0
+[00:10:02] [ENGINE - File]	 MaxAlternates: 1
+[00:10:02] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[00:10:02] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[00:10:02] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[00:10:02] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[01:10:02] [ENGINE]	 Restarting WSR: dispose
+[01:10:02] [RTPCLIENT]	 Stop RTPClient
+[01:10:02] [RTPCLIENT]	 Stop RTPClient
+[01:10:02] [RTPCLIENT]	 Stop RTPClient ... Done
+[01:10:02] [RTPCLIENT]	 Stop RTPClient ... Done
+[01:10:02] [ENGINE - File]	 Stop listening...done
+[01:10:02] [ENGINE]	 Restarting WSR: initialize
+[01:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[01:10:02] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[01:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[01:10:02] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[01:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[01:10:02] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[01:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[01:10:02] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[01:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[01:10:02] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[01:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[01:10:02] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[01:10:02] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[01:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[01:10:02] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[01:10:02] [GRAMMAR]	 File: Load Grammar to Engine
+[01:10:02] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[01:10:02] [ENGINE - File]	 Init recognizer
+[01:10:02] [ENGINE - File]	 AudioLevel: 0
+[01:10:02] [ENGINE - File]	 MaxAlternates: 1
+[01:10:02] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[01:10:02] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[01:10:02] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[01:10:02] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000

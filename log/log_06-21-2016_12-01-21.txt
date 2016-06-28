@@ -1,0 +1,49 @@
+﻿**********************
+Début de la transcription Windows Powershell
+Heure de début : 20160621000123
+Nom d'utilisateur : DESKTOP-H9Q3FJ9\Tasa_PC
+Utilisateur runAs : DESKTOP-H9Q3FJ9\Tasa_PC
+Ordinateur : DESKTOP-H9Q3FJ9 (Microsoft Windows NT 10.0.10240.0)
+Application hôte : C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -Command if((Get-ExecutionPolicy ) -ne 'AllSigned') { Set-ExecutionPolicy -Scope Process Bypass }; & 'C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1'
+ID de processus : 3176
+PSVersion: 5.0.10240.16384
+WSManStackVersion: 3.0
+SerializationVersion: 1.1.0.1
+CLRVersion: 4.0.30319.42000
+BuildVersion: 10.0.10240.16384
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0.10240.16384
+PSRemotingProtocolVersion: 2.3
+**********************
+Transcription démarrée, le fichier de sortie est C:\Users\Tasa_PC\Documents\Projet\log\log_06-21-2016_12-01-21.txt
+Starting Script
+try to send IP to API
+IP:192.168.1.98, mac:A8:86:DD:96:1A:E6
+
+data : @{id=1; type=voice-recognition-servers; attributes=}
+
+Find starting script
+Client has started id :  + 5592
+Server has started  id :  + 3116
+PS>Erreur de terminaison (Invoke-RestMethod) : « Le serveur distant a retourné une erreur : (404) Introuvable. »
+Invoke-RestMethod : Le serveur distant a retourné une erreur : (404) Introuvable.
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:8 : 12
++     $response=Invoke-RestMethod -Method PUT -Uri $url
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation : (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], 
+WebException
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+Invoke-RestMethod : Le serveur distant a retourné une erreur : (404) Introuvable.
+Au caractère C:\Users\Tasa_PC\Documents\Projet\starting_script.ps1:8 : 12
++     $response=Invoke-RestMethod -Method PUT -Uri $url
++               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : InvalidOperation : (System.Net.HttpWebRequest:HttpWebRequest) [Invoke-RestMethod], Web
+   Exception
+    + FullyQualifiedErrorId : WebCmdletWebResponseException,Microsoft.PowerShell.Commands.InvokeRestMethodCommand
+
+True
+Server has stopped
+Client has stopped
+**********************
+Fin de la transcription Windows PowerShell
+Heure de fin : 20160621000243
+**********************

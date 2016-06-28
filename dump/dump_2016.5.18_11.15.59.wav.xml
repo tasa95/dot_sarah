@@ -1,0 +1,14 @@
+<match="0,4005518" text"SARAH est-ce qu'il va faire beau demain à Rennes">
+<trigger="0,687227" text"SARAH">
+<SML text="SARAH est-ce qu'il va faire beau demain à Rennes" utteranceConfidence="0.401" confidence="0.401" dictation="false">
+  <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/meteo2">
+    <day confidence="0.998">1</day>
+    <id confidence="0.998">2983990</id>
+  </action>
+  <alternate Rank="1" text="SARAH est-ce qu'il va faire beau demain à Rennes" utteranceConfidence="0.401" confidence="0.401" dictation="false">
+    <action confidence="0.998" uri="http://127.0.0.1:8080/sarah/meteo2">
+      <day confidence="0.998">1</day>
+      <id confidence="0.998">2983990</id>
+    </action>
+  </alternate>
+</SML>

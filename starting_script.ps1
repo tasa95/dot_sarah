@@ -1,5 +1,73 @@
+. C:/Users/Tasa_PC/Documents/Projet/Ressource.ps1
 
 
+function Welcome-Message {
+	$text=[System.Web.HttpUtility]::UrlEncode("Bienvenue a ITNOVEM")
+	$url = $localUrl+"/sarah/dot_text_to_speech?text="+$text
+	#Write-Host "Get to " + $url
+	$response=Invoke-RestMethod -Method GET -Uri $url
+}
+
+function Get-NetworkConfig {
+Get-WmiObject Win32_NetworkAdapter -Filter 'NetConnectionStatus=2' | where { $_.name -notLike "*Virtual*" } |
+    ForEach-Object { 
+      $result = 1 | Select-Object Name, IP, MAC
+      $result.Name = $_.Name
+      $result.MAC = $_.MacAddress
+      $config = $_.GetRelated('Win32_NetworkAdapterConfiguration') 
+      $result.IP = $config | Select-Object -expand IPAddress
+	  $result.IP = $result.IP | where { $_ -match '^(?:[0-9]{1,3}\.){3}[0-9]{1,3}$' }
+      $result
+    }
+}
+
+
+
+function sendIpToApi
+{
+	Write-Host "try to send IP to API"
+	$IP=""
+	$MAC=""
+	do{
+		$object= Get-NetworkConfig
+		if($object)
+		{
+			$IP=$object.IP
+			$MAC=$object.MAC
+		}
+		
+		if([string]::IsNullOrEmpty($IP))
+		{
+			Write-Host "No Internet Connexion, try again in 10 seconds"
+			Start-Sleep -s 10
+		}
+	}
+	while([string]::IsNullOrEmpty($IP))
+	$postParams = @{
+	ip_address="$IP"
+	mac_address="$MAC"
+	}
+	Write-Host "IP:$IP, mac:$MAC"
+	$response=Invoke-RestMethod -Method PUT -Uri $url -ContentType "application/json" -Body (ConvertTo-Json $postParams)
+	$response
+}
+
+
+$path = $PSScriptRoot + "\"
+$logDirectory = $PSScriptRoot+"\log"
+ if (!(Test-Path -path $logDirectory)) {
+	Write-Host "Create log directory"
+	New-Item $logDirectory -type directory
+ }
+ 
+$LogTime = Get-Date -Format "MM-dd-yyyy_hh-mm-ss"
+$LogFile = $logDirectory+"\log_"+$LogTime+".txt"
+if (!(Test-Path -path $LogFile)) {
+	New-Item $LogFile -type file	
+}
+
+ 
+Start-Transcript $LogFile
 $path = $PSScriptRoot + "\"
 $server_cmd ="Server_NodeJS.cmd"
 $client_cmd = "Client_Kinect_Audio_(Windows).cmd"
@@ -8,6 +76,7 @@ $server_path = $path, $server_cmd -join ""
 $client_path  =  $path, $client_cmd -join ""
 if( (Test-Path $server_path) -And (Test-Path $client_path) )
 {
+	sendIpToApi
 	Write-host "Find starting script" -foreground "Green"
 	$ProcessClient= Get-Process WSRMacro -ErrorAction SilentlyContinue
 	if($ProcessClient -eq $null){	
@@ -19,7 +88,7 @@ if( (Test-Path $server_path) -And (Test-Path $client_path) )
 		Write-host "Client is already started : " + $ProcessClient.id  -foreground "Green"
 	}
 	
-	Start-Sleep -s 10
+	Start-Sleep -s 5
 	#Wait-Process  $client_app.id
 	$server_app = Start-Process -filepath $server_cmd -WorkingDirectory $path -passthru
 	
@@ -27,6 +96,8 @@ if( (Test-Path $server_path) -And (Test-Path $client_path) )
 	$response = $FALSE;
 	do
 	{
+		Start-Sleep -s 5
+		Welcome-Message
 		$enter=Read-Host -Prompt 'Do you want to Quit ? [Y/N]';
 		$enter = $enter.toUpper()
 		if($enter.toUpper() -Like "Y")
@@ -59,3 +130,4 @@ else
 	Write-host "File don't exists at " + $path -foreground "RED"
 
 }
+Stop-Transcript

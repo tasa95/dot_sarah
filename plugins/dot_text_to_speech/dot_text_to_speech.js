@@ -1,42 +1,30 @@
-
-
-var reveil;
 exports.action = function(data, callback, config, SARAH){
   //console.log(data);
-  console.log('Plugin dot_veille is called ...', data);
+  console.log('Plugin dot_meteo is called ...', data);
   // Called by SARAH to perform main action
-  console.log(SARAH.context);
+  //console.log(SARAH.context);
   //console.log(config);
-    
-  if(data.reveil == "false")
-	{
-		SARAH.speak("Je me met en veille");
-		 callback({"listen":false});
-		   SARAH.context.reveil = false;
-	}
-	else
-	{
-		if(data.reveil == "true")
-		{
-			SARAH.speak("Je me réveille");
-			callback({"listen":true});
-			  SARAH.context.reveil = true;
-		}	
-	}
+  //SARAH.speak("okaaaaaaaaay");
+ // callback({"listen":"True"});
+
   // The function next() MUST be called ONCE when job is done, 
   // with relevant data to call the next plugin by rule engine.
  // next({ });
+	console.log(SARAH.context.reveil);
+	if(SARAH.context.reveil == true)
+		SARAH.speak(data.text);
+	 callback();
 }
 
 // ------------------------------------------
 //  PLUGINS FUNCITONS
 // ------------------------------------------
 
-exports.init = function(SARAH){
+exports.init = function(){
   // Initialize resources of this plugin
   // All declared variables are scoped to this plugin 
-  SARAH.context.reveil = true;
-  console.log('Plugin dot_meteo is initializing ...');
+
+  console.log('Plugin dot_text_to_speech is initializing ...');
 }
 
 exports.dispose = function(){

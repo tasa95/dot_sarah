@@ -1,0 +1,8 @@
+﻿<grammar version="1.0" xml:lang="fr-FR" mode="voice"  root="ruleDot_veille" xmlns="http://www.w3.org/2001/06/grammar" tag-format="semantics/1.0">
+  <rule id="ruleDot_text_to_speech" scope="public">
+    <tag>out.action=new Object(); </tag>
+
+	<tag>out.action._attributes.uri="http://127.0.0.1:8080/sarah/dot_text_to_speech;</tag>
+	
+  </rule>
+</grammar>
