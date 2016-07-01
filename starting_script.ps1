@@ -1,5 +1,11 @@
-. C:/Users/Tasa_PC/Documents/Projet/Ressource.ps1
+. ./Ressource.ps1
 
+
+function Get-Port {
+	$portLine=Get-Content .\custom.ini| Where-Object {$_ -like 'port*'}
+	$port=$portLine.Split("=")[1]
+    $port
+}
 
 function Welcome-Message {
 	$text=[System.Web.HttpUtility]::UrlEncode("Bienvenue a ITNOVEM")
@@ -43,11 +49,14 @@ function sendIpToApi
 		}
 	}
 	while([string]::IsNullOrEmpty($IP))
+	$port=Get-Port
+	
 	$postParams = @{
 	ip_address="$IP"
 	mac_address="$MAC"
+	port="$port"
 	}
-	Write-Host "IP:$IP, mac:$MAC"
+	Write-Host "IP:$IP, mac:$MAC port:$port"
 	$response=Invoke-RestMethod -Method PUT -Uri $url -ContentType "application/json" -Body (ConvertTo-Json $postParams)
 	$response
 }
