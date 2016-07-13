@@ -2,15 +2,9 @@ exports.action = function(data, callback, config, SARAH){
   //console.log(data);
   console.log('Plugin dot_meteo is called ...', data);
   // Called by SARAH to perform main action
-  //console.log(SARAH.context);
-  //console.log(config);
-  //SARAH.speak("okaaaaaaaaay");
- // callback({"listen":"True"});
 
   // The function next() MUST be called ONCE when job is done, 
   // with relevant data to call the next plugin by rule engine.
- // next({ });
-	console.log(SARAH.context.reveil);
 	if(SARAH.context.reveil == true)
 		SARAH.speak(data.text);
 	 callback();

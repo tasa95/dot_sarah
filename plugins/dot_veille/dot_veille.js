@@ -5,13 +5,11 @@ exports.action = function(data, callback, config, SARAH){
   //console.log(data);
   console.log('Plugin dot_veille is called ...', data);
   // Called by SARAH to perform main action
-  console.log(SARAH.context);
-  //console.log(config);
-    
+  console.log(SARAH.context); 
   if(data.reveil == "false")
 	{
 		SARAH.speak("Je me met en veille");
-		 callback({"listen":false});
+		 callback({"listen":"False"});
 		   SARAH.context.reveil = false;
 	}
 	else
@@ -19,7 +17,7 @@ exports.action = function(data, callback, config, SARAH){
 		if(data.reveil == "true")
 		{
 			SARAH.speak("Je me réveille");
-			callback({"listen":true});
+			callback({"listen":"True"});
 			  SARAH.context.reveil = true;
 		}	
 	}

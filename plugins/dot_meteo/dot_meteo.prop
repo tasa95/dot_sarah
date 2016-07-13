@@ -1,8 +1,0 @@
-{
-  "modules" : { 
-    "dot_meteo"  : {
-      "description": "Projet météo dans le cadre du projet DOT",
-      "version": "0.1"
-    }
-  }
-}

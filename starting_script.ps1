@@ -9,8 +9,8 @@ function Get-Port {
 
 function Welcome-Message {
 	$text=[System.Web.HttpUtility]::UrlEncode("Bienvenue a ITNOVEM")
-	$url = $localUrl+"/sarah/dot_text_to_speech?text="+$text
-	#Write-Host "Get to " + $url
+	$pt = Get-Port
+	$url = $localUrl+":"+$pt+"/sarah/dot_text_to_speech?text="+$text
 	$response=Invoke-RestMethod -Method GET -Uri $url
 }
 
@@ -98,15 +98,12 @@ if( (Test-Path $server_path) -And (Test-Path $client_path) )
 	}
 	
 	Start-Sleep -s 5
-	#Wait-Process  $client_app.id
 	$server_app = Start-Process -filepath $server_cmd -WorkingDirectory $path -passthru
 	
 	Write-host "Server has started  id : " + $server_app.id -foreground "Green"
 	$response = $FALSE;
 	do
 	{
-		Start-Sleep -s 5
-		Welcome-Message
 		$enter=Read-Host -Prompt 'Do you want to Quit ? [Y/N]';
 		$enter = $enter.toUpper()
 		if($enter.toUpper() -Like "Y")

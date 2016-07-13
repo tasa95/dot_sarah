@@ -1116,3 +1116,340 @@
 [01:03:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps aujourd'hui dans la => 0,3562683
 [01:03:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps aujourd'hui dans la journée => 0,3207571
 [01:03:04] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps aujourd'hui dans la journée à => 0,3139538
+[01:03:05] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps aujourd'hui dans la journée à Rennes => 0,3016406
+[01:03:05] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps aujourd'hui dans la nuit selon toi à ... => 0,3043534
+[01:03:06] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps aujourd'hui dans la nuit selon toi à ... => 0,3043534
+[01:03:06] [ENGINE - KINECT_0]	 AudioStateChanged (03:06.7):Silence
+[01:03:07] [ENGINE - KINECT_0]	 AudioStateChanged (03:07.7):Speech
+[01:03:07] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3354215
+[01:03:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,2594749
+[01:03:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,1828897
+[01:03:10] [ENGINE - KINECT_0]	 AudioStateChanged (03:10.1):Silence
+[01:03:12] [ENGINE - KINECT_0]	 AudioStateChanged (03:12.0):Speech
+[01:03:12] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps => 0,1582
+[01:03:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps jeudi => 0,1627317
+[01:03:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps jeudi en => 0,1882759
+[01:03:12] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps jeudi dans la => 0,1294785
+[01:03:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps jeudi dans => 0,1849415
+[01:03:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps jeudi dans la nuit => 0,1709512
+[01:03:14] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps jeudi dans la nuit d'après => 0,2289224
+[01:03:15] [ENGINE - KINECT_0]	 AudioStateChanged (03:15.2):Silence
+[01:03:18] [ENGINE - KINECT_0]	 AudioStateChanged (03:18.8):Speech
+[01:03:18] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:18] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH peux => 0,1301698
+[01:03:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,001
+[01:03:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle => 0,001
+[01:03:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est => 0,1001413
+[01:03:19] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,2290058
+[01:03:19] [ENGINE - KINECT_0]	 AudioStateChanged (03:19.8):Silence
+[01:03:21] [ENGINE - KINECT_0]	 AudioStateChanged (03:21.3):Speech
+[01:03:21] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3247833
+[01:03:21] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,3160238
+[01:03:22] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,2428365
+[01:03:22] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,1910144
+[01:03:23] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle => 0,1515774
+[01:03:24] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,1385966
+[01:03:25] [ENGINE - KINECT_0]	 AudioStateChanged (03:25.3):Silence
+[01:03:26] [ENGINE - KINECT_0]	 AudioStateChanged (03:26.0):Speech
+[01:03:26] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,2784882
+[01:03:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,2037308
+[01:03:26] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps => 0,252105
+[01:03:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps dans => 0,3550074
+[01:03:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps dans la => 0,3314069
+[01:03:27] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps demain en ce => 0,2411545
+[01:03:27] [ENGINE - KINECT_0]	 AudioStateChanged (03:27.9):Silence
+[01:03:29] [ENGINE - KINECT_0]	 AudioStateChanged (03:29.3):Speech
+[01:03:29] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,5050145
+[01:03:29] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux => 0,4514643
+[01:03:29] [ENGINE - KINECT_0]	 AudioStateChanged (03:29.9):Silence
+[01:03:32] [ENGINE - KINECT_0]	 AudioStateChanged (03:32.0):Speech
+[01:03:32] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il => 0,3782163
+[01:03:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est => 0,4170043
+[01:03:32] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Dis moi => 0,2710146
+[01:03:33] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau dans => 0,3550011
+[01:03:34] [ENGINE - KINECT_0]	 AudioStateChanged (03:34.3):Silence
+[01:03:34] [ENGINE - KINECT_0]	 AudioStateChanged (03:34.7):Speech
+[01:03:34] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:34] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH mets => 0,1970467
+[01:03:34] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il => 0,2005574
+[01:03:37] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau => 0,4607537
+[01:03:38] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau demain => 0,4513389
+[01:03:39] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau lundi en => 0,4668612
+[01:03:40] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau lundi dans la nuit à => 0,3787173
+[01:03:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau demain selon toi à ... => 0,4226194
+[01:03:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau demain dans la journée => 0,3134463
+[01:03:41] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau demain dans la journée à => 0,325164
+[01:03:42] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau demain dans la journée à Rennes => 0,3433561
+[01:03:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau demain dans la journée selon toi à => 0,3098883
+[01:03:43] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH est-ce qu'il fait beau demain dans la journée selon toi à ... => 0,3109609
+[01:03:46] [ENGINE - KINECT_0]	 AudioStateChanged (03:46.0):Silence
+[01:03:49] [ENGINE - KINECT_0]	 AudioStateChanged (03:49.4):Speech
+[01:03:49] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH => 0,001
+[01:03:49] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je => 0,06081785
+[01:03:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est => 0,1643511
+[01:03:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,1783102
+[01:03:50] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH mets toi en => 0,2438688
+[01:03:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH mets toi en veille => 0,188356
+[01:03:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps dans la nuit à => 0,32122
+[01:03:51] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps lundi en ce => 0,2199401
+[01:03:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps lundi en ce moment => 0,2227944
+[01:03:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps lundi dans la => 0,2102247
+[01:03:52] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps lundi dans la nuit à => 0,2389755
+[01:03:53] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps lundi dans la nuit selon toi à => 0,2358834
+[01:03:53] [ENGINE - KINECT_0]	 AudioStateChanged (03:53.4):Silence
+[01:03:56] [ENGINE - KINECT_0]	 AudioStateChanged (03:56.9):Speech
+[01:03:57] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:03:57] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il est quelle heure => 0,07690796
+[01:03:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel temps mardi dans => 0,1685046
+[01:03:59] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel temps mardi dans la journée => 0,1616807
+[01:04:00] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel temps mardi dans la journée à Rennes => 0,2263355
+[01:04:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps demain dans la => 0,2523394
+[01:04:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel temps mardi dans la journée à Rennes => 0,1199896
+[01:04:01] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps demain dans la => 0,2872476
+[01:04:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fera quel temps mardi dans la journée d'après toi à ... => 0,1938405
+[01:04:02] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps demain dans la nuit à => 0,3071174
+[01:04:03] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH il fait quel temps demain dans la nuit à Rennes => 0,2954074
+[01:04:06] [ENGINE - KINECT_0]	 AudioStateChanged (04:06.2):Silence
+[01:04:07] [ENGINE - KINECT_0]	 AudioStateChanged (04:07.3):Speech
+[01:04:07] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:04:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH je veux la => 0,2753609
+[01:04:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le => 0,1654917
+[01:04:07] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est t'il => 0,04357472
+[01:04:08] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,0684469
+[01:04:09] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que => 0,001
+[01:04:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quelle heure est il => 0,07649522
+[01:04:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps => 0,06646159
+[01:04:10] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps lundi dans la nuit à Rennes => 0,1855246
+[01:04:11] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH Que c'est t'il => 0,05649658
+[01:04:11] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps après demain dans la nuit à => 0,1839139
+[01:04:12] [ENGINE]	 Restarting WSR: dispose
+[01:04:12] [RTPCLIENT]	 Stop RTPClient
+[01:04:12] [RTPCLIENT]	 Stop RTPClient
+[01:04:12] [RTPCLIENT]	 Stop RTPClient ... Done
+[01:04:12] [RTPCLIENT]	 Stop RTPClient ... Done
+[01:04:13] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH quel est le temps après demain dans la nuit à Rennes => 0,1700241
+[01:04:13] [ENGINE - File]	 Stop listening...done
+[01:04:13] [ENGINE - KINECT_0]	 Stop listening...done
+[01:04:13] [ENGINE]	 Restarting WSR: initialize
+[01:04:13] [GRAMMAR]	 File: Load Grammar to Engine
+[01:04:13] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[01:04:13] [GRAMMAR]	 File: Load Grammar to Engine
+[01:04:13] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[01:04:13] [GRAMMAR]	 File: Load Grammar to Engine
+[01:04:13] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[01:04:13] [GRAMMAR]	 File: Load Grammar to Engine
+[01:04:13] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[01:04:13] [GRAMMAR]	 File: Load Grammar to Engine
+[01:04:13] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[01:04:13] [GRAMMAR]	 File: Load Grammar to Engine
+[01:04:13] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[01:04:13] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[01:04:14] [GRAMMAR]	 File: Load Grammar to Engine
+[01:04:14] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[01:04:14] [GRAMMAR]	 File: Load Grammar to Engine
+[01:04:14] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[01:04:14] [ENGINE - File]	 Init recognizer
+[01:04:14] [ENGINE - File]	 AudioLevel: 0
+[01:04:14] [ENGINE - File]	 MaxAlternates: 1
+[01:04:14] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[01:04:14] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[01:04:14] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[01:04:14] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[01:04:14] [KINECT_0]	 AutomaticGainControlEnabled : False
+[01:04:14] [KINECT_0]	 BeamAngle : 0
+[01:04:14] [KINECT_0]	 EchoCancellationMode : CancellationAndSuppression
+[01:04:14] [KINECT_0]	 EchoCancellationSpeakerIndex : 1
+[01:04:14] [KINECT_0]	 NoiseSuppression : True
+[01:04:14] [KINECT_0]	 SoundSourceAngle : 0
+[01:04:15] [KINECT_0]	 SoundSourceAngleConfidence : 0
+[01:04:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[01:04:15] [GRAMMAR]	 KINECT_0: Load: time.xml Enabled: True
+[01:04:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[01:04:15] [GRAMMAR]	 KINECT_0: Load: dictionary.xml Enabled: True
+[01:04:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[01:04:15] [GRAMMAR]	 KINECT_0: Load: dot_histoire.xml Enabled: True
+[01:04:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[01:04:15] [GRAMMAR]	 KINECT_0: Load: dot_itineraire.xml Enabled: True
+[01:04:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[01:04:15] [GRAMMAR]	 KINECT_0: Load: dot_meteo.xml Enabled: True
+[01:04:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[01:04:15] [GRAMMAR]	 KINECT_0: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[01:04:15] [GRAMMAR]	 KINECT_0: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[01:04:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[01:04:15] [GRAMMAR]	 KINECT_0: Load: dot_veille.xml Enabled: True
+[01:04:15] [GRAMMAR]	 KINECT_0: Load Grammar to Engine
+[01:04:15] [GRAMMAR]	 KINECT_0: Load: meteo2.xml Enabled: True
+[01:04:15] [ENGINE - KINECT_0]	 Init recognizer
+[01:04:15] [ENGINE - KINECT_0]	 AudioLevel: 0
+[01:04:16] [ENGINE - KINECT_0]	 MaxAlternates: 1
+[01:04:16] [ENGINE - KINECT_0]	 BabbleTimeout: 00:00:05
+[01:04:16] [ENGINE - KINECT_0]	 InitialSilenceTimeout: 00:00:00
+[01:04:16] [ENGINE - KINECT_0]	 EndSilenceTimeout: 00:00:00.1500000
+[01:04:16] [ENGINE - KINECT_0]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[01:04:16] [ENGINE - KINECT_0]	 Start listening
+[01:04:16] [ENGINE - KINECT_0]	 AudioStateChanged (04:16.3):Silence
+[01:04:30] [ENGINE - KINECT_0]	 AudioStateChanged (04:30.9):Speech
+[01:04:31] [ENGINE - KINECT_0]	 recognizer_SpeechDetected
+[01:04:31] [ENGINE - KINECT_0]	 recognizer_SpeechHypothesized SARAH tu => 0,3927282
+[01:04:32] [ENGINE - KINECT_0]	 AudioStateChanged (04:32.4):Silence
+[22:45:04] [HTTP]	 Request received: http://127.0.0.1:8888/?tts=Bienvenue%20a%20ITNOVEM
+[22:45:06] [TTS]	 Try speaking ... Bienvenue a ITNOVEM
+[22:45:06] [TTS]	 [0] Say: Bienvenue a ITNOVEM
+[22:45:09] [PLAYER]	 [0]Start Player
+[22:45:11] [PLAYER]	 [0]End Player
+[22:45:11] [PLAYER]	 [0]speaking false
+[22:45:12] [TTS]	 End speaking
+[22:45:20] [RTPCLIENT]	 Stop RTPClient
+[22:45:20] [RTPCLIENT]	 Stop RTPClient
+[22:45:20] [RTPCLIENT]	 Stop RTPClient ... Done
+[22:45:20] [RTPCLIENT]	 Stop RTPClient ... Done
+[22:45:20] [ENGINE - File]	 Stop listening...done
+[22:46:16] [ENGINE - KINECT_0]	 Stop listening...done
+[22:46:16] [KINECT]	 Stop Sensors
+[22:46:17] [TASKS]	 Stop Tasks
+[22:46:17] [KINECT]	 Stop Sensor
+[23:13:22] [LOGGING]	 STARTING LOGGING
+[23:13:22] [INIT]	 ==========================================
+[23:13:22] [INIT]	 S.A.R.A.H. => KINECT
+[23:13:22] [INIT]	 ==========================================
+[23:13:22] [INIT]	 Server: http://127.0.0.1:8080
+[23:13:22] [INIT]	 Confidence: 0,4
+[23:13:22] [INIT]	 ==========================================
+[23:13:23] [KINECT]	 No Kinect Sensor
+[23:13:23] [KINECT]	 No Kinect Sensor
+[23:13:23] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[23:13:23] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[23:13:23] [WATCHER]	 Stop watching
+[23:13:23] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[23:13:23] [GRAMMAR]	 Add to context list: time.xml
+[23:13:23] [WATCHER]	 Watching directory: macros
+[23:13:23] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[23:13:23] [GRAMMAR]	 Add to context list: dictionary.xml
+[23:13:23] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[23:13:23] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[23:13:23] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[23:13:23] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[23:13:23] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[23:13:23] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[23:13:23] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[23:13:23] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[23:13:23] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[23:13:23] [GRAMMAR]	 Add to context list: dot_veille.xml
+[23:13:23] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[23:13:23] [GRAMMAR]	 Add to context list: meteo2.xml
+[23:13:23] [WATCHER]	 Watching directory: plugins
+[23:13:23] [WATCHER]	 Start watching
+[23:13:23] [GRAMMAR]	 Context: default
+[23:13:23] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[23:13:23] [CONTEXT]	 time.xml = True
+[23:13:23] [CONTEXT]	 dictionary.xml = True
+[23:13:23] [CONTEXT]	 dot_histoire.xml = True
+[23:13:23] [CONTEXT]	 dot_itineraire.xml = True
+[23:13:23] [CONTEXT]	 dot_meteo.xml = True
+[23:13:23] [CONTEXT]	 dot_text_to_speech.xml = True
+[23:13:23] [CONTEXT]	 dot_veille.xml = True
+[23:13:23] [CONTEXT]	 meteo2.xml = True
+[23:13:23] [GRAMMAR]	 File: Load Grammar to Engine
+[23:13:23] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[23:13:23] [GRAMMAR]	 File: Load Grammar to Engine
+[23:13:23] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[23:13:23] [GRAMMAR]	 File: Load Grammar to Engine
+[23:13:23] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[23:13:23] [GRAMMAR]	 File: Load Grammar to Engine
+[23:13:23] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[23:13:23] [GRAMMAR]	 File: Load Grammar to Engine
+[23:13:23] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[23:13:23] [GRAMMAR]	 File: Load Grammar to Engine
+[23:13:23] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[23:13:23] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[23:13:23] [GRAMMAR]	 File: Load Grammar to Engine
+[23:13:23] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[23:13:23] [GRAMMAR]	 File: Load Grammar to Engine
+[23:13:23] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[23:13:23] [ENGINE - File]	 Init recognizer
+[23:13:23] [ENGINE - File]	 AudioLevel: 0
+[23:13:23] [ENGINE - File]	 MaxAlternates: 1
+[23:13:23] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[23:13:23] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[23:13:23] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[23:13:23] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[23:13:23] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[23:13:23] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[23:13:23] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[23:13:23] [ENGINE]	 Restart timeout: 3600000
+[23:26:13] [LOGGING]	 STARTING LOGGING
+[23:26:18] [INIT]	 ==========================================
+[23:26:18] [INIT]	 S.A.R.A.H. => KINECT
+[23:26:18] [INIT]	 ==========================================
+[23:26:18] [INIT]	 Server: http://127.0.0.1:9015
+[23:26:18] [INIT]	 Confidence: 0,4
+[23:26:18] [INIT]	 ==========================================
+[23:26:21] [KINECT]	 No Kinect Sensor
+[23:26:21] [KINECT]	 No Kinect Sensor
+[23:26:25] [INIT]	 Starting Server: http://169.254.80.80:8888/
+[23:26:25] [INIT]	 Starting Server: http://127.0.0.1:8888/
+[23:26:26] [WATCHER]	 Stop watching
+[23:26:26] [GRAMMAR]	 Load file: time.xml : C:\Users\Tasa_PC\Documents\Projet\macros\time.xml
+[23:26:27] [GRAMMAR]	 Add to context list: time.xml
+[23:26:27] [WATCHER]	 Watching directory: macros
+[23:26:27] [GRAMMAR]	 Load file: dictionary.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dictionary\dictionary.xml
+[23:26:27] [GRAMMAR]	 Add to context list: dictionary.xml
+[23:26:27] [GRAMMAR]	 Load file: dot_histoire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_histoire\dot_histoire.xml
+[23:26:28] [GRAMMAR]	 Add to context list: dot_histoire.xml
+[23:26:28] [GRAMMAR]	 Load file: dot_itineraire.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_itineraire\dot_itineraire.xml
+[23:26:28] [GRAMMAR]	 Add to context list: dot_itineraire.xml
+[23:26:28] [GRAMMAR]	 Load file: dot_meteo.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_meteo\dot_meteo.xml
+[23:26:29] [GRAMMAR]	 Add to context list: dot_meteo.xml
+[23:26:29] [GRAMMAR]	 Load file: dot_text_to_speech.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_text_to_speech\dot_text_to_speech.xml
+[23:26:29] [GRAMMAR]	 Add to context list: dot_text_to_speech.xml
+[23:26:29] [GRAMMAR]	 Load file: dot_veille.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\dot_veille\dot_veille.xml
+[23:26:29] [GRAMMAR]	 Add to context list: dot_veille.xml
+[23:26:29] [GRAMMAR]	 Load file: meteo2.xml : C:\Users\Tasa_PC\Documents\Projet\plugins\meteo2\meteo2.xml
+[23:26:30] [GRAMMAR]	 Add to context list: meteo2.xml
+[23:26:30] [WATCHER]	 Watching directory: plugins
+[23:26:30] [WATCHER]	 Start watching
+[23:26:30] [GRAMMAR]	 Context: default
+[23:26:30] [GRAMMAR]	 Context: time.xml, dictionary.xml, dot_histoire.xml, dot_itineraire.xml, dot_meteo.xml, dot_text_to_speech.xml, dot_veille.xml, meteo2.xml
+[23:26:30] [CONTEXT]	 time.xml = True
+[23:26:30] [CONTEXT]	 dictionary.xml = True
+[23:26:30] [CONTEXT]	 dot_histoire.xml = True
+[23:26:30] [CONTEXT]	 dot_itineraire.xml = True
+[23:26:30] [CONTEXT]	 dot_meteo.xml = True
+[23:26:30] [CONTEXT]	 dot_text_to_speech.xml = True
+[23:26:31] [CONTEXT]	 dot_veille.xml = True
+[23:26:31] [CONTEXT]	 meteo2.xml = True
+[23:26:37] [GRAMMAR]	 File: Load Grammar to Engine
+[23:26:39] [GRAMMAR]	 File: Load: time.xml Enabled: True
+[23:26:44] [GRAMMAR]	 File: Load Grammar to Engine
+[23:26:44] [GRAMMAR]	 File: Load: dictionary.xml Enabled: True
+[23:26:44] [GRAMMAR]	 File: Load Grammar to Engine
+[23:26:44] [GRAMMAR]	 File: Load: dot_histoire.xml Enabled: True
+[23:26:45] [GRAMMAR]	 File: Load Grammar to Engine
+[23:26:45] [GRAMMAR]	 File: Load: dot_itineraire.xml Enabled: True
+[23:26:46] [GRAMMAR]	 File: Load Grammar to Engine
+[23:26:46] [GRAMMAR]	 File: Load: dot_meteo.xml Enabled: True
+[23:26:46] [GRAMMAR]	 File: Load Grammar to Engine
+[23:26:47] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[23:26:47] [GRAMMAR]	 File: Error file: dot_text_to_speech.xml: Règle racine 'ruleDot_veille' non définie. [Ligne=8, Position=11]
+[23:26:47] [GRAMMAR]	 File: Load Grammar to Engine
+[23:26:47] [GRAMMAR]	 File: Load: dot_veille.xml Enabled: True
+[23:26:48] [GRAMMAR]	 File: Load Grammar to Engine
+[23:26:48] [GRAMMAR]	 File: Load: meteo2.xml Enabled: True
+[23:26:48] [ENGINE - File]	 Init recognizer
+[23:26:48] [ENGINE - File]	 AudioLevel: 0
+[23:26:49] [ENGINE - File]	 MaxAlternates: 1
+[23:26:49] [ENGINE - File]	 BabbleTimeout: 00:00:05
+[23:26:49] [ENGINE - File]	 InitialSilenceTimeout: 00:00:00
+[23:26:49] [ENGINE - File]	 EndSilenceTimeout: 00:00:00.1500000
+[23:26:49] [ENGINE - File]	 EndSilenceTimeoutAmbiguous: 00:00:00.5000000
+[23:26:51] [TTS]	 Add Speaker Device: 0 Product: Haut-parleurs (Cirrus Logic CS4 Channels: 2 Playback: True
+[23:26:52] [TTS]	 [0]Name: Microsoft Hortense Desktop Culture: fr-FR
+[23:26:52] [TTS]	 [0]Name: Microsoft Zira Desktop Culture: en-US
+[23:26:53] [ENGINE]	 Restart timeout: 3600000

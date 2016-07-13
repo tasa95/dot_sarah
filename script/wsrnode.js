@@ -143,6 +143,18 @@ SARAH.CRONManager.startAll();
 //  START SERVER
 // ==========================================
 
+
+var port=SARAH.ConfigManager.getConfig().http.port
 var webapp = server.listen(SARAH.ConfigManager.getConfig().http.port);
 winston.log('info', "Express server listening on port %d", webapp.address().port);
+
+// ==========================================
+//   Welcome Message
+// ==========================================
+
+var message = "Bienvenue à ITNOVEM.";
+SARAH.speak(message);
+
+//http.request(options, callback).end();
+
 
